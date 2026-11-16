@@ -59,7 +59,8 @@
    ],
    "timeline": [],
    "narration": {
-    "luna": "narration-1-luna.m4a"
+    "luna": "narration-1-luna.m4a",
+    "max": "narration-1-max.m4a"
    }
   },
   {
@@ -94,7 +95,8 @@
     }
    ],
    "narration": {
-    "luna": "narration-2-luna.m4a"
+    "luna": "narration-2-luna.m4a",
+    "max": "narration-2-max.m4a"
    }
   },
   {
@@ -167,7 +169,8 @@
     }
    ],
    "narration": {
-    "luna": "narration-3-luna.m4a"
+    "luna": "narration-3-luna.m4a",
+    "max": "narration-3-max.m4a"
    }
   },
   {
@@ -224,7 +227,8 @@
     }
    ],
    "narration": {
-    "luna": "narration-4-luna.m4a"
+    "luna": "narration-4-luna.m4a",
+    "max": "narration-4-max.m4a"
    }
   },
   {
@@ -261,8 +265,10 @@
     }
    ],
    "narration": {
-    "luna": "narration-5-luna.m4a"
+    "luna": "narration-5-luna.m4a",
+    "max": "narration-5-max.m4a"
    }
   }
- ]
+ ],
+ "version": "dc730b9d61"
 }
