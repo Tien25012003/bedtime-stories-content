@@ -1,0 +1,230 @@
+{
+ "id": "baby-elephant",
+ "title": "Voi Con Muốn Ngủ",
+ "tagline": "Voi Con tìm chỗ ngủ vừa vặn",
+ "description": "Voi Con to quá, nằm đâu cũng chật. Voi Con thử ngủ trên cây, trong hang, bên hồ… và cuối cùng tìm ra chỗ ngủ tuyệt nhất.",
+ "ageRange": "3–6 tuổi",
+ "category": "Ngủ ngon",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C2D8FF",
+  "#FFE0D0"
+ ],
+ "productId": "story.baby_elephant",
+ "characters": [
+  {
+   "id": "voi",
+   "name": "Voi Con",
+   "description": "Chú voi nhỏ màu xám, tai to như chiếc quạt.",
+   "color": "#E0E4F0",
+   "avatar": "voi.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Voi Mẹ",
+   "description": "Voi mẹ hiền từ, to lớn.",
+   "color": "#D6DAE8",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#C2D8FF",
+    "#FFE0D0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11822,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trời đã tối, Voi Con ngáp một cái thật to."
+    },
+    {
+     "atMs": 3514,
+     "text": "“Mình buồn ngủ rồi, nhưng ngủ ở đâu đây?” Voi Con hỏi.",
+     "speaker": "voi"
+    },
+    {
+     "atMs": 8230,
+     "text": "Voi Con đi tìm một chỗ ngủ thật vừa vặn."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#B8C8FF",
+    "#FFE8C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10880,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Voi Con thử leo lên ổ chim trên cây."
+    },
+    {
+     "atMs": 2938,
+     "text": "Ối, ổ chim nhỏ xíu, Voi Con không vừa rồi!"
+    },
+    {
+     "atMs": 6544,
+     "text": "Chim Sẻ cười khúc khích: “Chật quá, chật quá!”"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#A8C8E8",
+    "#FFF0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11874,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Voi Con thử chui vào hang của bạn Thỏ."
+    },
+    {
+     "atMs": 2942,
+     "text": "Hang bé tí, chỉ lọt được cái vòi thôi!"
+    },
+    {
+     "atMs": 5827,
+     "text": "Bé ơi, chạm vào bạn Thỏ để xin lỗi bạn ấy nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 14,
+      "y": 60
+     },
+     "hint": "Chạm vào bạn Thỏ",
+     "appearAtMs": 8774,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 14,
+        "y": 60
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#9FB0F0",
+    "#FFD6E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12013,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Voi Con đến bên hồ, thấy ông Trăng soi bóng."
+    },
+    {
+     "atMs": 3638,
+     "text": "“Ông Trăng ơi, cháu nên ngủ ở đâu ạ?”",
+     "speaker": "voi"
+    },
+    {
+     "atMs": 6232,
+     "text": "Bé ơi, chạm vào ông Trăng dưới hồ nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 82,
+      "y": 40
+     },
+     "hint": "Chạm vào ông Trăng dưới hồ",
+     "appearAtMs": 8913,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 82,
+        "y": 40
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10813,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Voi Mẹ đi tới, giang đôi tai to như chiếc chăn."
+    },
+    {
+     "atMs": 3637,
+     "text": "Voi Con rúc vào lòng mẹ: “Đây là chỗ vừa vặn nhất!”",
+     "speaker": "voi"
+    },
+    {
+     "atMs": 7097,
+     "text": "Chúc bé ngủ ngon trong vòng tay ấm áp nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ]
+}

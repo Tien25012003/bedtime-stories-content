@@ -1,0 +1,69 @@
+{
+ "version": 1,
+ "stories": [
+  {
+   "id": "little-turtle",
+   "title": "Rùa Nhỏ Về Nhà",
+   "tagline": "Hành trình về với biển của Rùa Nhỏ",
+   "description": "Rùa Nhỏ vừa nở trên bãi cát. Nhờ ánh trăng và bạn Cua Đỏ chỉ đường, Rùa Nhỏ bò thật dũng cảm về với biển xanh.",
+   "ageRange": "3–6 tuổi",
+   "category": "Biển cả",
+   "cover": "scene-1.jpg",
+   "coverColors": [
+    "#9ED8E8",
+    "#FFE4C2"
+   ],
+   "productId": "story.little_turtle",
+   "durationMs": 55842,
+   "sceneCount": 5
+  },
+  {
+   "id": "fox-lantern",
+   "title": "Cáo Con Và Chiếc Đèn Lồng",
+   "tagline": "Chiếc đèn lồng soi sáng tình bạn",
+   "description": "Cáo Con có chiếc đèn lồng hình ông sao. Trên đường đi, Cáo Con dùng ánh đèn giúp các bạn trong rừng tìm đường về nhà.",
+   "ageRange": "4–7 tuổi",
+   "category": "Tình bạn",
+   "cover": "scene-1.jpg",
+   "coverColors": [
+    "#FFC8A8",
+    "#D8C8FF"
+   ],
+   "productId": "story.fox_lantern",
+   "durationMs": 57955,
+   "sceneCount": 5
+  },
+  {
+   "id": "baby-elephant",
+   "title": "Voi Con Muốn Ngủ",
+   "tagline": "Voi Con tìm chỗ ngủ vừa vặn",
+   "description": "Voi Con to quá, nằm đâu cũng chật. Voi Con thử ngủ trên cây, trong hang, bên hồ… và cuối cùng tìm ra chỗ ngủ tuyệt nhất.",
+   "ageRange": "3–6 tuổi",
+   "category": "Ngủ ngon",
+   "cover": "scene-1.jpg",
+   "coverColors": [
+    "#C2D8FF",
+    "#FFE0D0"
+   ],
+   "productId": "story.baby_elephant",
+   "durationMs": 57402,
+   "sceneCount": 5
+  },
+  {
+   "id": "dreamy-penguin",
+   "title": "Cánh Cụt Mơ Bay",
+   "tagline": "Giấc mơ được bay của Cánh Cụt Nhỏ",
+   "description": "Cánh Cụt Nhỏ ước được bay như chim hải âu. Đêm ấy, trong giấc mơ, Cánh Cụt Nhỏ bay lên cùng ánh cực quang rực rỡ.",
+   "ageRange": "4–7 tuổi",
+   "category": "Ước mơ",
+   "cover": "scene-1.jpg",
+   "coverColors": [
+    "#B8E0FF",
+    "#E8D0FF"
+   ],
+   "productId": "story.dreamy_penguin",
+   "durationMs": 55388,
+   "sceneCount": 5
+  }
+ ]
+}

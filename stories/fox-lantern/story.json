@@ -1,0 +1,230 @@
+{
+ "id": "fox-lantern",
+ "title": "Cáo Con Và Chiếc Đèn Lồng",
+ "tagline": "Chiếc đèn lồng soi sáng tình bạn",
+ "description": "Cáo Con có chiếc đèn lồng hình ông sao. Trên đường đi, Cáo Con dùng ánh đèn giúp các bạn trong rừng tìm đường về nhà.",
+ "ageRange": "4–7 tuổi",
+ "category": "Tình bạn",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFC8A8",
+  "#D8C8FF"
+ ],
+ "productId": "story.fox_lantern",
+ "characters": [
+  {
+   "id": "cao",
+   "name": "Cáo Con",
+   "description": "Cáo nhỏ lông cam, tốt bụng.",
+   "color": "#FFD6B8",
+   "avatar": "cao.jpg"
+  },
+  {
+   "id": "nhim",
+   "name": "Nhím Nâu",
+   "description": "Bạn nhím nhỏ bị lạc đường.",
+   "color": "#E8D6C2",
+   "avatar": "nhim.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#FFC8A8",
+    "#D8C8FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10607,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cáo Con có một chiếc đèn lồng hình ông sao đỏ thắm."
+    },
+    {
+     "atMs": 3434,
+     "text": "Tối nay, Cáo Con xách đèn đi dạo trong rừng."
+    },
+    {
+     "atMs": 6431,
+     "text": "“Đèn ơi, sáng lên nào!” Cáo Con nói.",
+     "speaker": "cao"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#C8B8FF",
+    "#FFE0C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11906,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Dưới gốc nấm, bạn Nhím Nâu đang khóc thút thít."
+    },
+    {
+     "atMs": 3369,
+     "text": "“Tối quá, mình không tìm thấy đường về,” Nhím Nâu nói.",
+     "speaker": "nhim"
+    },
+    {
+     "atMs": 7137,
+     "text": "“Đừng lo, đi cùng mình nhé!” Cáo Con nắm tay Nhím.",
+     "speaker": "cao"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#A8B8F0",
+    "#FFE6C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13177,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hai bạn đi qua cây cổ thụ, nơi bác Cú đang gật gù."
+    },
+    {
+     "atMs": 3915,
+     "text": "Bác Cú chỉ đường: “Đi qua chiếc cầu gỗ nhé!”"
+    },
+    {
+     "atMs": 6932,
+     "text": "Bé ơi, chạm vào bạn Nhím để cổ vũ bạn ấy nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 80,
+      "y": 45
+     },
+     "hint": "Chạm vào bạn Nhím Nâu",
+     "appearAtMs": 10077,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 80,
+        "y": 45
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#9FB8FF",
+    "#FFD6E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11818,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chiếc cầu gỗ tối om, Nhím Nâu run run."
+    },
+    {
+     "atMs": 3189,
+     "text": "Cáo Con giơ cao đèn lồng cho thật sáng."
+    },
+    {
+     "atMs": 5783,
+     "text": "Bé ơi, chạm vào chiếc đèn lồng cho nó sáng hơn nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 48,
+      "y": 40
+     },
+     "hint": "Chạm vào chiếc đèn lồng",
+     "appearAtMs": 8718,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 48,
+        "y": 40
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F9D2C2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10447,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Nhím Nâu về đến nhà, ôm chầm lấy mẹ."
+    },
+    {
+     "atMs": 3297,
+     "text": "Cáo Con mỉm cười, thấy lòng ấm như ánh đèn."
+    },
+    {
+     "atMs": 6388,
+     "text": "Chúc bé ngủ ngon, luôn là người bạn tốt nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ]
+}

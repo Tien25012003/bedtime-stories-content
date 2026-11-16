@@ -1,0 +1,231 @@
+{
+ "id": "little-turtle",
+ "title": "Rùa Nhỏ Về Nhà",
+ "tagline": "Hành trình về với biển của Rùa Nhỏ",
+ "description": "Rùa Nhỏ vừa nở trên bãi cát. Nhờ ánh trăng và bạn Cua Đỏ chỉ đường, Rùa Nhỏ bò thật dũng cảm về với biển xanh.",
+ "ageRange": "3–6 tuổi",
+ "category": "Biển cả",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#9ED8E8",
+  "#FFE4C2"
+ ],
+ "productId": "story.little_turtle",
+ "characters": [
+  {
+   "id": "rua",
+   "name": "Rùa Nhỏ",
+   "description": "Chú rùa biển vừa mới nở.",
+   "color": "#C8EBD8",
+   "avatar": "rua.jpg"
+  },
+  {
+   "id": "cua",
+   "name": "Cua Đỏ",
+   "description": "Bạn cua tốt bụng sống trên bãi cát.",
+   "color": "#FFD0C2",
+   "avatar": "cua.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#9ED8E8",
+    "#FFE4C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10947,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên bãi cát, một quả trứng nhỏ khẽ nứt ra."
+    },
+    {
+     "atMs": 3375,
+     "text": "Rùa Nhỏ chui ra, mở to đôi mắt tròn xoe."
+    },
+    {
+     "atMs": 6832,
+     "text": "“Nhà của mình ở đâu nhỉ?” Rùa Nhỏ hỏi.",
+     "speaker": "rua"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A9C8FF",
+    "#FFE0D0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10329,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bạn Cua Đỏ bò ngang tới, giơ càng chào."
+    },
+    {
+     "atMs": 3393,
+     "text": "“Nhà của bạn là biển xanh kia kìa!” Cua Đỏ nói.",
+     "speaker": "cua"
+    },
+    {
+     "atMs": 7615,
+     "text": "“Cứ đi theo ánh trăng nhé!”",
+     "speaker": "cua"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#8FB8E8",
+    "#FFF0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12620,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Rùa Nhỏ bò từng bước, từng bước trên cát."
+    },
+    {
+     "atMs": 3343,
+     "text": "Ông Trăng trải một con đường sáng ra tận biển."
+    },
+    {
+     "atMs": 6288,
+     "text": "Bé ơi, chạm vào ông Trăng để soi đường cho Rùa Nhỏ nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 74,
+      "y": 12
+     },
+     "hint": "Chạm vào ông Trăng",
+     "appearAtMs": 9520,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 74,
+        "y": 12
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#9FD0FF",
+    "#FFE6F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11699,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Những con sóng nhỏ chạy lên bờ, mát rượi."
+    },
+    {
+     "atMs": 3460,
+     "text": "“Biển đây rồi!” Rùa Nhỏ reo lên.",
+     "speaker": "rua"
+    },
+    {
+     "atMs": 6257,
+     "text": "Bé ơi, chạm vào con sóng nhỏ nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 22,
+      "y": 54
+     },
+     "hint": "Chạm vào con sóng nhỏ",
+     "appearAtMs": 8599,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 22,
+        "y": 54
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#7FA8E0",
+    "#D8C8FF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10247,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Rùa Nhỏ bơi vào lòng biển êm như chiếc nôi."
+    },
+    {
+     "atMs": 3227,
+     "text": "Sóng biển khẽ hát ru: ầu ơ, ầu ơ."
+    },
+    {
+     "atMs": 5783,
+     "text": "Chúc bé ngủ ngon, mơ về biển xanh nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ]
+}

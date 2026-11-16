@@ -1,0 +1,229 @@
+{
+ "id": "dreamy-penguin",
+ "title": "Cánh Cụt Mơ Bay",
+ "tagline": "Giấc mơ được bay của Cánh Cụt Nhỏ",
+ "description": "Cánh Cụt Nhỏ ước được bay như chim hải âu. Đêm ấy, trong giấc mơ, Cánh Cụt Nhỏ bay lên cùng ánh cực quang rực rỡ.",
+ "ageRange": "4–7 tuổi",
+ "category": "Ước mơ",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8E0FF",
+  "#E8D0FF"
+ ],
+ "productId": "story.dreamy_penguin",
+ "characters": [
+  {
+   "id": "cut",
+   "name": "Cánh Cụt Nhỏ",
+   "description": "Chú chim cánh cụt nhỏ thích mơ mộng.",
+   "color": "#E0ECFF",
+   "avatar": "cut.jpg"
+  },
+  {
+   "id": "au",
+   "name": "Hải Âu",
+   "description": "Chú hải âu bay giỏi nhất vùng băng.",
+   "color": "#F4F4F4",
+   "avatar": "au.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8E0FF",
+    "#E8D0FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10544,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ở xứ băng tuyết, có chú Cánh Cụt Nhỏ."
+    },
+    {
+     "atMs": 3286,
+     "text": "Cánh Cụt Nhỏ ngước nhìn bạn Hải Âu bay lượn."
+    },
+    {
+     "atMs": 6168,
+     "text": "“Ước gì mình cũng bay được như thế,” Cánh Cụt Nhỏ nói.",
+     "speaker": "cut"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A8D0FF",
+    "#FFE0EC"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11372,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cánh Cụt Nhỏ vỗ cánh phành phạch, nhảy lên thật cao."
+    },
+    {
+     "atMs": 4847,
+     "text": "Huỵch! Cánh Cụt Nhỏ lại ngồi phịch xuống tuyết."
+    },
+    {
+     "atMs": 7213,
+     "text": "“Bạn bơi giỏi lắm mà!” Hải Âu an ủi.",
+     "speaker": "au"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#9FB8F0",
+    "#D8F0E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11496,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đêm đến, Cánh Cụt Nhỏ nằm ngủ trong tổ tuyết."
+    },
+    {
+     "atMs": 3473,
+     "text": "Một giấc mơ lấp lánh bay đến bên Cánh Cụt."
+    },
+    {
+     "atMs": 6308,
+     "text": "Bé ơi, chạm vào giấc mơ nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 45,
+      "y": 16
+     },
+     "hint": "Chạm vào giấc mơ",
+     "appearAtMs": 8396,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 45,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#8FC8D8",
+    "#D8B8FF"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11792,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trong mơ, Cánh Cụt Nhỏ bay vút lên trời cao."
+    },
+    {
+     "atMs": 3559,
+     "text": "Cực quang xanh tím uốn lượn như dải lụa."
+    },
+    {
+     "atMs": 6375,
+     "text": "Bé ơi, chạm vào dải cực quang nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 22,
+      "y": 16
+     },
+     "hint": "Chạm vào dải cực quang",
+     "appearAtMs": 8692,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 22,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#C8E8F0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10184,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cánh Cụt Nhỏ mỉm cười trong giấc ngủ say."
+    },
+    {
+     "atMs": 2979,
+     "text": "Vì trong mơ, ai cũng có thể bay thật cao."
+    },
+    {
+     "atMs": 6016,
+     "text": "Chúc bé ngủ ngon, mơ những giấc mơ thật đẹp nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ]
+}
