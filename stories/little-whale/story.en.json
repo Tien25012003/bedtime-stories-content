@@ -1,0 +1,245 @@
+{
+ "id": "little-whale",
+ "title": "The Little Whale’s Lullaby",
+ "tagline": "Blue finds a new friend in the night sea",
+ "description": "Tonight, little whale Blue has to sing alone in the dark sea. Then Little Jelly appears, glowing like a lantern, and Blue’s song brings Mama home.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Ocean",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#8ED8F8",
+  "#FFE0C2"
+ ],
+ "characters": [
+  {
+   "id": "lam",
+   "name": "Blue the Whale",
+   "description": "A little whale who loves to sing every night.",
+   "color": "#BFDDF8",
+   "avatar": "lam.jpg"
+  },
+  {
+   "id": "sua",
+   "name": "Little Jelly",
+   "description": "A jellyfish who glows like a lantern.",
+   "color": "#FFC9DE",
+   "avatar": "sua.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "sea",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#8ED8F8",
+    "#FFE0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11559,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Deep in the blue sea lived a little whale named Blue."
+    },
+    {
+     "atMs": 3729,
+     "text": "Blue loved singing with Mama every night."
+    },
+    {
+     "atMs": 6569,
+     "text": "But tonight Mama was far away, so Blue had to sing alone."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "dark",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#5A8EE0",
+    "#9ED8F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13243,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The night sea grew darker, and Blue felt a little scared."
+    },
+    {
+     "atMs": 4146,
+     "text": "“Is anybody there?” Blue called softly.",
+     "speaker": "lam"
+    },
+    {
+     "atMs": 7111,
+     "text": "Little one, tap that little light to see who’s coming!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "meet-jelly",
+     "hotspot": {
+      "x": 81,
+      "y": 44
+     },
+     "hint": "Tap the little light",
+     "appearAtMs": 11943,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 44
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "jelly",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#8ED8F8",
+    "#FFC9DE"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11362,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "It was Little Jelly, glowing like a lantern."
+    },
+    {
+     "atMs": 3557,
+     "text": "“Don’t be scared, I’ll stay with you,” Little Jelly said.",
+     "speaker": "sua"
+    },
+    {
+     "atMs": 6921,
+     "text": "Together they swam past the colorful coral reefs."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 3772,
+     "type": "sfx",
+     "sound": "pop"
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "song",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#8ED8F8",
+    "#FFE6B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13471,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Let me sing you a song!” Blue said.",
+     "speaker": "lam"
+    },
+    {
+     "atMs": 3162,
+     "text": "Blue’s song drifted far away, as soft as the ocean waves."
+    },
+    {
+     "atMs": 7329,
+     "text": "Little one, tap Blue to let the music bubbles float!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "music-bubbles",
+     "hotspot": {
+      "x": 43,
+      "y": 47
+     },
+     "hint": "Tap Blue to make bubbles",
+     "appearAtMs": 12171,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 43,
+        "y": 47
+       }
+      },
+      {
+       "atMs": 400,
+       "type": "sparkle",
+       "at": {
+        "x": 67,
+        "y": 27
+       }
+      },
+      {
+       "atMs": 800,
+       "type": "sfx",
+       "sound": "sparkle"
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "mom",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#8ED8F8",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13165,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Far away, Mama heard the song and swam back to Blue."
+    },
+    {
+     "atMs": 4514,
+     "text": "Blue snuggled up to Mama and slowly closed his eyes."
+    },
+    {
+     "atMs": 8557,
+     "text": "Good night, little one. Dream of the gentle blue sea."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 413,
+     "type": "sfx",
+     "sound": "whoosh"
+    }
+   ],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

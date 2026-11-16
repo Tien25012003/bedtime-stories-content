@@ -1,0 +1,230 @@
+{
+ "id": "counting-frog",
+ "title": "Green Frog Counts the Stars",
+ "tagline": "Count to five with Green Frog, then sleep",
+ "description": "Green Frog sits on a lily pad and counts the stars. One, two, three, four, five… and before he knows it, his eyes are closing.",
+ "ageRange": "Ages 2 to 5",
+ "category": "Counting",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#A8E6C8",
+  "#FFE7B8"
+ ],
+ "characters": [
+  {
+   "id": "ech",
+   "name": "Green Frog",
+   "description": "A little frog who loves to count everything.",
+   "color": "#C8F0D6",
+   "avatar": "ech.jpg"
+  },
+  {
+   "id": "sao",
+   "name": "The Stars",
+   "description": "Tiny stars who know how to smile.",
+   "color": "#FFF4C2",
+   "avatar": "sao.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#A8E6C8",
+    "#FFE7B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13856,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On a big lily pad sat a teeny tiny Green Frog."
+    },
+    {
+     "atMs": 3961,
+     "text": "Green Frog loved counting more than anything. He counted everything!"
+    },
+    {
+     "atMs": 8849,
+     "text": "“Tonight, I’m going to count the stars!” Green Frog cheered.",
+     "speaker": "ech"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 345,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#9FC8FF",
+    "#FFE6C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11519,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "One star appeared, and then two more."
+    },
+    {
+     "atMs": 2895,
+     "text": "“One, two, three!” Green Frog counted out loud.",
+     "speaker": "ech"
+    },
+    {
+     "atMs": 6547,
+     "text": "Little one, let’s count with Green Frog: one, two, three!"
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#8EB8E8",
+    "#FFF1B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12656,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The fourth star twinkled as if it were winking."
+    },
+    {
+     "atMs": 3315,
+     "text": "“Four!” Green Frog said softly, his voice getting quieter.",
+     "speaker": "ech"
+    },
+    {
+     "atMs": 7589,
+     "text": "Little one, tap the fourth star!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 55,
+      "y": 16
+     },
+     "hint": "Tap the fourth star",
+     "appearAtMs": 9556,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 55,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#A9A8FF",
+    "#FFC6D9"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12486,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The fifth star was very small, far away in the corner of the sky."
+    },
+    {
+     "atMs": 4801,
+     "text": "Green Frog gave a long, long yawn."
+    },
+    {
+     "atMs": 7480,
+     "text": "Little one, tap the fifth star!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 64,
+      "y": 16
+     },
+     "hint": "Tap the fifth star",
+     "appearAtMs": 9386,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 64,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 14669,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Five…” Green Frog counted, and his eyes slowly closed.",
+     "speaker": "ech"
+    },
+    {
+     "atMs": 4996,
+     "text": "The stars smiled and softly sang Green Frog a lullaby."
+    },
+    {
+     "atMs": 9147,
+     "text": "One, two, three, four, five, good night, little one."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "id": "moon-duckling",
+ "title": "Duckling’s Moonlight Swim",
+ "tagline": "Little Yellow is no longer afraid of the dark",
+ "description": "Little Yellow is scared of the dark pond. With help from Sister Moon and the Little Fish, Little Yellow finds that the night is gentle too.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Courage",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8D8FF",
+  "#FFF0C2"
+ ],
+ "characters": [
+  {
+   "id": "vang",
+   "name": "Little Yellow",
+   "description": "A shy duckling with fluffy yellow feathers.",
+   "color": "#FFF1B8",
+   "avatar": "vang.jpg"
+  },
+  {
+   "id": "trang",
+   "name": "Sister Moon",
+   "description": "A kind full moon who lights up the pond.",
+   "color": "#FFF6D6",
+   "avatar": "trang.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B8D8FF",
+    "#FFF0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12323,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "By the pond lived a duckling named Little Yellow."
+    },
+    {
+     "atMs": 3454,
+     "text": "It was dark, the pond was black, and Little Yellow felt scared."
+    },
+    {
+     "atMs": 7816,
+     "text": "“It’s too dark, I don’t want to go in the water,” Little Yellow said.",
+     "speaker": "vang"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 305,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#A9B8FF",
+    "#FFE9C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11344,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Then Sister Moon rose up, round and softly glowing."
+    },
+    {
+     "atMs": 4081,
+     "text": "“Don’t be afraid, I’ll light the way for you,” Sister Moon said.",
+     "speaker": "trang"
+    },
+    {
+     "atMs": 7647,
+     "text": "The pond sparkled like a silver carpet."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#8FC8E8",
+    "#FFF1D6"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12029,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Yellow swam gently into Sister Moon’s light."
+    },
+    {
+     "atMs": 3744,
+     "text": "The Little Fish popped up to say hello."
+    },
+    {
+     "atMs": 6385,
+     "text": "Little one, tap the jumping Little Fish!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 78,
+      "y": 42
+     },
+     "hint": "Tap the jumping Little Fish",
+     "appearAtMs": 8929,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 78,
+        "y": 42
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#9FB8FF",
+    "#FFE0EC"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13164,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Yellow and the fish drew circles on the water."
+    },
+    {
+     "atMs": 3742,
+     "text": "A lotus flower opened in the moonlight, smelling so sweet."
+    },
+    {
+     "atMs": 7883,
+     "text": "Little one, tap the lotus flower!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 14,
+      "y": 15
+     },
+     "hint": "Tap the lotus flower",
+     "appearAtMs": 10064,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 14,
+        "y": 15
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9DCC2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13859,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Yellow swam back to the nest, feeling so happy."
+    },
+    {
+     "atMs": 4221,
+     "text": "“The night is beautiful too,” Little Yellow whispered, and closed his eyes.",
+     "speaker": "vang"
+    },
+    {
+     "atMs": 9245,
+     "text": "Good night, little one. Sister Moon will watch over you."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

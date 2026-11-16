@@ -1,0 +1,231 @@
+{
+ "id": "squirrel-acorn",
+ "title": "Brown Squirrel Hides His Acorns",
+ "tagline": "Brown Squirrel learns to share",
+ "description": "Brown Squirrel hides lots of acorns to save for winter. But when a friend is hungry, Brown Squirrel does something very sweet.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Sharing",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD0A8",
+  "#E0C8FF"
+ ],
+ "productId": "story.squirrel_acorn",
+ "characters": [
+  {
+   "id": "soc",
+   "name": "Brown Squirrel",
+   "description": "A hardworking little squirrel with a fluffy tail.",
+   "color": "#F0D6C2",
+   "avatar": "soc.jpg"
+  },
+  {
+   "id": "chuot",
+   "name": "Little Mouse",
+   "description": "A tiny mouse who is often hungry.",
+   "color": "#E8E0EC",
+   "avatar": "chuot.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFD0A8",
+    "#E0C8FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11165,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Autumn came, and yellow leaves rustled down."
+    },
+    {
+     "atMs": 3671,
+     "text": "Brown Squirrel gathered acorns all day long."
+    },
+    {
+     "atMs": 7083,
+     "text": "“I have to save them for winter,” Brown Squirrel said.",
+     "speaker": "soc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 343,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#F0C8A8",
+    "#D8D0FF"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12713,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Brown Squirrel hid the acorns in a tree hollow until it was full."
+    },
+    {
+     "atMs": 4524,
+     "text": "“One, two, three… so many!” Brown Squirrel grinned.",
+     "speaker": "soc"
+    },
+    {
+     "atMs": 8960,
+     "text": "Then the first snow of winter began to fall."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#C8D0F0",
+    "#FFE6D6"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12478,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Under the tree, Little Mouse was shivering."
+    },
+    {
+     "atMs": 3275,
+     "text": "“I’m so hungry, and I can’t find anything to eat,” Little Mouse said.",
+     "speaker": "chuot"
+    },
+    {
+     "atMs": 7527,
+     "text": "Little one, tap Little Mouse!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 78,
+      "y": 48
+     },
+     "hint": "Tap Little Mouse",
+     "appearAtMs": 9378,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 78,
+        "y": 48
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#B8C8F0",
+    "#FFD6E0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 15294,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Brown Squirrel thought for a moment, then brought the acorns down."
+    },
+    {
+     "atMs": 4667,
+     "text": "“Here, have some, I’ll share with you!” Brown Squirrel said.",
+     "speaker": "soc"
+    },
+    {
+     "atMs": 8800,
+     "text": "Little one, tap the basket of acorns to share them!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 16,
+      "y": 21
+     },
+     "hint": "Tap the basket of acorns",
+     "appearAtMs": 12194,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 16,
+        "y": 21
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9D0C2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13264,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "That night, the two friends slept together in the warm tree hollow."
+    },
+    {
+     "atMs": 4688,
+     "text": "Brown Squirrel found that sharing is even more fun than saving."
+    },
+    {
+     "atMs": 8941,
+     "text": "Good night, little one. Always love and share."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

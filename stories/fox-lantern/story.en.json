@@ -1,0 +1,230 @@
+{
+ "id": "fox-lantern",
+ "title": "Little Fox and the Lantern",
+ "tagline": "A lantern that lights up friendship",
+ "description": "Little Fox has a star-shaped lantern. Along the way, Little Fox uses its light to help friends in the forest find their way home.",
+ "ageRange": "Ages 4 to 7",
+ "category": "Friendship",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFC8A8",
+  "#D8C8FF"
+ ],
+ "productId": "story.fox_lantern",
+ "characters": [
+  {
+   "id": "cao",
+   "name": "Little Fox",
+   "description": "A kind little fox with orange fur.",
+   "color": "#FFD6B8",
+   "avatar": "cao.jpg"
+  },
+  {
+   "id": "nhim",
+   "name": "Hazel Hedgehog",
+   "description": "A little hedgehog who got lost.",
+   "color": "#E8D6C2",
+   "avatar": "nhim.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFC8A8",
+    "#D8C8FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12827,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Fox had a bright red lantern shaped like a star."
+    },
+    {
+     "atMs": 3974,
+     "text": "Tonight, Little Fox took the lantern for a walk in the forest."
+    },
+    {
+     "atMs": 8503,
+     "text": "“Shine bright, little lantern!” Little Fox said.",
+     "speaker": "cao"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 363,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#C8B8FF",
+    "#FFE0C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13232,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Under a mushroom, Hazel Hedgehog was quietly crying."
+    },
+    {
+     "atMs": 4515,
+     "text": "“It’s so dark, I can’t find my way home,” Hazel said.",
+     "speaker": "nhim"
+    },
+    {
+     "atMs": 8201,
+     "text": "“Don’t worry, come with me!” Little Fox took Hazel’s paw.",
+     "speaker": "cao"
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#A8B8F0",
+    "#FFE6C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13693,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The two friends passed the old tree where Grandpa Owl was nodding."
+    },
+    {
+     "atMs": 4437,
+     "text": "Grandpa Owl pointed the way: “Cross the wooden bridge!”"
+    },
+    {
+     "atMs": 8014,
+     "text": "Little one, tap Hazel to cheer her on!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 80,
+      "y": 45
+     },
+     "hint": "Tap Hazel Hedgehog",
+     "appearAtMs": 10593,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 80,
+        "y": 45
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#9FB8FF",
+    "#FFD6E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 14246,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The wooden bridge was very dark, and Hazel began to shiver."
+    },
+    {
+     "atMs": 4819,
+     "text": "Little Fox held the lantern up high to make it brighter."
+    },
+    {
+     "atMs": 8153,
+     "text": "Little one, tap the lantern to make it shine brighter!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 48,
+      "y": 40
+     },
+     "hint": "Tap the lantern",
+     "appearAtMs": 11146,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 48,
+        "y": 40
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9D2C2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13486,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hazel got home and gave her mama a great big hug."
+    },
+    {
+     "atMs": 3946,
+     "text": "Little Fox smiled, feeling as warm inside as the lantern’s glow."
+    },
+    {
+     "atMs": 9229,
+     "text": "Good night, little one. Always be a good friend."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

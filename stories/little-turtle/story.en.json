@@ -1,0 +1,231 @@
+{
+ "id": "little-turtle",
+ "title": "Little Turtle Goes Home",
+ "tagline": "Little Turtle’s journey to the sea",
+ "description": "Little Turtle has just hatched on the sand. With the moonlight and Red Crab showing the way, Little Turtle bravely crawls home to the blue sea.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Ocean",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#9ED8E8",
+  "#FFE4C2"
+ ],
+ "productId": "story.little_turtle",
+ "characters": [
+  {
+   "id": "rua",
+   "name": "Little Turtle",
+   "description": "A sea turtle who has just hatched.",
+   "color": "#C8EBD8",
+   "avatar": "rua.jpg"
+  },
+  {
+   "id": "cua",
+   "name": "Red Crab",
+   "description": "A kind crab who lives on the beach.",
+   "color": "#FFD0C2",
+   "avatar": "cua.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#9ED8E8",
+    "#FFE4C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11475,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On the sandy beach, a little egg began to crack."
+    },
+    {
+     "atMs": 3856,
+     "text": "Out came Little Turtle, opening his big round eyes."
+    },
+    {
+     "atMs": 7608,
+     "text": "“Where is my home?” Little Turtle asked.",
+     "speaker": "rua"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 314,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#A9C8FF",
+    "#FFE0D0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11161,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Red Crab scuttled sideways over and waved a claw hello."
+    },
+    {
+     "atMs": 4441,
+     "text": "“Your home is the big blue sea, right over there!” Red Crab said.",
+     "speaker": "cua"
+    },
+    {
+     "atMs": 8489,
+     "text": "“Just follow the moonlight!”",
+     "speaker": "cua"
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#8FB8E8",
+    "#FFF0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13777,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Turtle crawled across the sand, step by step."
+    },
+    {
+     "atMs": 4047,
+     "text": "The Moon laid a shining path all the way to the sea."
+    },
+    {
+     "atMs": 7350,
+     "text": "Little one, tap the Moon to light the way for Little Turtle!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 74,
+      "y": 12
+     },
+     "hint": "Tap the Moon",
+     "appearAtMs": 10677,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 74,
+        "y": 12
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#9FD0FF",
+    "#FFE6F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12107,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little waves rolled up onto the shore, cool and fresh."
+    },
+    {
+     "atMs": 4081,
+     "text": "“There’s the sea!” Little Turtle cheered.",
+     "speaker": "rua"
+    },
+    {
+     "atMs": 6988,
+     "text": "Little one, tap the little wave!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 22,
+      "y": 54
+     },
+     "hint": "Tap the little wave",
+     "appearAtMs": 9007,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 22,
+        "y": 54
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#7FA8E0",
+    "#D8C8FF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12793,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Turtle swam into the sea, as gentle as a cradle."
+    },
+    {
+     "atMs": 4513,
+     "text": "The waves softly sang a lullaby: hush now, hush now."
+    },
+    {
+     "atMs": 8322,
+     "text": "Good night, little one. Dream of the deep blue sea."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

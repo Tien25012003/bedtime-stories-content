@@ -1,0 +1,268 @@
+{
+ "id": "sleepy-bear",
+ "title": "Little Bear Isn’t Sleepy",
+ "tagline": "Little Bear learns to relax and drift off to sleep",
+ "description": "It is late, but Little Bear Mun is still wide awake. With help from Grandpa Owl, the Fireflies and the stars, Mun learns to breathe slowly and sleep soundly.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Sleepy time",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B9A8FF",
+  "#FFD9B8"
+ ],
+ "characters": [
+  {
+   "id": "mun",
+   "name": "Mun the Bear",
+   "description": "A sweet little bear who isn’t sleepy tonight.",
+   "color": "#E8CBA8",
+   "avatar": "mun.jpg"
+  },
+  {
+   "id": "cu",
+   "name": "Grandpa Owl",
+   "description": "A wise old owl with round glasses.",
+   "color": "#D9D4E8",
+   "avatar": "cu.jpg"
+  },
+  {
+   "id": "dom-dom",
+   "name": "Fireflies",
+   "description": "Little lights that dance in the night.",
+   "color": "#F4F1A0",
+   "avatar": "dom-dom.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "cave",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B9A8FF",
+    "#FFD9B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11580,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In the pine forest lived a little bear named Mun."
+    },
+    {
+     "atMs": 3687,
+     "text": "It was already dark, but Mun wasn’t sleepy at all."
+    },
+    {
+     "atMs": 7045,
+     "text": "Mun rolled over to the left, and then rolled over to the right."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "owl",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#9FB8FF",
+    "#FFD6E8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 14419,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mun went outside and met Grandpa Owl sitting on a branch."
+    },
+    {
+     "atMs": 4014,
+     "text": "“Try breathing in deeply, then breathing out slowly,” Grandpa Owl said.",
+     "speaker": "cu"
+    },
+    {
+     "atMs": 9005,
+     "text": "Little one, let’s breathe with Mun. Breathe in… breathe out…"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 3745,
+     "type": "sfx",
+     "sound": "pop"
+    }
+   ],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "fireflies",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#8EC5A8",
+    "#FFF1B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13754,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Suddenly, little lights began dancing around Mun."
+    },
+    {
+     "atMs": 3867,
+     "text": "It was the Fireflies, looking for their way home."
+    },
+    {
+     "atMs": 7106,
+     "text": "Little one, tap the Fireflies to light up the forest!"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 424,
+     "type": "sfx",
+     "sound": "sparkle"
+    }
+   ],
+   "interactions": [
+    {
+     "id": "light-forest",
+     "hotspot": {
+      "x": 81,
+      "y": 39
+     },
+     "hint": "Tap the Fireflies",
+     "appearAtMs": 12454,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 39
+       }
+      },
+      {
+       "atMs": 500,
+       "type": "sparkle",
+       "at": {
+        "x": 40,
+        "y": 30
+       }
+      },
+      {
+       "atMs": 900,
+       "type": "sparkle",
+       "at": {
+        "x": 60,
+        "y": 55
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "stars",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#A9A8FF",
+    "#FFC6D9"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13718,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mun lay down on the grass and looked up at the sky."
+    },
+    {
+     "atMs": 3493,
+     "text": "“One star, two stars, three stars…” Mun counted.",
+     "speaker": "mun"
+    },
+    {
+     "atMs": 7442,
+     "text": "Little one, tap the brightest star to count with Mun!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "brightest-star",
+     "hotspot": {
+      "x": 81,
+      "y": 20
+     },
+     "hint": "Tap the brightest star",
+     "appearAtMs": 12418,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 20
+       }
+      },
+      {
+       "atMs": 600,
+       "type": "sfx",
+       "sound": "pop"
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "sleep",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11685,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mun’s eyes grew heavy, heavier and heavier."
+    },
+    {
+     "atMs": 3319,
+     "text": "Mun curled up in his cozy den, hugging his little blanket."
+    },
+    {
+     "atMs": 7676,
+     "text": "Sleep tight, little one, just like Mun the bear."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 291,
+     "type": "sparkle",
+     "at": {
+      "x": 78,
+      "y": 24
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "id": "cloud-kitten",
+ "title": "Cloud the Kitten Looks for Sleep",
+ "tagline": "A kitten searches for her lost sleep",
+ "description": "Cloud the kitten has lost her sleep. She asks the Wind, she asks the Fireflies, and at last she finds her sleep somewhere very close.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Sleepy time",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C9B8FF",
+  "#FFE0C2"
+ ],
+ "characters": [
+  {
+   "id": "may",
+   "name": "Cloud the Kitten",
+   "description": "A little kitten with fur as soft and white as a cloud.",
+   "color": "#F1ECFF",
+   "avatar": "may.jpg"
+  },
+  {
+   "id": "gio",
+   "name": "Breeze",
+   "description": "A little breeze who loves to hum lullabies.",
+   "color": "#D8F0FF",
+   "avatar": "gio.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#C9B8FF",
+    "#FFE0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11243,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In a little house lived a kitten named Cloud."
+    },
+    {
+     "atMs": 3342,
+     "text": "Tonight, Cloud tossed and turned and couldn’t fall asleep."
+    },
+    {
+     "atMs": 7529,
+     "text": "“Where did my sleep go?” Cloud wondered.",
+     "speaker": "may"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 297,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a",
+    "leo": "narration-1-leo.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#A9D8FF",
+    "#FFE6F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12461,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cloud went out to the garden and met Breeze, who was out for a stroll."
+    },
+    {
+     "atMs": 4698,
+     "text": "“Breeze, have you seen my sleep?”",
+     "speaker": "may"
+    },
+    {
+     "atMs": 6970,
+     "text": "“Sleep loves places that are very, very quiet,” Breeze whispered.",
+     "speaker": "gio"
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a",
+    "leo": "narration-2-leo.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#8EC5A8",
+    "#FFF1B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13412,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cloud walked on and saw the Fireflies twinkling in the air."
+    },
+    {
+     "atMs": 4277,
+     "text": "They lit their little lamps to help Cloud look for her sleep."
+    },
+    {
+     "atMs": 7693,
+     "text": "Little one, tap the brightest Firefly!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 83,
+      "y": 17
+     },
+     "hint": "Tap the brightest Firefly",
+     "appearAtMs": 10312,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 83,
+        "y": 17
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a",
+    "leo": "narration-3-leo.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#9FA8FF",
+    "#FFD6E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11903,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Up in the sky floated a cloud as soft as a pillow."
+    },
+    {
+     "atMs": 3745,
+     "text": "“Maybe my sleep is hiding up there,” Cloud thought.",
+     "speaker": "may"
+    },
+    {
+     "atMs": 6707,
+     "text": "Little one, tap the pillow cloud!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 22,
+      "y": 14
+     },
+     "hint": "Tap the pillow cloud",
+     "appearAtMs": 8803,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 22,
+        "y": 14
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a",
+    "leo": "narration-4-leo.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12250,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cloud went back to her warm little basket."
+    },
+    {
+     "atMs": 3145,
+     "text": "And there was her sleep, waiting for her in the soft blanket all along."
+    },
+    {
+     "atMs": 7932,
+     "text": "Sleep tight, little one, just like Cloud the kitten."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a",
+    "leo": "narration-5-leo.m4a"
+   }
+  }
+ ]
+}

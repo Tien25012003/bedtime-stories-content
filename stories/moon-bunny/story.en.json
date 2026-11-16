@@ -1,0 +1,276 @@
+{
+ "id": "moon-bunny",
+ "title": "Cotton and the Lost Star",
+ "tagline": "A little bunny helps a star find its way home",
+ "description": "One night, a little star fell into the meadow. Cotton the bunny gently helps it back up to the sky, and learns that a small kindness can light up the whole night.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Sleepy time",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#8EC5FF",
+  "#FFC7DE"
+ ],
+ "characters": [
+  {
+   "id": "bong",
+   "name": "Cotton the Bunny",
+   "description": "A curious white bunny who loves stargazing.",
+   "color": "#EDE7FF",
+   "avatar": "bong.jpg"
+  },
+  {
+   "id": "little-star",
+   "name": "Little Star",
+   "description": "A tiny star who fell out of the sky.",
+   "color": "#FFD27A",
+   "avatar": "little-star.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "meadow",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#8EC5FF",
+    "#FFD6E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11881,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "At the edge of the green forest was a meadow as soft as a blanket.",
+     "mood": "gentle"
+    },
+    {
+     "atMs": 4627,
+     "text": "There lived a little white bunny named Cotton.",
+     "mood": "gentle"
+    },
+    {
+     "atMs": 7509,
+     "text": "Every night, Cotton looked up at the twinkling stars.",
+     "mood": "tender"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 4504,
+     "type": "sfx",
+     "sound": "pop"
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "falling-star",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#9DB4FF",
+    "#FFC9DD"
+   ],
+   "motion": "pan-right",
+   "durationMs": 14379,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Suddenly… whoosh! A streak of light flew across the sky.",
+     "mood": "excited"
+    },
+    {
+     "atMs": 4904,
+     "text": "Something fell into the grass, twinkling and sparkling.",
+     "mood": "magical"
+    },
+    {
+     "atMs": 8823,
+     "text": "Little one, tap the light to see what it is!",
+     "mood": "magical"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 406,
+     "type": "sfx",
+     "sound": "whoosh"
+    }
+   ],
+   "interactions": [
+    {
+     "id": "wake-star",
+     "hotspot": {
+      "x": 73,
+      "y": 65
+     },
+     "hint": "Tap the light",
+     "appearAtMs": 13079,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 73,
+        "y": 65
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "lost",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#A9C8FF",
+    "#FFE0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11941,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Hello,” Cotton whispered. “Who are you?”",
+     "speaker": "bong",
+     "mood": "tender"
+    },
+    {
+     "atMs": 3367,
+     "text": "“I’m Little Star… I fell down, and I can’t fly back home.”",
+     "speaker": "little-star",
+     "mood": "tender"
+    },
+    {
+     "atMs": 7821,
+     "text": "“Don’t be sad,” Cotton said. “I’ll help you!”",
+     "speaker": "bong",
+     "mood": "gentle"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 7925,
+     "type": "sfx",
+     "sound": "pop"
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "hilltop",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#B2A8FF",
+    "#FFC6D9"
+   ],
+   "motion": "pan-left",
+   "durationMs": 14525,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Together they climbed the tallest hill, the one closest to the moon.",
+     "mood": "gentle"
+    },
+    {
+     "atMs": 5045,
+     "text": "Cotton said: “Let’s make a great big wish!”",
+     "speaker": "bong",
+     "mood": "excited"
+    },
+    {
+     "atMs": 8079,
+     "text": "Little one, tap Little Star to send her back to the sky!",
+     "mood": "magical"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "send-home",
+     "hotspot": {
+      "x": 66,
+      "y": 46
+     },
+     "hint": "Tap to send Little Star home",
+     "appearAtMs": 13225,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 66,
+        "y": 46
+       }
+      },
+      {
+       "atMs": 900,
+       "type": "sfx",
+       "sound": "sparkle"
+      },
+      {
+       "atMs": 900,
+       "type": "sparkle",
+       "at": {
+        "x": 75,
+        "y": 22
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "goodnight",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13940,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Up in the sky, Little Star twinkled brightest of all, as if saying thank you.",
+     "mood": "tender"
+    },
+    {
+     "atMs": 5554,
+     "text": "Cotton lay down in the grass, eyes closing, with a smile.",
+     "mood": "gentle"
+    },
+    {
+     "atMs": 9545,
+     "text": "Sleep tight, little one, and have sparkly dreams.",
+     "mood": "tender"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 252,
+     "type": "sparkle",
+     "at": {
+      "x": 80,
+      "y": 14
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

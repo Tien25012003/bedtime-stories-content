@@ -1,0 +1,175 @@
+{
+ "version": 1,
+ "stories": [
+  {
+   "id": "moon-bunny",
+   "title": "Cotton and the Lost Star",
+   "tagline": "A little bunny helps a star find its way home",
+   "description": "One night, a little star fell into the meadow. Cotton the bunny gently helps it back up to the sky, and learns that a small kindness can light up the whole night.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Sleepy time",
+   "cover": "stories/moon-bunny/scene-1.jpg",
+   "coverColors": [
+    "#8EC5FF",
+    "#FFC7DE"
+   ],
+   "durationMs": 66666,
+   "sceneCount": 5
+  },
+  {
+   "id": "sleepy-bear",
+   "title": "Little Bear Isn’t Sleepy",
+   "tagline": "Little Bear learns to relax and drift off to sleep",
+   "description": "It is late, but Little Bear Mun is still wide awake. With help from Grandpa Owl, the Fireflies and the stars, Mun learns to breathe slowly and sleep soundly.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Sleepy time",
+   "cover": "stories/sleepy-bear/scene-1.jpg",
+   "coverColors": [
+    "#B9A8FF",
+    "#FFD9B8"
+   ],
+   "durationMs": 65156,
+   "sceneCount": 5
+  },
+  {
+   "id": "little-whale",
+   "title": "The Little Whale’s Lullaby",
+   "tagline": "Blue finds a new friend in the night sea",
+   "description": "Tonight, little whale Blue has to sing alone in the dark sea. Then Little Jelly appears, glowing like a lantern, and Blue’s song brings Mama home.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Ocean",
+   "cover": "stories/little-whale/scene-1.jpg",
+   "coverColors": [
+    "#8ED8F8",
+    "#FFE0C2"
+   ],
+   "durationMs": 62800,
+   "sceneCount": 5
+  },
+  {
+   "id": "cloud-kitten",
+   "title": "Cloud the Kitten Looks for Sleep",
+   "tagline": "A kitten searches for her lost sleep",
+   "description": "Cloud the kitten has lost her sleep. She asks the Wind, she asks the Fireflies, and at last she finds her sleep somewhere very close.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Sleepy time",
+   "cover": "stories/cloud-kitten/scene-1.jpg",
+   "coverColors": [
+    "#C9B8FF",
+    "#FFE0C2"
+   ],
+   "durationMs": 61269,
+   "sceneCount": 5
+  },
+  {
+   "id": "moon-duckling",
+   "title": "Duckling’s Moonlight Swim",
+   "tagline": "Little Yellow is no longer afraid of the dark",
+   "description": "Little Yellow is scared of the dark pond. With help from Sister Moon and the Little Fish, Little Yellow finds that the night is gentle too.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Courage",
+   "cover": "stories/moon-duckling/scene-1.jpg",
+   "coverColors": [
+    "#B8D8FF",
+    "#FFF0C2"
+   ],
+   "durationMs": 62719,
+   "sceneCount": 5
+  },
+  {
+   "id": "counting-frog",
+   "title": "Green Frog Counts the Stars",
+   "tagline": "Count to five with Green Frog, then sleep",
+   "description": "Green Frog sits on a lily pad and counts the stars. One, two, three, four, five… and before he knows it, his eyes are closing.",
+   "ageRange": "Ages 2 to 5",
+   "category": "Counting",
+   "cover": "stories/counting-frog/scene-1.jpg",
+   "coverColors": [
+    "#A8E6C8",
+    "#FFE7B8"
+   ],
+   "durationMs": 65186,
+   "sceneCount": 5
+  },
+  {
+   "id": "little-turtle",
+   "title": "Little Turtle Goes Home",
+   "tagline": "Little Turtle’s journey to the sea",
+   "description": "Little Turtle has just hatched on the sand. With the moonlight and Red Crab showing the way, Little Turtle bravely crawls home to the blue sea.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Ocean",
+   "cover": "stories/little-turtle/scene-1.jpg",
+   "coverColors": [
+    "#9ED8E8",
+    "#FFE4C2"
+   ],
+   "productId": "story.little_turtle",
+   "durationMs": 61313,
+   "sceneCount": 5
+  },
+  {
+   "id": "fox-lantern",
+   "title": "Little Fox and the Lantern",
+   "tagline": "A lantern that lights up friendship",
+   "description": "Little Fox has a star-shaped lantern. Along the way, Little Fox uses its light to help friends in the forest find their way home.",
+   "ageRange": "Ages 4 to 7",
+   "category": "Friendship",
+   "cover": "stories/fox-lantern/scene-1.jpg",
+   "coverColors": [
+    "#FFC8A8",
+    "#D8C8FF"
+   ],
+   "productId": "story.fox_lantern",
+   "durationMs": 67484,
+   "sceneCount": 5
+  },
+  {
+   "id": "baby-elephant",
+   "title": "Little Elephant Wants to Sleep",
+   "tagline": "Little Elephant looks for a cozy place to sleep",
+   "description": "Little Elephant is so big that every bed feels too small. He tries a tree, a burrow and the lake shore, and finally finds the very best place to sleep.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Sleepy time",
+   "cover": "stories/baby-elephant/scene-1.jpg",
+   "coverColors": [
+    "#C2D8FF",
+    "#FFE0D0"
+   ],
+   "productId": "story.baby_elephant",
+   "durationMs": 66446,
+   "sceneCount": 5
+  },
+  {
+   "id": "dreamy-penguin",
+   "title": "The Penguin Who Dreamed of Flying",
+   "tagline": "Little Penguin’s dream of flying",
+   "description": "Little Penguin wishes he could fly like the seagull. That night, in a dream, Little Penguin soars up into the glowing northern lights.",
+   "ageRange": "Ages 4 to 7",
+   "category": "Dreams",
+   "cover": "stories/dreamy-penguin/scene-1.jpg",
+   "coverColors": [
+    "#B8E0FF",
+    "#E8D0FF"
+   ],
+   "productId": "story.dreamy_penguin",
+   "durationMs": 61177,
+   "sceneCount": 5
+  },
+  {
+   "id": "squirrel-acorn",
+   "title": "Brown Squirrel Hides His Acorns",
+   "tagline": "Brown Squirrel learns to share",
+   "description": "Brown Squirrel hides lots of acorns to save for winter. But when a friend is hungry, Brown Squirrel does something very sweet.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Sharing",
+   "cover": "stories/squirrel-acorn/scene-1.jpg",
+   "coverColors": [
+    "#FFD0A8",
+    "#E0C8FF"
+   ],
+   "productId": "story.squirrel_acorn",
+   "durationMs": 64914,
+   "sceneCount": 5
+  }
+ ]
+}

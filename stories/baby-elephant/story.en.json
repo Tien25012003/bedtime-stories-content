@@ -1,0 +1,230 @@
+{
+ "id": "baby-elephant",
+ "title": "Little Elephant Wants to Sleep",
+ "tagline": "Little Elephant looks for a cozy place to sleep",
+ "description": "Little Elephant is so big that every bed feels too small. He tries a tree, a burrow and the lake shore, and finally finds the very best place to sleep.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Sleepy time",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C2D8FF",
+  "#FFE0D0"
+ ],
+ "productId": "story.baby_elephant",
+ "characters": [
+  {
+   "id": "voi",
+   "name": "Little Elephant",
+   "description": "A small gray elephant with ears as big as fans.",
+   "color": "#E0E4F0",
+   "avatar": "voi.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mama Elephant",
+   "description": "A big, gentle mama elephant.",
+   "color": "#D6DAE8",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#C2D8FF",
+    "#FFE0D0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13549,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "It was getting dark, and Little Elephant gave a great big yawn."
+    },
+    {
+     "atMs": 4388,
+     "text": "“I’m sleepy, but where should I sleep?” Little Elephant asked.",
+     "speaker": "voi"
+    },
+    {
+     "atMs": 8837,
+     "text": "So Little Elephant set off to find a place that was just right."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 344,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#B8C8FF",
+    "#FFE8C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13477,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "First, Little Elephant tried to climb into a bird’s nest in a tree."
+    },
+    {
+     "atMs": 4404,
+     "text": "Oh dear, the nest was tiny, and Little Elephant didn’t fit!"
+    },
+    {
+     "atMs": 8843,
+     "text": "Little Sparrow giggled: “Too squishy, too squishy!”"
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#A8C8E8",
+    "#FFF0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13841,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Next, Little Elephant tried to squeeze into Bunny’s burrow."
+    },
+    {
+     "atMs": 4006,
+     "text": "The burrow was so small that only his trunk fit inside!"
+    },
+    {
+     "atMs": 7958,
+     "text": "Little one, tap Bunny to say sorry to her!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 14,
+      "y": 60
+     },
+     "hint": "Tap Bunny",
+     "appearAtMs": 10741,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 14,
+        "y": 60
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#9FB0F0",
+    "#FFD6E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12044,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Elephant came to the lake and saw the Moon shining in the water."
+    },
+    {
+     "atMs": 4484,
+     "text": "“Mr. Moon, where should I sleep?”",
+     "speaker": "voi"
+    },
+    {
+     "atMs": 6850,
+     "text": "Little one, tap the Moon in the lake!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 82,
+      "y": 40
+     },
+     "hint": "Tap the Moon in the lake",
+     "appearAtMs": 8944,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 82,
+        "y": 40
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13535,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Then Mama Elephant came and spread her big ears like a blanket."
+    },
+    {
+     "atMs": 4591,
+     "text": "Little Elephant snuggled up to Mama: “This is the place that’s just right!”",
+     "speaker": "voi"
+    },
+    {
+     "atMs": 9227,
+     "text": "Good night, sleep tight in a warm, cozy hug."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a"
+   }
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "id": "dreamy-penguin",
+ "title": "The Penguin Who Dreamed of Flying",
+ "tagline": "Little Penguin’s dream of flying",
+ "description": "Little Penguin wishes he could fly like the seagull. That night, in a dream, Little Penguin soars up into the glowing northern lights.",
+ "ageRange": "Ages 4 to 7",
+ "category": "Dreams",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8E0FF",
+  "#E8D0FF"
+ ],
+ "productId": "story.dreamy_penguin",
+ "characters": [
+  {
+   "id": "cut",
+   "name": "Little Penguin",
+   "description": "A little penguin who loves to daydream.",
+   "color": "#E0ECFF",
+   "avatar": "cut.jpg"
+  },
+  {
+   "id": "au",
+   "name": "Seagull",
+   "description": "The best flyer in all the icy lands.",
+   "color": "#F4F4F4",
+   "avatar": "au.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B8E0FF",
+    "#E8D0FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11350,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In the land of ice and snow lived a Little Penguin."
+    },
+    {
+     "atMs": 3760,
+     "text": "Little Penguin looked up at Seagull gliding through the sky."
+    },
+    {
+     "atMs": 7502,
+     "text": "“I wish I could fly like that,” Little Penguin said.",
+     "speaker": "cut"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 323,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a",
+    "leo": "narration-1-leo.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#A8D0FF",
+    "#FFE0EC"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12685,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Penguin flapped his wings, flap flap, and jumped up high."
+    },
+    {
+     "atMs": 4920,
+     "text": "Bump! Down he plopped into the snow again."
+    },
+    {
+     "atMs": 8107,
+     "text": "“But you’re such a great swimmer!” Seagull said kindly.",
+     "speaker": "au"
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a",
+    "leo": "narration-2-leo.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#9FB8F0",
+    "#D8F0E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12377,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "When night came, Little Penguin curled up in his snowy nest."
+    },
+    {
+     "atMs": 4408,
+     "text": "A sparkly dream floated down beside him."
+    },
+    {
+     "atMs": 7634,
+     "text": "Little one, tap the dream!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 45,
+      "y": 16
+     },
+     "hint": "Tap the dream",
+     "appearAtMs": 9277,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 45,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a",
+    "leo": "narration-3-leo.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#8FC8D8",
+    "#D8B8FF"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13555,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In his dream, Little Penguin flew up, up into the sky."
+    },
+    {
+     "atMs": 4464,
+     "text": "Green and purple lights swirled like ribbons of silk."
+    },
+    {
+     "atMs": 8204,
+     "text": "Little one, tap the northern lights!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 22,
+      "y": 16
+     },
+     "hint": "Tap the northern lights",
+     "appearAtMs": 10455,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 22,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a",
+    "leo": "narration-4-leo.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#C8E8F0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11210,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Penguin smiled in his deep, cozy sleep."
+    },
+    {
+     "atMs": 3676,
+     "text": "Because in dreams, anyone can fly up high."
+    },
+    {
+     "atMs": 7224,
+     "text": "Good night, little one, and sweet dreams."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a",
+    "leo": "narration-5-leo.m4a"
+   }
+  }
+ ]
+}
