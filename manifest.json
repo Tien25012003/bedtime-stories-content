@@ -154,6 +154,22 @@
    "productId": "story.dreamy_penguin",
    "durationMs": 55388,
    "sceneCount": 5
+  },
+  {
+   "id": "squirrel-acorn",
+   "title": "Sóc Nâu Giấu Hạt Dẻ",
+   "tagline": "Sóc Nâu học cách chia sẻ",
+   "description": "Sóc Nâu giấu thật nhiều hạt dẻ để dành cho mùa đông. Nhưng khi các bạn đói bụng, Sóc Nâu đã làm một việc thật đáng yêu.",
+   "ageRange": "3–6 tuổi",
+   "category": "Chia sẻ",
+   "cover": "stories/squirrel-acorn/scene-1.jpg",
+   "coverColors": [
+    "#FFD0A8",
+    "#E0C8FF"
+   ],
+   "productId": "story.squirrel_acorn",
+   "durationMs": 58506,
+   "sceneCount": 5
   }
  ]
 }
