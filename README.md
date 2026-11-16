@@ -30,7 +30,18 @@ Sau đó sửa `CONTENT_BASE_URL` trong `src/config.ts` thành `https://raw.gith
 
 ## Bản tiếng Anh
 1. Viết lời tiếng Anh trong `scripts/content/stories.en.mjs` (mỗi cảnh đúng số câu như bản Việt, cùng thứ tự).
-2. `node scripts/tts.mjs luna` (giọng nữ, tạo mốc thời gian `timings.en.json`), rồi `leo` (giọng nam, Gemini, khoảng 10 truyện/ngày, chạy lại để làm tiếp).
+2. Truyện mới: `node scripts/tts.mjs ava` trước (tạo mốc thời gian `timings.en.json`, audio không dùng). Rồi các giọng: `max` (edge, không giới hạn), `luna`, `ivy`, `leo` (Gemini, khoảng 10 lượt/ngày mỗi model, chạy lại để làm tiếp).
 3. `node scripts/build-story.mjs` tạo `story.en.json` + `manifest.en.json`, rồi commit và push.
 
-Mỗi truyện là một sản phẩm **Non-Consumable** giá 1,99 $ trên App Store Connect / Google Play, với id `story.<id có dấu _>` (ví dụ `story.little_turtle`). Thêm các sản phẩm đó vào RevenueCat.
+## Mua truyện bằng coin
+Truyện có `productId` là truyện trả phí, mở bằng 20 coin (`STORY_COINS` trong `src/config.ts`). `productId` chỉ là khoá đánh dấu, **không** cần tạo sản phẩm trên cửa hàng cho từng truyện.
+
+Coin bán theo 3 gói, sản phẩm **Consumable** trên App Store Connect / Google Play, thêm vào RevenueCat (`COIN_PACKS` trong `src/config.ts`):
+
+| id | Gói | Coin | Giá |
+|---|---|---|---|
+| `coins_basic` | Basic | 40 | 3,99 $ (99.000đ) |
+| `coins_plus` | Plus | 100 + 20 tặng | 9,99 $ (249.000đ) |
+| `coins_premium` | Premium | 200 + 100 tặng | 19,99 $ (499.000đ) |
+
+Sau đó dán public SDK key của RevenueCat vào `REVENUECAT_IOS_KEY` / `REVENUECAT_ANDROID_KEY`. Key trống thì app chạy chế độ thử (bấm mua là cộng coin ngay).
