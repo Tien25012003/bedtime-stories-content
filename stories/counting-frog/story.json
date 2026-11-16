@@ -1,0 +1,230 @@
+{
+ "id": "counting-frog",
+ "title": "Ếch Xanh Đếm Sao",
+ "tagline": "Cùng Ếch Xanh đếm đến năm rồi ngủ",
+ "description": "Ếch Xanh ngồi trên lá sen và đếm những vì sao. Một, hai, ba, bốn, năm… mắt Ếch Xanh díu lại lúc nào không hay.",
+ "ageRange": "2–5 tuổi",
+ "category": "Học đếm",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#A8E6C8",
+  "#FFE7B8"
+ ],
+ "characters": [
+  {
+   "id": "ech",
+   "name": "Ếch Xanh",
+   "description": "Chú ếch nhỏ thích đếm mọi thứ.",
+   "color": "#C8F0D6",
+   "avatar": "ech.jpg"
+  },
+  {
+   "id": "sao",
+   "name": "Các Vì Sao",
+   "description": "Những ngôi sao nhỏ biết mỉm cười.",
+   "color": "#FFF4C2",
+   "avatar": "sao.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#A8E6C8",
+    "#FFE7B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12032,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên chiếc lá sen to, có chú Ếch Xanh nhỏ xíu."
+    },
+    {
+     "atMs": 3752,
+     "text": "Ếch Xanh thích nhất là đếm, cái gì cũng muốn đếm."
+    },
+    {
+     "atMs": 7005,
+     "text": "“Tối nay, mình sẽ đếm sao!” Ếch Xanh reo lên.",
+     "speaker": "ech"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#9FC8FF",
+    "#FFE6C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13174,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Một ngôi sao hiện ra, rồi hai ngôi sao nữa."
+    },
+    {
+     "atMs": 3613,
+     "text": "“Một, hai, ba!” Ếch Xanh đếm thật to.",
+     "speaker": "ech"
+    },
+    {
+     "atMs": 7967,
+     "text": "Bé ơi, cùng đếm với Ếch Xanh nào: một, hai, ba!"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#8EB8E8",
+    "#FFF1B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12323,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ngôi sao thứ tư nhấp nháy như đang nháy mắt."
+    },
+    {
+     "atMs": 4306,
+     "text": "“Bốn!” Ếch Xanh khẽ nói, giọng nhỏ dần.",
+     "speaker": "ech"
+    },
+    {
+     "atMs": 6818,
+     "text": "Bé ơi, chạm vào ngôi sao thứ tư nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 55,
+      "y": 16
+     },
+     "hint": "Chạm vào ngôi sao thứ tư",
+     "appearAtMs": 9223,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 55,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#A9A8FF",
+    "#FFC6D9"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11302,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ngôi sao thứ năm nhỏ xíu, nằm tận góc trời."
+    },
+    {
+     "atMs": 3619,
+     "text": "Ếch Xanh ngáp một cái thật dài."
+    },
+    {
+     "atMs": 5777,
+     "text": "Bé ơi, chạm vào ngôi sao thứ năm nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 64,
+      "y": 16
+     },
+     "hint": "Chạm vào ngôi sao thứ năm",
+     "appearAtMs": 8202,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 64,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12095,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Năm…” Ếch Xanh đếm, rồi mắt díu lại.",
+     "speaker": "ech"
+    },
+    {
+     "atMs": 3348,
+     "text": "Các vì sao mỉm cười, khẽ hát ru Ếch Xanh."
+    },
+    {
+     "atMs": 6457,
+     "text": "Một, hai, ba, bốn, năm, chúc bé ngủ ngon nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ]
+}

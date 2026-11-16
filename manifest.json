@@ -2,6 +2,96 @@
  "version": 1,
  "stories": [
   {
+   "id": "moon-bunny",
+   "title": "Bông và Ngôi Sao Lạc",
+   "tagline": "Một chú thỏ nhỏ giúp ngôi sao tìm đường về nhà",
+   "description": "Đêm ấy, một ngôi sao nhỏ rơi xuống đồng cỏ. Thỏ Bông dịu dàng giúp bạn ấy trở về bầu trời, và học được rằng lòng tốt nhỏ bé cũng có thể thắp sáng cả màn đêm.",
+   "ageRange": "3–6 tuổi",
+   "category": "Ngủ ngon",
+   "cover": "stories/moon-bunny/scene-1.jpg",
+   "coverColors": [
+    "#8EC5FF",
+    "#FFC7DE"
+   ],
+   "durationMs": 70496,
+   "sceneCount": 5
+  },
+  {
+   "id": "sleepy-bear",
+   "title": "Gấu Con Chưa Buồn Ngủ",
+   "tagline": "Gấu Mun học cách thả lỏng để chìm vào giấc ngủ",
+   "description": "Đêm đã khuya mà gấu con Mun vẫn trằn trọc. Nhờ Bác Cú, các bạn Đom Đóm và những vì sao, Mun học cách hít thở thật chậm và ngủ thật ngon.",
+   "ageRange": "3–6 tuổi",
+   "category": "Ngủ ngon",
+   "cover": "stories/sleepy-bear/scene-1.jpg",
+   "coverColors": [
+    "#B9A8FF",
+    "#FFD9B8"
+   ],
+   "durationMs": 73005,
+   "sceneCount": 5
+  },
+  {
+   "id": "little-whale",
+   "title": "Cá Voi Nhỏ Hát Ru",
+   "tagline": "Lam tìm được bạn mới giữa biển đêm",
+   "description": "Tối nay cá voi nhỏ Lam phải hát một mình giữa biển đêm. Rồi Sứa Nhỏ xuất hiện, sáng lung linh như chiếc đèn lồng, và tiếng hát của Lam đưa mẹ trở về.",
+   "ageRange": "3–6 tuổi",
+   "category": "Biển cả",
+   "cover": "stories/little-whale/scene-1.jpg",
+   "coverColors": [
+    "#8ED8F8",
+    "#FFE0C2"
+   ],
+   "durationMs": 62002,
+   "sceneCount": 5
+  },
+  {
+   "id": "cloud-kitten",
+   "title": "Mèo Mây Đi Tìm Giấc Ngủ",
+   "tagline": "Mèo con đi tìm giấc ngủ bị lạc",
+   "description": "Giấc ngủ của mèo con Mây bị lạc mất. Mây đi hỏi Gió, hỏi Đom Đóm, và cuối cùng tìm thấy giấc ngủ ở một nơi thật gần.",
+   "ageRange": "3–6 tuổi",
+   "category": "Ngủ ngon",
+   "cover": "stories/cloud-kitten/scene-1.jpg",
+   "coverColors": [
+    "#C9B8FF",
+    "#FFE0C2"
+   ],
+   "durationMs": 56914,
+   "sceneCount": 5
+  },
+  {
+   "id": "moon-duckling",
+   "title": "Vịt Con Tắm Trăng",
+   "tagline": "Vịt Vàng hết sợ bóng tối",
+   "description": "Vịt Vàng sợ mặt ao tối om. Nhờ chị Trăng và các bạn Cá Nhỏ, Vịt Vàng thấy ban đêm cũng thật dịu dàng.",
+   "ageRange": "3–6 tuổi",
+   "category": "Can đảm",
+   "cover": "stories/moon-duckling/scene-1.jpg",
+   "coverColors": [
+    "#B8D8FF",
+    "#FFF0C2"
+   ],
+   "durationMs": 57076,
+   "sceneCount": 5
+  },
+  {
+   "id": "counting-frog",
+   "title": "Ếch Xanh Đếm Sao",
+   "tagline": "Cùng Ếch Xanh đếm đến năm rồi ngủ",
+   "description": "Ếch Xanh ngồi trên lá sen và đếm những vì sao. Một, hai, ba, bốn, năm… mắt Ếch Xanh díu lại lúc nào không hay.",
+   "ageRange": "2–5 tuổi",
+   "category": "Học đếm",
+   "cover": "stories/counting-frog/scene-1.jpg",
+   "coverColors": [
+    "#A8E6C8",
+    "#FFE7B8"
+   ],
+   "durationMs": 60926,
+   "sceneCount": 5
+  },
+  {
    "id": "little-turtle",
    "title": "Rùa Nhỏ Về Nhà",
    "tagline": "Hành trình về với biển của Rùa Nhỏ",

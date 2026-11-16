@@ -1,0 +1,291 @@
+{
+ "id": "moon-bunny",
+ "title": "Bông và Ngôi Sao Lạc",
+ "tagline": "Một chú thỏ nhỏ giúp ngôi sao tìm đường về nhà",
+ "description": "Đêm ấy, một ngôi sao nhỏ rơi xuống đồng cỏ. Thỏ Bông dịu dàng giúp bạn ấy trở về bầu trời, và học được rằng lòng tốt nhỏ bé cũng có thể thắp sáng cả màn đêm.",
+ "ageRange": "3–6 tuổi",
+ "category": "Ngủ ngon",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#8EC5FF",
+  "#FFC7DE"
+ ],
+ "characters": [
+  {
+   "id": "bong",
+   "name": "Thỏ Bông",
+   "description": "Chú thỏ trắng tò mò, thích ngắm sao.",
+   "color": "#EDE7FF",
+   "avatar": "bong.jpg"
+  },
+  {
+   "id": "little-star",
+   "name": "Sao Nhỏ",
+   "description": "Ngôi sao bé xíu lỡ rơi khỏi bầu trời.",
+   "color": "#FFD27A",
+   "avatar": "little-star.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "meadow",
+   "image": "scene-1.jpg",
+   "narration": {
+    "female": "narration-1-female.m4a",
+    "ut": "narration-1-ut.m4a",
+    "minh": "narration-1-minh.m4a",
+    "tu": "narration-1-tu.m4a"
+   },
+   "colors": [
+    "#8EC5FF",
+    "#FFD6E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13144,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ở cuối khu rừng xanh, có một đồng cỏ mềm như tấm chăn.",
+     "mood": "gentle"
+    },
+    {
+     "atMs": 4983,
+     "text": "Nơi đó có một chú thỏ trắng tên là Bông.",
+     "mood": "gentle"
+    },
+    {
+     "atMs": 8059,
+     "text": "Mỗi tối, Bông đều ngước nhìn những vì sao lấp lánh.",
+     "mood": "tender"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 4983,
+     "type": "sfx",
+     "sound": "pop"
+    }
+   ]
+  },
+  {
+   "id": "falling-star",
+   "image": "scene-2.jpg",
+   "narration": {
+    "female": "narration-2-female.m4a",
+    "ut": "narration-2-ut.m4a",
+    "minh": "narration-2-minh.m4a",
+    "tu": "narration-2-tu.m4a"
+   },
+   "colors": [
+    "#9DB4FF",
+    "#FFC9DD"
+   ],
+   "motion": "pan-right",
+   "durationMs": 14169,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bỗng nhiên… vụt! Một vệt sáng bay ngang bầu trời.",
+     "mood": "excited"
+    },
+    {
+     "atMs": 4712,
+     "text": "Có thứ gì đó rơi xuống bãi cỏ, sáng lấp la lấp lánh.",
+     "mood": "magical"
+    },
+    {
+     "atMs": 9320,
+     "text": "Bé ơi, chạm vào ánh sáng xem đó là gì nhé!",
+     "mood": "magical"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 400,
+     "type": "sfx",
+     "sound": "whoosh"
+    }
+   ],
+   "interactions": [
+    {
+     "id": "wake-star",
+     "hotspot": {
+      "x": 73,
+      "y": 65
+     },
+     "hint": "Chạm vào ánh sáng",
+     "appearAtMs": 12869,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 73,
+        "y": 65
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lost",
+   "image": "scene-3.jpg",
+   "narration": {
+    "female": "narration-3-female.m4a",
+    "ut": "narration-3-ut.m4a",
+    "minh": "narration-3-minh.m4a",
+    "tu": "narration-3-tu.m4a"
+   },
+   "colors": [
+    "#A9C8FF",
+    "#FFE0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13373,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Chào bạn,” Bông thì thầm. “Bạn là ai thế?”",
+     "speaker": "bong",
+     "mood": "tender"
+    },
+    {
+     "atMs": 4150,
+     "text": "“Mình là Sao Nhỏ… Mình lỡ rơi xuống, không bay về nhà được nữa.”",
+     "speaker": "little-star",
+     "mood": "tender"
+    },
+    {
+     "atMs": 8875,
+     "text": "“Đừng buồn nhé,” Bông nói. “Mình sẽ giúp bạn!”",
+     "speaker": "bong",
+     "mood": "gentle"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 8875,
+     "type": "sfx",
+     "sound": "pop"
+    }
+   ]
+  },
+  {
+   "id": "hilltop",
+   "image": "scene-4.jpg",
+   "narration": {
+    "female": "narration-4-female.m4a",
+    "ut": "narration-4-ut.m4a",
+    "minh": "narration-4-minh.m4a",
+    "tu": "narration-4-tu.m4a"
+   },
+   "colors": [
+    "#B2A8FF",
+    "#FFC6D9"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13210,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hai bạn nhỏ cùng nhau lên đỉnh đồi cao nhất, gần mặt trăng nhất.",
+     "mood": "gentle"
+    },
+    {
+     "atMs": 4842,
+     "text": "Bông nói: “Hãy cùng ước thật to nào!”",
+     "speaker": "bong",
+     "mood": "excited"
+    },
+    {
+     "atMs": 8162,
+     "text": "Bé ơi, chạm vào Sao Nhỏ để gửi bạn ấy về trời nhé!",
+     "mood": "magical"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "send-home",
+     "hotspot": {
+      "x": 66,
+      "y": 46
+     },
+     "hint": "Chạm để gửi Sao Nhỏ về trời",
+     "appearAtMs": 11910,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 66,
+        "y": 46
+       }
+      },
+      {
+       "atMs": 900,
+       "type": "sfx",
+       "sound": "sparkle"
+      },
+      {
+       "atMs": 900,
+       "type": "sparkle",
+       "at": {
+        "x": 75,
+        "y": 22
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "goodnight",
+   "image": "scene-5.jpg",
+   "narration": {
+    "female": "narration-5-female.m4a",
+    "ut": "narration-5-ut.m4a",
+    "minh": "narration-5-minh.m4a",
+    "tu": "narration-5-tu.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 16600,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên bầu trời, Sao Nhỏ lấp lánh sáng nhất, như đang nói lời cảm ơn.",
+     "mood": "tender"
+    },
+    {
+     "atMs": 6044,
+     "text": "Bông nằm xuống thảm cỏ, mắt díu lại, miệng mỉm cười.",
+     "mood": "gentle"
+    },
+    {
+     "atMs": 11190,
+     "text": "Chúc bé ngủ thật ngon, mơ những giấc mơ lấp lánh.",
+     "mood": "tender"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 80,
+      "y": 14
+     }
+    }
+   ]
+  }
+ ]
+}

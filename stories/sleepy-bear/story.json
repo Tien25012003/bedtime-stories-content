@@ -1,0 +1,283 @@
+{
+ "id": "sleepy-bear",
+ "title": "Gấu Con Chưa Buồn Ngủ",
+ "tagline": "Gấu Mun học cách thả lỏng để chìm vào giấc ngủ",
+ "description": "Đêm đã khuya mà gấu con Mun vẫn trằn trọc. Nhờ Bác Cú, các bạn Đom Đóm và những vì sao, Mun học cách hít thở thật chậm và ngủ thật ngon.",
+ "ageRange": "3–6 tuổi",
+ "category": "Ngủ ngon",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B9A8FF",
+  "#FFD9B8"
+ ],
+ "characters": [
+  {
+   "id": "mun",
+   "name": "Gấu Mun",
+   "description": "Chú gấu con đáng yêu, tối nay chưa buồn ngủ.",
+   "color": "#E8CBA8",
+   "avatar": "mun.jpg"
+  },
+  {
+   "id": "cu",
+   "name": "Bác Cú",
+   "description": "Bác cú già thông thái, đeo cặp kính tròn.",
+   "color": "#D9D4E8",
+   "avatar": "cu.jpg"
+  },
+  {
+   "id": "dom-dom",
+   "name": "Đom Đóm",
+   "description": "Những đốm sáng nhỏ bay lượn trong đêm.",
+   "color": "#F4F1A0",
+   "avatar": "dom-dom.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "cave",
+   "image": "scene-1.jpg",
+   "narration": {
+    "female": "narration-1-female.m4a",
+    "ut": "narration-1-ut.m4a",
+    "minh": "narration-1-minh.m4a",
+    "tu": "narration-1-tu.m4a"
+   },
+   "colors": [
+    "#B9A8FF",
+    "#FFD9B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 14101,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trong khu rừng thông, có một chú gấu con tên là Mun."
+    },
+    {
+     "atMs": 4757,
+     "text": "Trời đã tối rồi, nhưng Mun vẫn chưa buồn ngủ chút nào."
+    },
+    {
+     "atMs": 8873,
+     "text": "Mun trở mình qua trái, rồi lại trở mình qua phải."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "owl",
+   "image": "scene-2.jpg",
+   "narration": {
+    "female": "narration-2-female.m4a",
+    "ut": "narration-2-ut.m4a",
+    "minh": "narration-2-minh.m4a",
+    "tu": "narration-2-tu.m4a"
+   },
+   "colors": [
+    "#9FB8FF",
+    "#FFD6E8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 18696,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mun đi ra ngoài và gặp Bác Cú đang đậu trên cành cây."
+    },
+    {
+     "atMs": 4856,
+     "text": "“Cháu thử hít thật sâu, rồi thở ra thật chậm nhé,” Bác Cú nói.",
+     "speaker": "cu"
+    },
+    {
+     "atMs": 10560,
+     "text": "Bé ơi, cùng hít thở với Mun nào. Hít vào… thở ra…"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 4856,
+     "type": "sfx",
+     "sound": "pop"
+    }
+   ]
+  },
+  {
+   "id": "fireflies",
+   "image": "scene-3.jpg",
+   "narration": {
+    "female": "narration-3-female.m4a",
+    "ut": "narration-3-ut.m4a",
+    "minh": "narration-3-minh.m4a",
+    "tu": "narration-3-tu.m4a"
+   },
+   "colors": [
+    "#8EC5A8",
+    "#FFF1B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12986,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bỗng có những đốm sáng nhỏ bay lượn quanh Mun."
+    },
+    {
+     "atMs": 3639,
+     "text": "Đó là các bạn Đom Đóm, đang đi tìm đường về nhà."
+    },
+    {
+     "atMs": 7553,
+     "text": "Bé ơi, chạm vào các bạn Đom Đóm để thắp sáng khu rừng nhé!"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 400,
+     "type": "sfx",
+     "sound": "sparkle"
+    }
+   ],
+   "interactions": [
+    {
+     "id": "light-forest",
+     "hotspot": {
+      "x": 81,
+      "y": 39
+     },
+     "hint": "Chạm vào các bạn Đom Đóm",
+     "appearAtMs": 11686,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 39
+       }
+      },
+      {
+       "atMs": 500,
+       "type": "sparkle",
+       "at": {
+        "x": 40,
+        "y": 30
+       }
+      },
+      {
+       "atMs": 900,
+       "type": "sparkle",
+       "at": {
+        "x": 60,
+        "y": 55
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stars",
+   "image": "scene-4.jpg",
+   "narration": {
+    "female": "narration-4-female.m4a",
+    "ut": "narration-4-ut.m4a",
+    "minh": "narration-4-minh.m4a",
+    "tu": "narration-4-tu.m4a"
+   },
+   "colors": [
+    "#A9A8FF",
+    "#FFC6D9"
+   ],
+   "motion": "pan-left",
+   "durationMs": 15175,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mun nằm xuống bãi cỏ và ngước nhìn bầu trời."
+    },
+    {
+     "atMs": 3898,
+     "text": "“Một ngôi sao, hai ngôi sao, ba ngôi sao…” Mun đếm.",
+     "speaker": "mun"
+    },
+    {
+     "atMs": 9870,
+     "text": "Bé ơi, chạm vào ngôi sao sáng nhất để cùng đếm với Mun nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "brightest-star",
+     "hotspot": {
+      "x": 81,
+      "y": 20
+     },
+     "hint": "Chạm vào ngôi sao sáng nhất",
+     "appearAtMs": 13875,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 20
+       }
+      },
+      {
+       "atMs": 600,
+       "type": "sfx",
+       "sound": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sleep",
+   "image": "scene-5.jpg",
+   "narration": {
+    "female": "narration-5-female.m4a",
+    "ut": "narration-5-ut.m4a",
+    "minh": "narration-5-minh.m4a",
+    "tu": "narration-5-tu.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12047,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mắt Mun nặng dần, nặng dần."
+    },
+    {
+     "atMs": 3425,
+     "text": "Mun cuộn tròn trong hang ấm áp, ôm chiếc chăn nhỏ."
+    },
+    {
+     "atMs": 7366,
+     "text": "Chúc bé ngủ thật ngon, như gấu con Mun nhé."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 78,
+      "y": 24
+     }
+    }
+   ]
+  }
+ ]
+}

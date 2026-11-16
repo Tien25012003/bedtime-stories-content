@@ -1,0 +1,230 @@
+{
+ "id": "cloud-kitten",
+ "title": "Mèo Mây Đi Tìm Giấc Ngủ",
+ "tagline": "Mèo con đi tìm giấc ngủ bị lạc",
+ "description": "Giấc ngủ của mèo con Mây bị lạc mất. Mây đi hỏi Gió, hỏi Đom Đóm, và cuối cùng tìm thấy giấc ngủ ở một nơi thật gần.",
+ "ageRange": "3–6 tuổi",
+ "category": "Ngủ ngon",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C9B8FF",
+  "#FFE0C2"
+ ],
+ "characters": [
+  {
+   "id": "may",
+   "name": "Mèo Mây",
+   "description": "Mèo con lông trắng mềm như mây.",
+   "color": "#F1ECFF",
+   "avatar": "may.jpg"
+  },
+  {
+   "id": "gio",
+   "name": "Bạn Gió",
+   "description": "Làn gió nhỏ hay hát ru.",
+   "color": "#D8F0FF",
+   "avatar": "gio.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#C9B8FF",
+    "#FFE0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11345,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ở một ngôi nhà nhỏ, có cô mèo con tên là Mây."
+    },
+    {
+     "atMs": 3729,
+     "text": "Đêm nay, Mây cứ thao thức mãi, chẳng ngủ được."
+    },
+    {
+     "atMs": 7204,
+     "text": "“Giấc ngủ của mình đi đâu mất rồi?” Mây thắc mắc.",
+     "speaker": "may"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A9D8FF",
+    "#FFE6F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10687,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mây ra vườn và gặp bạn Gió đang dạo chơi."
+    },
+    {
+     "atMs": 3154,
+     "text": "“Bạn Gió ơi, bạn có thấy giấc ngủ của mình không?”",
+     "speaker": "may"
+    },
+    {
+     "atMs": 6248,
+     "text": "“Giấc ngủ thích những nơi thật yên tĩnh đó,” Gió thì thầm.",
+     "speaker": "gio"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#8EC5A8",
+    "#FFF1B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12592,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mây đi tiếp và thấy các bạn Đom Đóm bay lấp lánh."
+    },
+    {
+     "atMs": 3545,
+     "text": "Các bạn rủ Mây thắp đèn để cùng đi tìm giấc ngủ."
+    },
+    {
+     "atMs": 6744,
+     "text": "Bé ơi, chạm vào bạn Đom Đóm sáng nhất nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 83,
+      "y": 17
+     },
+     "hint": "Chạm vào bạn Đom Đóm sáng nhất",
+     "appearAtMs": 9492,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 83,
+        "y": 17
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#9FA8FF",
+    "#FFD6E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12148,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên trời có một đám mây mềm như chiếc gối."
+    },
+    {
+     "atMs": 3146,
+     "text": "“Có lẽ giấc ngủ đang trốn trên đó,” Mây nghĩ.",
+     "speaker": "may"
+    },
+    {
+     "atMs": 6445,
+     "text": "Bé ơi, chạm vào đám mây hình chiếc gối nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 22,
+      "y": 14
+     },
+     "hint": "Chạm vào đám mây hình chiếc gối",
+     "appearAtMs": 9048,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 22,
+        "y": 14
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F9C2DF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10142,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mây trở về chiếc giỏ nhỏ ấm áp của mình."
+    },
+    {
+     "atMs": 3071,
+     "text": "Hóa ra giấc ngủ đang đợi Mây ngay trong chiếc chăn mềm."
+    },
+    {
+     "atMs": 6201,
+     "text": "Chúc bé ngủ thật ngon, như mèo con Mây nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ]
+}

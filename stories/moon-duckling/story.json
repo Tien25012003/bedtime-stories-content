@@ -1,0 +1,229 @@
+{
+ "id": "moon-duckling",
+ "title": "Vịt Con Tắm Trăng",
+ "tagline": "Vịt Vàng hết sợ bóng tối",
+ "description": "Vịt Vàng sợ mặt ao tối om. Nhờ chị Trăng và các bạn Cá Nhỏ, Vịt Vàng thấy ban đêm cũng thật dịu dàng.",
+ "ageRange": "3–6 tuổi",
+ "category": "Can đảm",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8D8FF",
+  "#FFF0C2"
+ ],
+ "characters": [
+  {
+   "id": "vang",
+   "name": "Vịt Vàng",
+   "description": "Chú vịt con lông vàng, hơi nhút nhát.",
+   "color": "#FFF1B8",
+   "avatar": "vang.jpg"
+  },
+  {
+   "id": "trang",
+   "name": "Chị Trăng",
+   "description": "Ông trăng tròn hiền hậu soi sáng mặt ao.",
+   "color": "#FFF6D6",
+   "avatar": "trang.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8D8FF",
+    "#FFF0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12109,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bên bờ ao, có chú vịt con tên là Vịt Vàng."
+    },
+    {
+     "atMs": 3595,
+     "text": "Trời tối rồi, mặt ao đen thẫm, Vịt Vàng thấy sợ."
+    },
+    {
+     "atMs": 7454,
+     "text": "“Tối quá, mình không dám xuống nước đâu,” Vịt Vàng nói.",
+     "speaker": "vang"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A9B8FF",
+    "#FFE9C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11040,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bỗng chị Trăng nhô lên, tròn và sáng dịu."
+    },
+    {
+     "atMs": 3482,
+     "text": "“Đừng sợ nhé, chị sẽ soi đường cho em,” chị Trăng nói.",
+     "speaker": "trang"
+    },
+    {
+     "atMs": 7398,
+     "text": "Mặt ao lấp lánh như trải một tấm thảm bạc."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#8FC8E8",
+    "#FFF1D6"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11577,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Vịt Vàng khẽ bơi ra giữa vầng sáng của chị Trăng."
+    },
+    {
+     "atMs": 3371,
+     "text": "Các bạn Cá Nhỏ ngoi lên chào Vịt Vàng."
+    },
+    {
+     "atMs": 5923,
+     "text": "Bé ơi, chạm vào bạn Cá Nhỏ đang nhảy nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 78,
+      "y": 42
+     },
+     "hint": "Chạm vào bạn Cá Nhỏ đang nhảy",
+     "appearAtMs": 8477,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 78,
+        "y": 42
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#9FB8FF",
+    "#FFE0EC"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11564,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Vịt Vàng và các bạn chơi trò vẽ vòng tròn trên mặt nước."
+    },
+    {
+     "atMs": 3595,
+     "text": "Một bông sen hé nở dưới ánh trăng thơm ngát."
+    },
+    {
+     "atMs": 6365,
+     "text": "Bé ơi, chạm vào bông sen nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 14,
+      "y": 15
+     },
+     "hint": "Chạm vào bông sen",
+     "appearAtMs": 8464,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 14,
+        "y": 15
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F9DCC2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10786,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Vịt Vàng bơi về tổ, lòng thật vui."
+    },
+    {
+     "atMs": 3203,
+     "text": "“Ban đêm cũng đẹp quá,” Vịt Vàng thì thầm rồi nhắm mắt.",
+     "speaker": "vang"
+    },
+    {
+     "atMs": 6708,
+     "text": "Chúc bé ngủ ngon, có chị Trăng thức canh cho bé nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ]
+}
