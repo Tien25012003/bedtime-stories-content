@@ -1,0 +1,231 @@
+{
+ "id": "buffalo-field",
+ "title": "Nghé Con Trên Cánh Đồng Lúa",
+ "tagline": "Buổi trưa trên đồng quê",
+ "description": "Buổi trưa, Nghé Con theo bạn Cò Trắng dạo quanh cánh đồng lúa. Nghé Con biết hạt gạo thơm đến từ đâu.",
+ "ageRange": "3–6 tuổi",
+ "category": "Khám phá",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D8F0B8",
+  "#FFF0C2"
+ ],
+ "productId": "story.buffalo_field",
+ "characters": [
+  {
+   "id": "nghe",
+   "name": "Nghé Con",
+   "description": "Chú trâu con hiền lành, tò mò.",
+   "color": "#D8D8E0",
+   "avatar": "nghe.jpg"
+  },
+  {
+   "id": "co",
+   "name": "Cò Trắng",
+   "description": "Bạn cò chân dài, biết nhiều điều.",
+   "color": "#F4F4F4",
+   "avatar": "co.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#D8F0B8",
+    "#FFF0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10973,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Buổi trưa, nắng vàng trải khắp cánh đồng."
+    },
+    {
+     "atMs": 3183,
+     "text": "Nghé Con đứng ngắm lúa xanh rì rào trong gió."
+    },
+    {
+     "atMs": 6184,
+     "text": "“Lúa để làm gì nhỉ?” Nghé Con tự hỏi.",
+     "speaker": "nghe"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#C8EBC8",
+    "#FFF4D0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10829,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bạn Cò Trắng sải cánh đáp xuống bên cạnh."
+    },
+    {
+     "atMs": 3029,
+     "text": "“Đi với mình, mình chỉ cho bạn xem nhé!” Cò Trắng nói.",
+     "speaker": "co"
+    },
+    {
+     "atMs": 7623,
+     "text": "Hai bạn lội qua bờ ruộng mát rượi."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#F5E6A8",
+    "#FFF4D0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11337,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đây là bông lúa, trĩu hạt vàng ươm."
+    },
+    {
+     "atMs": 3074,
+     "text": "Mỗi hạt lúa sẽ thành một hạt gạo trắng thơm."
+    },
+    {
+     "atMs": 5860,
+     "text": "Bé ơi, chạm vào bông lúa vàng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 45,
+      "y": 48
+     },
+     "hint": "Chạm vào bông lúa vàng",
+     "appearAtMs": 8237,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 45,
+        "y": 48
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFE8C2",
+    "#E8F5D0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13086,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gạo nấu lên thành bát cơm nóng hổi."
+    },
+    {
+     "atMs": 2789,
+     "text": "“Hoá ra cơm bé ăn mỗi ngày là từ cánh đồng này!” Nghé Con nói.",
+     "speaker": "nghe"
+    },
+    {
+     "atMs": 7764,
+     "text": "Bé ơi, chạm vào bát cơm thơm nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 50,
+      "y": 52
+     },
+     "hint": "Chạm vào bát cơm thơm",
+     "appearAtMs": 9986,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 52
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#D0EBC0",
+    "#FFF0C8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10290,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Nghé Con nằm nghỉ dưới gốc đa mát rượi."
+    },
+    {
+     "atMs": 2994,
+     "text": "Gió đồng thổi nhẹ, lúa hát ru rì rào."
+    },
+    {
+     "atMs": 6100,
+     "text": "Bé nhớ ăn hết cơm, cảm ơn các bác nông dân nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "097c3ae374"
+}

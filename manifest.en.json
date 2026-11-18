@@ -181,6 +181,57 @@
    "version": "7978a1d96a",
    "durationMs": 64914,
    "sceneCount": 5
+  },
+  {
+   "id": "owl-leaf-bed",
+   "title": "Fluff the Owl and the Cozy Leaf",
+   "tagline": "Two friends make a cozy nest",
+   "description": "Fluff the little owl wants a softer nest to sleep in. Brown Squirrel helps find a soft leaf, and together they settle down for a peaceful night.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Friendship",
+   "cover": "stories/owl-leaf-bed/scene-1.jpg",
+   "coverColors": [
+    "#D8CCF2",
+    "#F8E5C8"
+   ],
+   "productId": "story.owl_leaf_bed",
+   "version": "31eb8d6db1",
+   "durationMs": 65592,
+   "sceneCount": 5
+  },
+  {
+   "id": "hedgehog-hug",
+   "title": "The Little Hedgehog Who Wanted a Hug",
+   "tagline": "Spiky finds the gentlest hug of all",
+   "description": "Spiky the little hedgehog feels sad because his prickles mean nobody can hug him. Mama Hedgehog shows him how to hug softly, and that night Spiky sleeps snug in her arms.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Feelings",
+   "cover": "stories/hedgehog-hug/scene-1.jpg",
+   "coverColors": [
+    "#F2D3C2",
+    "#D9CCF2"
+   ],
+   "productId": "story.hedgehog_hug",
+   "version": "828d9b5a89",
+   "durationMs": 72222,
+   "sceneCount": 5
+  },
+  {
+   "id": "bear-tidy",
+   "title": "Little Bear Tidies Up",
+   "tagline": "Toys go home, Little Bear goes to bed",
+   "description": "At bedtime, Honey Bear’s toys are scattered all over the room. Mr. Nightlight helps Honey Bear bring each toy home, and then the whole room drifts off to sleep.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Good habits",
+   "cover": "stories/bear-tidy/scene-1.jpg",
+   "coverColors": [
+    "#FFE1B8",
+    "#C9D4FF"
+   ],
+   "productId": "story.bear_tidy",
+   "version": "62de086b3d",
+   "durationMs": 64246,
+   "sceneCount": 5
   }
  ]
 }

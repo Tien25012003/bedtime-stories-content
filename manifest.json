@@ -58,6 +58,7 @@
     "#C9B8FF",
     "#FFE0C2"
    ],
+   "version": "66e8274b05",
    "durationMs": 56914,
    "sceneCount": 5
   },
@@ -73,6 +74,7 @@
     "#B8D8FF",
     "#FFF0C2"
    ],
+   "version": "52e1f9e9bc",
    "durationMs": 57076,
    "sceneCount": 5
   },
@@ -88,6 +90,7 @@
     "#A8E6C8",
     "#FFE7B8"
    ],
+   "version": "0001c456a4",
    "durationMs": 60926,
    "sceneCount": 5
   },
@@ -104,6 +107,7 @@
     "#FFE4C2"
    ],
    "productId": "story.little_turtle",
+   "version": "16c9484e32",
    "durationMs": 55842,
    "sceneCount": 5
   },
@@ -120,6 +124,7 @@
     "#D8C8FF"
    ],
    "productId": "story.fox_lantern",
+   "version": "701b05038f",
    "durationMs": 57955,
    "sceneCount": 5
   },
@@ -136,6 +141,7 @@
     "#FFE0D0"
    ],
    "productId": "story.baby_elephant",
+   "version": "b86894f6e5",
    "durationMs": 57402,
    "sceneCount": 5
   },
@@ -152,6 +158,7 @@
     "#E8D0FF"
    ],
    "productId": "story.dreamy_penguin",
+   "version": "407f876190",
    "durationMs": 55388,
    "sceneCount": 5
   },
@@ -168,7 +175,161 @@
     "#E0C8FF"
    ],
    "productId": "story.squirrel_acorn",
+   "version": "e9c5180595",
    "durationMs": 58506,
+   "sceneCount": 5
+  },
+  {
+   "id": "hippo-teeth",
+   "title": "Hà Mã Nhỏ Đánh Răng",
+   "tagline": "Buổi sáng vui cùng bàn chải",
+   "description": "Sáng nào Hà Mã Nhỏ cũng lười đánh răng. Hôm nay, bạn Chim Sẻ chỉ cho Hà Mã một bí mật: đánh răng cũng vui như một bài hát.",
+   "ageRange": "2–5 tuổi",
+   "category": "Thói quen tốt",
+   "cover": "stories/hippo-teeth/scene-1.jpg",
+   "coverColors": [
+    "#BFE6FF",
+    "#FFF1C2"
+   ],
+   "productId": "story.hippo_teeth",
+   "version": "011cdacc17",
+   "durationMs": 59851,
+   "sceneCount": 5
+  },
+  {
+   "id": "chick-tet",
+   "title": "Gà Con Đi Chợ Tết",
+   "tagline": "Một buổi sáng rộn ràng ngày Tết",
+   "description": "Sáng sớm cuối năm, Gà Con theo mẹ đi chợ Tết. Có hoa mai vàng, bánh chưng xanh và những phong bao đỏ thắm.",
+   "ageRange": "3–6 tuổi",
+   "category": "Văn hoá Việt",
+   "cover": "stories/chick-tet/scene-1.jpg",
+   "coverColors": [
+    "#FFD9B8",
+    "#FFF0B8"
+   ],
+   "productId": "story.chick_tet",
+   "version": "43a5ee3089",
+   "durationMs": 57679,
+   "sceneCount": 5
+  },
+  {
+   "id": "buffalo-field",
+   "title": "Nghé Con Trên Cánh Đồng Lúa",
+   "tagline": "Buổi trưa trên đồng quê",
+   "description": "Buổi trưa, Nghé Con theo bạn Cò Trắng dạo quanh cánh đồng lúa. Nghé Con biết hạt gạo thơm đến từ đâu.",
+   "ageRange": "3–6 tuổi",
+   "category": "Khám phá",
+   "cover": "stories/buffalo-field/scene-1.jpg",
+   "coverColors": [
+    "#D8F0B8",
+    "#FFF0C2"
+   ],
+   "productId": "story.buffalo_field",
+   "version": "097c3ae374",
+   "durationMs": 56515,
+   "sceneCount": 5
+  },
+  {
+   "id": "grumpy-piglet",
+   "title": "Heo Con Hết Giận",
+   "tagline": "Học cách nói ra cảm xúc",
+   "description": "Buổi trưa, Heo Con giận dỗi vì tháp gỗ bị đổ. Nhờ bạn Gấu Trúc, Heo Con học cách hít thở và nói ra điều mình cảm thấy.",
+   "ageRange": "3–6 tuổi",
+   "category": "Cảm xúc",
+   "cover": "stories/grumpy-piglet/scene-1.jpg",
+   "coverColors": [
+    "#FFD6E0",
+    "#E8E0FF"
+   ],
+   "productId": "story.grumpy_piglet",
+   "version": "0577497a2e",
+   "durationMs": 59390,
+   "sceneCount": 5
+  },
+  {
+   "id": "puppy-rainbow",
+   "title": "Cún Con Đi Tìm Cầu Vồng",
+   "tagline": "Buổi chiều sau cơn mưa",
+   "description": "Buổi chiều, cơn mưa vừa tạnh. Cún Con và bạn Ếch Cốm đi tìm chân cầu vồng, và biết cầu vồng có bảy màu thật đẹp.",
+   "ageRange": "3–6 tuổi",
+   "category": "Khám phá",
+   "cover": "stories/puppy-rainbow/scene-1.jpg",
+   "coverColors": [
+    "#C8E6FF",
+    "#FFE6C8"
+   ],
+   "productId": "story.puppy_rainbow",
+   "version": "57c6070577",
+   "durationMs": 59331,
+   "sceneCount": 5
+  },
+  {
+   "id": "mid-autumn-rabbit",
+   "title": "Thỏ Ngọc Rước Đèn Trung Thu",
+   "tagline": "Đêm rằm tháng tám lung linh",
+   "description": "Đêm Trung thu, Thỏ Ngọc từ cung trăng xuống chơi với các bạn nhỏ. Cả xóm rước đèn ông sao, phá cỗ bánh nướng thơm lừng.",
+   "ageRange": "3–7 tuổi",
+   "category": "Văn hoá Việt",
+   "cover": "stories/mid-autumn-rabbit/scene-1.jpg",
+   "coverColors": [
+    "#B8B0FF",
+    "#FFE0B8"
+   ],
+   "productId": "story.mid_autumn_rabbit",
+   "version": "7aa3877bdd",
+   "durationMs": 61191,
+   "sceneCount": 5
+  },
+  {
+   "id": "owl-leaf-bed",
+   "title": "Cú Bông Và Chiếc Lá Êm",
+   "tagline": "Cùng bạn làm một chiếc tổ ấm",
+   "description": "Cú Bông muốn làm một chiếc tổ thật êm để ngủ. Bạn Sóc giúp Bông tìm chiếc lá mềm và cùng đón một đêm yên ả.",
+   "ageRange": "3–6 tuổi",
+   "category": "Tình bạn",
+   "cover": "stories/owl-leaf-bed/scene-1.jpg",
+   "coverColors": [
+    "#D8CCF2",
+    "#F8E5C8"
+   ],
+   "productId": "story.owl_leaf_bed",
+   "version": "557a154aa9",
+   "durationMs": 59064,
+   "sceneCount": 5
+  },
+  {
+   "id": "hedgehog-hug",
+   "title": "Nhím Con Muốn Được Ôm",
+   "tagline": "Nhím Gai tìm ra cái ôm dịu dàng nhất",
+   "description": "Nhím Gai buồn vì bộ gai làm các bạn không ôm được. Mẹ Nhím chỉ cho Gai cách ôm thật nhẹ, và đêm ấy Gai ngủ ngon trong vòng tay mẹ.",
+   "ageRange": "3–6 tuổi",
+   "category": "Cảm xúc",
+   "cover": "stories/hedgehog-hug/scene-1.jpg",
+   "coverColors": [
+    "#F2D3C2",
+    "#D9CCF2"
+   ],
+   "productId": "story.hedgehog_hug",
+   "version": "ebaf16230b",
+   "durationMs": 62393,
+   "sceneCount": 5
+  },
+  {
+   "id": "bear-tidy",
+   "title": "Gấu Con Cất Đồ Chơi",
+   "tagline": "Đồ chơi về nhà, Gấu Con đi ngủ",
+   "description": "Trước giờ ngủ, đồ chơi của Gấu Mật nằm lung tung khắp phòng. Bác Đèn Ngủ giúp Gấu Mật đưa từng món về chỗ, rồi cả phòng cùng chìm vào giấc ngủ.",
+   "ageRange": "3–6 tuổi",
+   "category": "Thói quen tốt",
+   "cover": "stories/bear-tidy/scene-1.jpg",
+   "coverColors": [
+    "#FFE1B8",
+    "#C9D4FF"
+   ],
+   "productId": "story.bear_tidy",
+   "version": "e65511a2e7",
+   "durationMs": 59208,
    "sceneCount": 5
   }
  ]

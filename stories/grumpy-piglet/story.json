@@ -1,0 +1,231 @@
+{
+ "id": "grumpy-piglet",
+ "title": "Heo Con Hết Giận",
+ "tagline": "Học cách nói ra cảm xúc",
+ "description": "Buổi trưa, Heo Con giận dỗi vì tháp gỗ bị đổ. Nhờ bạn Gấu Trúc, Heo Con học cách hít thở và nói ra điều mình cảm thấy.",
+ "ageRange": "3–6 tuổi",
+ "category": "Cảm xúc",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD6E0",
+  "#E8E0FF"
+ ],
+ "productId": "story.grumpy_piglet",
+ "characters": [
+  {
+   "id": "heo",
+   "name": "Heo Con",
+   "description": "Cô heo con hồng hào, hay xị mặt.",
+   "color": "#FFD6E0",
+   "avatar": "heo.jpg"
+  },
+  {
+   "id": "gau-truc",
+   "name": "Gấu Trúc",
+   "description": "Bạn gấu trúc điềm tĩnh, hay giúp đỡ.",
+   "color": "#EDEDED",
+   "avatar": "gau-truc.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#FFD6E0",
+    "#E8E0FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12369,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Buổi trưa, Heo Con xây một cái tháp gỗ thật cao."
+    },
+    {
+     "atMs": 3597,
+     "text": "Bỗng rầm! Tháp đổ sập xuống sàn."
+    },
+    {
+     "atMs": 6970,
+     "text": "“Hứ! Con giận lắm!” Heo Con dậm chân.",
+     "speaker": "heo"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#E8D6E8",
+    "#DDE6FF"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12533,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mặt Heo Con đỏ bừng, như có đám mây đen trên đầu."
+    },
+    {
+     "atMs": 3763,
+     "text": "Bạn Gấu Trúc đi tới, ngồi xuống bên cạnh."
+    },
+    {
+     "atMs": 6858,
+     "text": "“Bạn đang giận phải không? Mình ở đây nè,” Gấu Trúc nói.",
+     "speaker": "gau-truc"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#DDEBFF",
+    "#FFE6F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12441,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Mình cùng thổi chong chóng nhé, hít vào… thổi ra…”"
+    },
+    {
+     "atMs": 3461,
+     "text": "Chong chóng quay vù vù, đám mây đen bay đi mất."
+    },
+    {
+     "atMs": 6648,
+     "text": "Bé ơi, chạm vào chong chóng và cùng thổi nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 29
+     },
+     "hint": "Chạm vào chong chóng",
+     "appearAtMs": 9341,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 29
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFE0EA",
+    "#EDE6FF"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12097,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Con buồn vì tháp bị đổ,” Heo Con nói nhỏ.",
+     "speaker": "heo"
+    },
+    {
+     "atMs": 3491,
+     "text": "Gấu Trúc ôm Heo Con một cái thật ấm."
+    },
+    {
+     "atMs": 6159,
+     "text": "Bé ơi, chạm vào trái tim để gửi cái ôm nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 50,
+      "y": 42
+     },
+     "hint": "Chạm vào trái tim",
+     "appearAtMs": 8997,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 42
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#FFE6D6",
+    "#E6E8FF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 9950,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hai bạn cùng xây lại một cái tháp mới."
+    },
+    {
+     "atMs": 2848,
+     "text": "Tháp mới còn đẹp hơn tháp cũ nữa!"
+    },
+    {
+     "atMs": 5329,
+     "text": "Khi giận, bé hít thở thật sâu rồi nói cho bố mẹ nghe nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "0577497a2e"
+}

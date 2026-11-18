@@ -1,0 +1,247 @@
+{
+ "id": "hedgehog-hug",
+ "title": "The Little Hedgehog Who Wanted a Hug",
+ "tagline": "Spiky finds the gentlest hug of all",
+ "description": "Spiky the little hedgehog feels sad because his prickles mean nobody can hug him. Mama Hedgehog shows him how to hug softly, and that night Spiky sleeps snug in her arms.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Feelings",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#F2D3C2",
+  "#D9CCF2"
+ ],
+ "productId": "story.hedgehog_hug",
+ "characters": [
+  {
+   "id": "gai",
+   "name": "Spiky",
+   "description": "A baby hedgehog with tiny brown prickles.",
+   "color": "#EBD3BE",
+   "avatar": "gai.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mama Hedgehog",
+   "description": "A gentle mama hedgehog with a soft, warm tummy.",
+   "color": "#F5E1CF",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#F2D3C2",
+    "#D9CCF2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 15342,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "At the edge of the forest lived a baby hedgehog named Spiky."
+    },
+    {
+     "atMs": 4362,
+     "text": "This evening his friends hugged each other good night, but Spiky sat all alone."
+    },
+    {
+     "atMs": 9617,
+     "text": "“My prickles are too pointy, nobody can hug me,” Spiky said sadly.",
+     "speaker": "gai"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 373,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a",
+    "ivy": "narration-1-ivy.m4a",
+    "leo": "narration-1-leo.m4a",
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#E6CFE8",
+    "#FBE3C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12969,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Spiky wandered home, where Mama Hedgehog was waiting."
+    },
+    {
+     "atMs": 4064,
+     "text": "“Why are you so sad, my love?” Mama Hedgehog asked gently.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 8735,
+     "text": "Spiky told Mama all about his pointy prickles."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a",
+    "ivy": "narration-2-ivy.m4a",
+    "leo": "narration-2-leo.m4a",
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#EAD6C8",
+    "#FFF0D6"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 15471,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“When you breathe very slowly, your prickles lie down soft,” Mama said.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 4853,
+     "text": "Spiky breathed in, breathed out, and his prickles grew smooth as new grass."
+    },
+    {
+     "atMs": 10289,
+     "text": "Little one, tap the moss pillow!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 15,
+      "y": 61
+     },
+     "hint": "Tap the moss pillow",
+     "appearAtMs": 12371,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 15,
+        "y": 61
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a",
+    "ivy": "narration-3-ivy.m4a",
+    "leo": "narration-3-leo.m4a",
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#D6CCEE",
+    "#FBE0D0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 14732,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mama Hedgehog gave Spiky the softest, warmest hug."
+    },
+    {
+     "atMs": 4806,
+     "text": "A little Firefly peeked in the window and smiled at them both."
+    },
+    {
+     "atMs": 8934,
+     "text": "Little one, tap the Firefly by the window!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 66,
+      "y": 17
+     },
+     "hint": "Tap the Firefly by the window",
+     "appearAtMs": 11632,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 66,
+        "y": 17
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a",
+    "ivy": "narration-4-ivy.m4a",
+    "leo": "narration-4-leo.m4a",
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#BFC3E5",
+    "#F2D8E4"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13708,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Spiky snuggled into Mama’s tummy, and his eyes grew heavy."
+    },
+    {
+     "atMs": 4645,
+     "text": "“Tomorrow I’ll give my friends the gentlest hugs,” Spiky whispered.",
+     "speaker": "gai"
+    },
+    {
+     "atMs": 8937,
+     "text": "Good night, little one, wrapped in a warm, cozy hug."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a",
+    "ivy": "narration-5-ivy.m4a",
+    "leo": "narration-5-leo.m4a",
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "828d9b5a89"
+}

@@ -1,0 +1,231 @@
+{
+ "id": "mid-autumn-rabbit",
+ "title": "Thỏ Ngọc Rước Đèn Trung Thu",
+ "tagline": "Đêm rằm tháng tám lung linh",
+ "description": "Đêm Trung thu, Thỏ Ngọc từ cung trăng xuống chơi với các bạn nhỏ. Cả xóm rước đèn ông sao, phá cỗ bánh nướng thơm lừng.",
+ "ageRange": "3–7 tuổi",
+ "category": "Văn hoá Việt",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8B0FF",
+  "#FFE0B8"
+ ],
+ "productId": "story.mid_autumn_rabbit",
+ "characters": [
+  {
+   "id": "tho-ngoc",
+   "name": "Thỏ Ngọc",
+   "description": "Chú thỏ trắng sống trên cung trăng.",
+   "color": "#F4F0FF",
+   "avatar": "tho-ngoc.jpg"
+  },
+  {
+   "id": "cuoi",
+   "name": "Chú Cuội",
+   "description": "Chú Cuội vui tính ngồi gốc cây đa.",
+   "color": "#F0DCC2",
+   "avatar": "cuoi.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8B0FF",
+    "#FFE0B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10916,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đêm rằm tháng tám, ông trăng tròn vành vạnh."
+    },
+    {
+     "atMs": 3492,
+     "text": "Thỏ Ngọc theo ánh trăng trượt xuống xóm nhỏ."
+    },
+    {
+     "atMs": 6259,
+     "text": "“Trung thu dưới này vui quá!” Thỏ Ngọc reo lên.",
+     "speaker": "tho-ngoc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A8A8F0",
+    "#FFD8C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11899,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chú Cuội ngồi dưới gốc đa, vẫy tay chào."
+    },
+    {
+     "atMs": 3256,
+     "text": "“Thỏ Ngọc ơi, đi rước đèn với các bạn nhé!” Chú Cuội nói.",
+     "speaker": "cuoi"
+    },
+    {
+     "atMs": 7968,
+     "text": "Tiếng trống lân vang lên tùng tùng, rộn ràng."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#9FA0E8",
+    "#FFD0B0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12885,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Các bạn nhỏ cầm đèn ông sao, đèn cá chép đi khắp xóm."
+    },
+    {
+     "atMs": 4207,
+     "text": "Thỏ Ngọc được tặng một chiếc đèn ông sao đỏ."
+    },
+    {
+     "atMs": 7024,
+     "text": "Bé ơi, chạm vào đèn ông sao cho thật sáng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 25,
+      "y": 27
+     },
+     "hint": "Chạm vào đèn ông sao",
+     "appearAtMs": 9785,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 25,
+        "y": 27
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#B0A8F0",
+    "#FFE6C2"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13365,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đến giờ phá cỗ rồi, có bánh nướng, bánh dẻo, có cả bưởi."
+    },
+    {
+     "atMs": 4926,
+     "text": "Cả xóm ngồi quây quần, cười nói vui vẻ."
+    },
+    {
+     "atMs": 7985,
+     "text": "Bé ơi, chạm vào chiếc bánh nướng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 52,
+      "y": 45
+     },
+     "hint": "Chạm vào chiếc bánh nướng",
+     "appearAtMs": 10265,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 52,
+        "y": 45
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F9D2C2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12126,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trăng lên cao, Thỏ Ngọc phải về cung trăng rồi."
+    },
+    {
+     "atMs": 3335,
+     "text": "“Hẹn gặp lại các bạn Trung thu năm sau nhé!” Thỏ Ngọc vẫy tay.",
+     "speaker": "tho-ngoc"
+    },
+    {
+     "atMs": 7850,
+     "text": "Chúc bé ngủ ngon, mơ thấy chị Hằng và Thỏ Ngọc nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "7aa3877bdd"
+}

@@ -1,0 +1,231 @@
+{
+ "id": "hippo-teeth",
+ "title": "Hà Mã Nhỏ Đánh Răng",
+ "tagline": "Buổi sáng vui cùng bàn chải",
+ "description": "Sáng nào Hà Mã Nhỏ cũng lười đánh răng. Hôm nay, bạn Chim Sẻ chỉ cho Hà Mã một bí mật: đánh răng cũng vui như một bài hát.",
+ "ageRange": "2–5 tuổi",
+ "category": "Thói quen tốt",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#BFE6FF",
+  "#FFF1C2"
+ ],
+ "productId": "story.hippo_teeth",
+ "characters": [
+  {
+   "id": "ha-ma",
+   "name": "Hà Mã Nhỏ",
+   "description": "Chú hà mã con, miệng to, hay ngái ngủ.",
+   "color": "#E3D8F5",
+   "avatar": "ha-ma.jpg"
+  },
+  {
+   "id": "se",
+   "name": "Chim Sẻ",
+   "description": "Bạn chim sẻ nhanh nhẹn, hay hát.",
+   "color": "#F5E1C8",
+   "avatar": "se.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#BFE6FF",
+    "#FFF1C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11460,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mặt trời lên rồi, chim hót líu lo bên bờ sông."
+    },
+    {
+     "atMs": 3739,
+     "text": "Hà Mã Nhỏ ngáp một cái thật to, ôi miệng to quá!"
+    },
+    {
+     "atMs": 7314,
+     "text": "“Con chưa muốn đánh răng đâu,” Hà Mã Nhỏ nói.",
+     "speaker": "ha-ma"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#C8ECFF",
+    "#FFE8D0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12166,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bạn Chim Sẻ bay tới, ngậm một chiếc bàn chải nhỏ."
+    },
+    {
+     "atMs": 3813,
+     "text": "“Đánh răng vui lắm, mình hát cho bạn nghe nhé!” Chim Sẻ nói.",
+     "speaker": "se"
+    },
+    {
+     "atMs": 8672,
+     "text": "Hà Mã Nhỏ tò mò mở to đôi mắt."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#B8E0FF",
+    "#FFF4C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12732,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chải lên, chải xuống, chải qua, chải lại."
+    },
+    {
+     "atMs": 3982,
+     "text": "Bọt trắng xoá như những đám mây nhỏ xíu."
+    },
+    {
+     "atMs": 6804,
+     "text": "Bé ơi, chạm vào bàn chải để cùng đánh răng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 32,
+      "y": 42
+     },
+     "hint": "Chạm vào bàn chải đánh răng",
+     "appearAtMs": 9632,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 32,
+        "y": 42
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#C2EAFF",
+    "#FFE6F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12622,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hà Mã Nhỏ súc miệng, ùng ục, ùng ục."
+    },
+    {
+     "atMs": 3465,
+     "text": "Hàm răng trắng tinh, sáng lấp lánh như ngọc."
+    },
+    {
+     "atMs": 6399,
+     "text": "Bé ơi, chạm vào hàm răng sáng bóng của Hà Mã nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 52,
+      "y": 24
+     },
+     "hint": "Chạm vào hàm răng sáng bóng",
+     "appearAtMs": 9522,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 52,
+        "y": 24
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#BFE6FF",
+    "#FFDCC2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10871,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Răng sạch rồi, bữa sáng ngon hơn hẳn."
+    },
+    {
+     "atMs": 3041,
+     "text": "“Mai con sẽ tự đánh răng!” Hà Mã Nhỏ cười tít mắt.",
+     "speaker": "ha-ma"
+    },
+    {
+     "atMs": 6659,
+     "text": "Bé cũng đánh răng thật sạch, sáng tối mỗi ngày nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "011cdacc17"
+}

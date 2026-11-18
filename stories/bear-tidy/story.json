@@ -1,0 +1,241 @@
+{
+ "id": "bear-tidy",
+ "title": "Gấu Con Cất Đồ Chơi",
+ "tagline": "Đồ chơi về nhà, Gấu Con đi ngủ",
+ "description": "Trước giờ ngủ, đồ chơi của Gấu Mật nằm lung tung khắp phòng. Bác Đèn Ngủ giúp Gấu Mật đưa từng món về chỗ, rồi cả phòng cùng chìm vào giấc ngủ.",
+ "ageRange": "3–6 tuổi",
+ "category": "Thói quen tốt",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFE1B8",
+  "#C9D4FF"
+ ],
+ "productId": "story.bear_tidy",
+ "characters": [
+  {
+   "id": "mat",
+   "name": "Gấu Mật",
+   "description": "Chú gấu con màu mật ong, thích chơi đủ trò.",
+   "color": "#F6D7A8",
+   "avatar": "mat.jpg"
+  },
+  {
+   "id": "den",
+   "name": "Bác Đèn Ngủ",
+   "description": "Chiếc đèn ngủ hình trăng khuyết, tỏa ánh vàng dịu.",
+   "color": "#FFF1C2",
+   "avatar": "den.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "ut": "narration-1-ut.m4a",
+    "minh": "narration-1-minh.m4a",
+    "tu": "narration-1-tu.m4a"
+   },
+   "colors": [
+    "#FFE1B8",
+    "#C9D4FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11717,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đến giờ đi ngủ, Gấu Mật mặc bộ đồ ngủ màu xanh."
+    },
+    {
+     "atMs": 3939,
+     "text": "Nhưng đồ chơi vẫn nằm lung tung khắp phòng."
+    },
+    {
+     "atMs": 6572,
+     "text": "“Nhiều đồ chơi quá, cất sao cho hết?” Gấu Mật than.",
+     "speaker": "mat"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "ut": "narration-2-ut.m4a",
+    "minh": "narration-2-minh.m4a",
+    "tu": "narration-2-tu.m4a"
+   },
+   "colors": [
+    "#D9D2FF",
+    "#FFE9C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10996,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bác Đèn Ngủ bật sáng, tỏa ánh vàng dịu dàng."
+    },
+    {
+     "atMs": 3600,
+     "text": "“Mình đưa từng bạn đồ chơi về nhà nhé,” bác nói.",
+     "speaker": "den"
+    },
+    {
+     "atMs": 6868,
+     "text": "Gấu Mật gật đầu, chiếc hộp gỗ đã mở sẵn chờ."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "ut": "narration-3-ut.m4a",
+    "minh": "narration-3-minh.m4a",
+    "tu": "narration-3-tu.m4a"
+   },
+   "colors": [
+    "#FFE6C8",
+    "#D6DCFF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12611,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gấu Mật xếp từng khối gỗ vào hộp, một, hai, ba."
+    },
+    {
+     "atMs": 4437,
+     "text": "Chiếc tàu hỏa nhỏ vẫn còn đỗ trên thảm."
+    },
+    {
+     "atMs": 7233,
+     "text": "Bé ơi, chạm vào chiếc tàu hỏa nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 80,
+      "y": 56
+     },
+     "hint": "Chạm vào chiếc tàu hỏa",
+     "appearAtMs": 9511,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 80,
+        "y": 56
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "ut": "narration-4-ut.m4a",
+    "minh": "narration-4-minh.m4a",
+    "tu": "narration-4-tu.m4a"
+   },
+   "colors": [
+    "#C9CCF2",
+    "#FBE2CC"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12439,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Quả bóng xanh lăn tới tận bậu cửa sổ."
+    },
+    {
+     "atMs": 3055,
+     "text": "Cất bóng xong, Gấu Mật giữ lại bạn Thỏ Bông để ôm khi ngủ."
+    },
+    {
+     "atMs": 7054,
+     "text": "Bé ơi, chạm vào quả bóng xanh nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 14,
+      "y": 21
+     },
+     "hint": "Chạm vào quả bóng xanh",
+     "appearAtMs": 9339,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 14,
+        "y": 21
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "ut": "narration-5-ut.m4a",
+    "minh": "narration-5-minh.m4a",
+    "tu": "narration-5-tu.m4a"
+   },
+   "colors": [
+    "#B9BEE8",
+    "#F6DCC8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11445,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gấu Mật chui vào chăn, ôm Thỏ Bông thật chặt."
+    },
+    {
+     "atMs": 3522,
+     "text": "“Ngủ ngon nhé, cả phòng ơi,” Bác Đèn Ngủ khẽ nói.",
+     "speaker": "den"
+    },
+    {
+     "atMs": 7189,
+     "text": "Chúc bé ngủ ngon, như các bạn đồ chơi đã về nhà."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "e65511a2e7"
+}

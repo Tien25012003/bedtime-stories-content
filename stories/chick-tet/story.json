@@ -1,0 +1,232 @@
+{
+ "id": "chick-tet",
+ "title": "Gà Con Đi Chợ Tết",
+ "tagline": "Một buổi sáng rộn ràng ngày Tết",
+ "description": "Sáng sớm cuối năm, Gà Con theo mẹ đi chợ Tết. Có hoa mai vàng, bánh chưng xanh và những phong bao đỏ thắm.",
+ "ageRange": "3–6 tuổi",
+ "category": "Văn hoá Việt",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD9B8",
+  "#FFF0B8"
+ ],
+ "productId": "story.chick_tet",
+ "characters": [
+  {
+   "id": "ga-con",
+   "name": "Gà Con",
+   "description": "Chú gà con lông vàng, thích khám phá.",
+   "color": "#FFF1B8",
+   "avatar": "ga-con.jpg"
+  },
+  {
+   "id": "ga-me",
+   "name": "Gà Mẹ",
+   "description": "Gà mẹ hiền lành, xách giỏ đi chợ.",
+   "color": "#F5D6B8",
+   "avatar": "ga-me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#FFD9B8",
+    "#FFF0B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10634,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Sáng sớm cuối năm, trời se se lạnh."
+    },
+    {
+     "atMs": 3256,
+     "text": "Gà Con theo mẹ đi chợ Tết, lòng vui rộn ràng."
+    },
+    {
+     "atMs": 6585,
+     "text": "“Chợ Tết có gì hả mẹ?” Gà Con hỏi.",
+     "speaker": "ga-con"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#FFE0C2",
+    "#FFE8F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11487,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chợ Tết đông vui, hoa mai vàng rực, hoa đào hồng tươi."
+    },
+    {
+     "atMs": 4229,
+     "text": "“Hoa mai nở là Tết đến rồi đó con,” Gà Mẹ nói.",
+     "speaker": "ga-me"
+    },
+    {
+     "atMs": 7829,
+     "text": "Gà Con hít hà, thơm quá đi thôi!"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#D8F0C8",
+    "#FFF1C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12295,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đây là bánh chưng, xanh xanh vuông vức."
+    },
+    {
+     "atMs": 2987,
+     "text": "Bánh gói bằng lá dong, bên trong có gạo nếp và đậu xanh."
+    },
+    {
+     "atMs": 6905,
+     "text": "Bé ơi, chạm vào chiếc bánh chưng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 50
+     },
+     "hint": "Chạm vào chiếc bánh chưng",
+     "appearAtMs": 9195,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 50
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFD0C2",
+    "#FFF0C8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12297,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gà Mẹ lấy ra một phong bao đỏ thắm."
+    },
+    {
+     "atMs": 2865,
+     "text": "“Lì xì cho con, chúc con hay ăn chóng lớn,” mẹ nói.",
+     "speaker": "ga-me"
+    },
+    {
+     "atMs": 6763,
+     "text": "Bé ơi, chạm vào phong bao lì xì nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 46,
+      "y": 46
+     },
+     "hint": "Chạm vào phong bao lì xì",
+     "appearAtMs": 9197,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 46,
+        "y": 46
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#FFDCC2",
+    "#FFF4D0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10966,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hai mẹ con xách giỏ đầy ắp về nhà."
+    },
+    {
+     "atMs": 2917,
+     "text": "“Con yêu Tết lắm mẹ ơi!” Gà Con reo lên.",
+     "speaker": "ga-con"
+    },
+    {
+     "atMs": 7029,
+     "text": "Chúc bé một năm mới thật vui, thật khoẻ nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "43a5ee3089"
+}

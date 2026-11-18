@@ -1,0 +1,242 @@
+{
+ "id": "hedgehog-hug",
+ "title": "Nhím Con Muốn Được Ôm",
+ "tagline": "Nhím Gai tìm ra cái ôm dịu dàng nhất",
+ "description": "Nhím Gai buồn vì bộ gai làm các bạn không ôm được. Mẹ Nhím chỉ cho Gai cách ôm thật nhẹ, và đêm ấy Gai ngủ ngon trong vòng tay mẹ.",
+ "ageRange": "3–6 tuổi",
+ "category": "Cảm xúc",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#F2D3C2",
+  "#D9CCF2"
+ ],
+ "productId": "story.hedgehog_hug",
+ "characters": [
+  {
+   "id": "gai",
+   "name": "Nhím Gai",
+   "description": "Chú nhím con có bộ gai nâu nhỏ xíu.",
+   "color": "#EBD3BE",
+   "avatar": "gai.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mẹ Nhím",
+   "description": "Mẹ nhím hiền, có cái bụng mềm và ấm.",
+   "color": "#F5E1CF",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "ut": "narration-1-ut.m4a",
+    "minh": "narration-1-minh.m4a",
+    "tu": "narration-1-tu.m4a"
+   },
+   "colors": [
+    "#F2D3C2",
+    "#D9CCF2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12333,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ở bìa rừng, có chú nhím con tên là Nhím Gai."
+    },
+    {
+     "atMs": 3572,
+     "text": "Chiều nay các bạn ôm nhau chúc ngủ ngon, còn Gai ngồi một mình."
+    },
+    {
+     "atMs": 7261,
+     "text": "“Gai của mình nhọn quá, chẳng ai ôm mình được,” Gai buồn bã.",
+     "speaker": "gai"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "ut": "narration-2-ut.m4a",
+    "minh": "narration-2-minh.m4a",
+    "tu": "narration-2-tu.m4a"
+   },
+   "colors": [
+    "#E6CFE8",
+    "#FBE3C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11408,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gai lững thững về nhà, nơi Mẹ Nhím đang đợi."
+    },
+    {
+     "atMs": 3490,
+     "text": "“Sao con buồn thế?” Mẹ Nhím dịu dàng hỏi.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 7590,
+     "text": "Gai kể cho mẹ nghe chuyện bộ gai nhọn của mình."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "ut": "narration-3-ut.m4a",
+    "minh": "narration-3-minh.m4a",
+    "tu": "narration-3-tu.m4a"
+   },
+   "colors": [
+    "#EAD6C8",
+    "#FFF0D6"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13703,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Con thở thật chậm, gai sẽ nằm xuôi và mềm lại,” mẹ nói.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 4466,
+     "text": "Gai hít vào, thở ra, và bộ gai êm như cỏ non."
+    },
+    {
+     "atMs": 8369,
+     "text": "Bé ơi, chạm vào chiếc gối rêu nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 15,
+      "y": 61
+     },
+     "hint": "Chạm vào chiếc gối rêu",
+     "appearAtMs": 10603,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 15,
+        "y": 61
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "ut": "narration-4-ut.m4a",
+    "minh": "narration-4-minh.m4a",
+    "tu": "narration-4-tu.m4a"
+   },
+   "colors": [
+    "#D6CCEE",
+    "#FBE0D0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13554,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mẹ Nhím ôm Gai thật nhẹ, ấm ơi là ấm."
+    },
+    {
+     "atMs": 3605,
+     "text": "Một bạn Đom Đóm ghé cửa sổ, mỉm cười nhìn hai mẹ con."
+    },
+    {
+     "atMs": 7564,
+     "text": "Bé ơi, chạm vào bạn Đom Đóm bên cửa sổ nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 66,
+      "y": 17
+     },
+     "hint": "Chạm vào bạn Đom Đóm bên cửa sổ",
+     "appearAtMs": 10454,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 66,
+        "y": 17
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "ut": "narration-5-ut.m4a",
+    "minh": "narration-5-minh.m4a",
+    "tu": "narration-5-tu.m4a"
+   },
+   "colors": [
+    "#BFC3E5",
+    "#F2D8E4"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11395,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gai rúc vào bụng mẹ, đôi mắt díu lại."
+    },
+    {
+     "atMs": 3319,
+     "text": "“Ngày mai, con sẽ ôm các bạn thật nhẹ nhàng,” Gai thì thầm.",
+     "speaker": "gai"
+    },
+    {
+     "atMs": 7330,
+     "text": "Chúc bé ngủ ngon, trong một cái ôm thật ấm nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "ebaf16230b"
+}

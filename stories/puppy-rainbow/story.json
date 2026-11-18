@@ -1,0 +1,231 @@
+{
+ "id": "puppy-rainbow",
+ "title": "Cún Con Đi Tìm Cầu Vồng",
+ "tagline": "Buổi chiều sau cơn mưa",
+ "description": "Buổi chiều, cơn mưa vừa tạnh. Cún Con và bạn Ếch Cốm đi tìm chân cầu vồng, và biết cầu vồng có bảy màu thật đẹp.",
+ "ageRange": "3–6 tuổi",
+ "category": "Khám phá",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C8E6FF",
+  "#FFE6C8"
+ ],
+ "productId": "story.puppy_rainbow",
+ "characters": [
+  {
+   "id": "cun",
+   "name": "Cún Con",
+   "description": "Chú cún nhỏ tai cụp, rất hiếu động.",
+   "color": "#F5E1C8",
+   "avatar": "cun.jpg"
+  },
+  {
+   "id": "com",
+   "name": "Ếch Cốm",
+   "description": "Bạn ếch xanh thích mưa.",
+   "color": "#D0F0C8",
+   "avatar": "com.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#C8E6FF",
+    "#FFE6C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11463,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Buổi chiều, cơn mưa rào vừa tạnh."
+    },
+    {
+     "atMs": 2956,
+     "text": "Cún Con chạy ra vườn, lá cây còn đọng nước long lanh."
+    },
+    {
+     "atMs": 6469,
+     "text": "“Ơ, trên trời có gì kìa!” Cún Con reo lên.",
+     "speaker": "cun"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#BFE0FF",
+    "#FFF0C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10957,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Một chiếc cầu vồng thật to vắt ngang bầu trời."
+    },
+    {
+     "atMs": 3103,
+     "text": "“Đó là cầu vồng đấy, mình đi tìm chân cầu vồng nhé!” Ếch Cốm nói.",
+     "speaker": "com"
+    },
+    {
+     "atMs": 8185,
+     "text": "Hai bạn vui vẻ lên đường."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#C2E2F5",
+    "#FFEBD0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11100,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên đường có một vũng nước to."
+    },
+    {
+     "atMs": 2342,
+     "text": "Cún Con nhảy bõm, nước bắn tung toé!"
+    },
+    {
+     "atMs": 5134,
+     "text": "Bé ơi, chạm vào vũng nước để nhảy cùng Cún nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 55
+     },
+     "hint": "Chạm vào vũng nước",
+     "appearAtMs": 8000,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 55
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#D8E6FF",
+    "#FFE0EC"
+   ],
+   "motion": "pan-left",
+   "durationMs": 14382,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Nắng chiếu qua giọt nước, hiện ra bảy màu."
+    },
+    {
+     "atMs": 3243,
+     "text": "Đỏ, cam, vàng, lục, lam, chàm, tím, đẹp quá!"
+    },
+    {
+     "atMs": 8806,
+     "text": "Bé ơi, chạm vào giọt nước lấp lánh nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 56,
+      "y": 25
+     },
+     "hint": "Chạm vào giọt nước lấp lánh",
+     "appearAtMs": 11282,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 56,
+        "y": 25
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#FFD6B8",
+    "#E0D8FF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11429,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cầu vồng mờ dần trong nắng chiều."
+    },
+    {
+     "atMs": 2610,
+     "text": "“Mai mưa, mình lại đi tìm cầu vồng nhé!” Cún Con nói.",
+     "speaker": "cun"
+    },
+    {
+     "atMs": 7115,
+     "text": "Sau cơn mưa, trời lại sáng, bé nhớ nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "57c6070577"
+}

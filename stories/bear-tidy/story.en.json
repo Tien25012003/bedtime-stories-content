@@ -1,0 +1,246 @@
+{
+ "id": "bear-tidy",
+ "title": "Little Bear Tidies Up",
+ "tagline": "Toys go home, Little Bear goes to bed",
+ "description": "At bedtime, Honey Bear’s toys are scattered all over the room. Mr. Nightlight helps Honey Bear bring each toy home, and then the whole room drifts off to sleep.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Good habits",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFE1B8",
+  "#C9D4FF"
+ ],
+ "productId": "story.bear_tidy",
+ "characters": [
+  {
+   "id": "mat",
+   "name": "Honey Bear",
+   "description": "A honey colored bear cub who loves to play.",
+   "color": "#F6D7A8",
+   "avatar": "mat.jpg"
+  },
+  {
+   "id": "den",
+   "name": "Mr. Nightlight",
+   "description": "A crescent moon nightlight with a soft yellow glow.",
+   "color": "#FFF1C2",
+   "avatar": "den.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFE1B8",
+    "#C9D4FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13707,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "It was bedtime, and Honey Bear put on his blue pajamas."
+    },
+    {
+     "atMs": 4316,
+     "text": "But his toys were still scattered all over the room."
+    },
+    {
+     "atMs": 7872,
+     "text": "“So many toys, how will I ever put them all away?” Honey Bear sighed.",
+     "speaker": "mat"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 351,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a",
+    "ivy": "narration-1-ivy.m4a",
+    "leo": "narration-1-leo.m4a",
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#D9D2FF",
+    "#FFE9C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12606,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mr. Nightlight switched on with a gentle golden glow."
+    },
+    {
+     "atMs": 3814,
+     "text": "“Let’s bring each toy back home, one by one,” he said.",
+     "speaker": "den"
+    },
+    {
+     "atMs": 7003,
+     "text": "Honey Bear nodded, and the wooden toy box was already open and waiting."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a",
+    "ivy": "narration-2-ivy.m4a",
+    "leo": "narration-2-leo.m4a",
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#FFE6C8",
+    "#D6DCFF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12282,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Honey Bear put the blocks in the box, one, two, three."
+    },
+    {
+     "atMs": 4035,
+     "text": "The little toy train was still parked on the rug."
+    },
+    {
+     "atMs": 7073,
+     "text": "Little one, tap the toy train!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 80,
+      "y": 56
+     },
+     "hint": "Tap the toy train",
+     "appearAtMs": 9182,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 80,
+        "y": 56
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a",
+    "ivy": "narration-3-ivy.m4a",
+    "leo": "narration-3-leo.m4a",
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#C9CCF2",
+    "#FBE2CC"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12873,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The blue ball had rolled all the way to the windowsill."
+    },
+    {
+     "atMs": 3518,
+     "text": "Once the ball was put away, Honey Bear kept Bunny to cuddle in bed."
+    },
+    {
+     "atMs": 7898,
+     "text": "Little one, tap the blue ball!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 14,
+      "y": 21
+     },
+     "hint": "Tap the blue ball",
+     "appearAtMs": 9773,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 14,
+        "y": 21
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a",
+    "ivy": "narration-4-ivy.m4a",
+    "leo": "narration-4-leo.m4a",
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#B9BEE8",
+    "#F6DCC8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12778,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Honey Bear climbed under the blanket and hugged Bunny tight."
+    },
+    {
+     "atMs": 3912,
+     "text": "“Good night, everyone in the room,” Mr. Nightlight said softly.",
+     "speaker": "den"
+    },
+    {
+     "atMs": 8056,
+     "text": "Good night, little one, just like the toys who all went home."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a",
+    "ivy": "narration-5-ivy.m4a",
+    "leo": "narration-5-leo.m4a",
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "62de086b3d"
+}
