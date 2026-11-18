@@ -170,6 +170,23 @@
    "productId": "story.squirrel_acorn",
    "durationMs": 58506,
    "sceneCount": 5
+  },
+  {
+   "id": "owl-leaf-bed",
+   "title": "Cú Bông Và Chiếc Lá Êm",
+   "tagline": "Cùng bạn làm một chiếc tổ ấm",
+   "description": "Cú Bông muốn làm một chiếc tổ thật êm để ngủ. Bạn Sóc giúp Bông tìm chiếc lá mềm và cùng đón một đêm yên ả.",
+   "ageRange": "3–6 tuổi",
+   "category": "Tình bạn",
+   "cover": "stories/owl-leaf-bed/scene-1.jpg",
+   "coverColors": [
+    "#D8CCF2",
+    "#F8E5C8"
+   ],
+   "productId": "story.owl_leaf_bed",
+   "version": "557a154aa9",
+   "durationMs": 59064,
+   "sceneCount": 5
   }
  ]
 }

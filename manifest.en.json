@@ -181,6 +181,23 @@
    "version": "7978a1d96a",
    "durationMs": 64914,
    "sceneCount": 5
+  },
+  {
+   "id": "owl-leaf-bed",
+   "title": "Fluff the Owl and the Cozy Leaf",
+   "tagline": "Two friends make a cozy nest",
+   "description": "Fluff the little owl wants a softer nest to sleep in. Brown Squirrel helps find a soft leaf, and together they settle down for a peaceful night.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Friendship",
+   "cover": "stories/owl-leaf-bed/scene-1.jpg",
+   "coverColors": [
+    "#D8CCF2",
+    "#F8E5C8"
+   ],
+   "productId": "story.owl_leaf_bed",
+   "version": "31eb8d6db1",
+   "durationMs": 65592,
+   "sceneCount": 5
   }
  ]
 }

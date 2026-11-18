@@ -1,0 +1,246 @@
+{
+ "id": "owl-leaf-bed",
+ "title": "Fluff the Owl and the Cozy Leaf",
+ "tagline": "Two friends make a cozy nest",
+ "description": "Fluff the little owl wants a softer nest to sleep in. Brown Squirrel helps find a soft leaf, and together they settle down for a peaceful night.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Friendship",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D8CCF2",
+  "#F8E5C8"
+ ],
+ "productId": "story.owl_leaf_bed",
+ "characters": [
+  {
+   "id": "bong",
+   "name": "Fluff the Owl",
+   "description": "A little cream colored owl with soft wings.",
+   "color": "#F8E5C8",
+   "avatar": "bong.jpg"
+  },
+  {
+   "id": "soc",
+   "name": "Brown Squirrel",
+   "description": "A caring little brown squirrel with a fluffy tail.",
+   "color": "#E8CDB8",
+   "avatar": "soc.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#D8CCF2",
+    "#F8E5C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12240,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "As evening came, Fluff the Owl tidied the nest in the tree hollow."
+    },
+    {
+     "atMs": 5127,
+     "text": "The little twigs still felt a bit hard underfoot."
+    },
+    {
+     "atMs": 8284,
+     "text": "“I wish my nest were a little softer,” Fluff said.",
+     "speaker": "bong"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 356,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "luna": "narration-1-luna.m4a",
+    "ivy": "narration-1-ivy.m4a",
+    "leo": "narration-1-leo.m4a",
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#DFD8F4",
+    "#F5DFCE"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11348,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Brown Squirrel came by with a few fallen leaves."
+    },
+    {
+     "atMs": 3770,
+     "text": "“Let’s tuck some leaves into your nest,” Squirrel said gently.",
+     "speaker": "soc"
+    },
+    {
+     "atMs": 7480,
+     "text": "Fluff shuffled over to make room for a friend."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-2-luna.m4a",
+    "ivy": "narration-2-ivy.m4a",
+    "leo": "narration-2-leo.m4a",
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#D6DEF0",
+    "#F9E8BA"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12603,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Among the leaves was a soft one shaped like a heart."
+    },
+    {
+     "atMs": 4000,
+     "text": "The two friends placed it on top of all the others."
+    },
+    {
+     "atMs": 7073,
+     "text": "Little one, tap the heart shaped leaf!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 85,
+      "y": 55
+     },
+     "hint": "Tap the heart shaped leaf",
+     "appearAtMs": 9503,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 85,
+        "y": 55
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-3-luna.m4a",
+    "ivy": "narration-3-ivy.m4a",
+    "leo": "narration-3-leo.m4a",
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#C9CBEA",
+    "#EBDCF4"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13647,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Outside the hollow, a star appeared in the darkening sky."
+    },
+    {
+     "atMs": 4386,
+     "text": "“Our nest is cozy now, let’s rest,” Fluff whispered.",
+     "speaker": "bong"
+    },
+    {
+     "atMs": 8188,
+     "text": "Little one, tap the star by the nest!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 37,
+      "y": 21
+     },
+     "hint": "Tap the star by the nest",
+     "appearAtMs": 10547,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 37,
+        "y": 21
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "luna": "narration-4-luna.m4a",
+    "ivy": "narration-4-ivy.m4a",
+    "leo": "narration-4-leo.m4a",
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#BFC3E5",
+    "#E5D7EC"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 15754,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Fluff closed those sleepy eyes and let both wings relax in the soft nest."
+    },
+    {
+     "atMs": 5116,
+     "text": "Squirrel curled up beside the nest, and the two friends slept peacefully in the moonlight."
+    },
+    {
+     "atMs": 10762,
+     "text": "Good night, little one, and may your dreams be soft and sweet."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "luna": "narration-5-luna.m4a",
+    "ivy": "narration-5-ivy.m4a",
+    "leo": "narration-5-leo.m4a",
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "31eb8d6db1"
+}
