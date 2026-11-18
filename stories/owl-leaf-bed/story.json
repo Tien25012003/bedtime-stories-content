@@ -190,8 +190,8 @@
     {
      "id": "tap-4",
      "hotspot": {
-      "x": 37,
-      "y": 21
+      "x": 17,
+      "y": 31
      },
      "hint": "Chạm vào ngôi sao bên cửa tổ",
      "appearAtMs": 9969,
@@ -202,8 +202,8 @@
        "atMs": 0,
        "type": "sparkle",
        "at": {
-        "x": 37,
-        "y": 21
+        "x": 17,
+        "y": 31
        }
       }
      ]
@@ -242,5 +242,5 @@
    "timeline": []
   }
  ],
- "version": "557a154aa9"
+ "version": "d123fc70dd"
 }
