@@ -177,8 +177,8 @@
     {
      "id": "tap-4",
      "hotspot": {
-      "x": 52,
-      "y": 24
+      "x": 45,
+      "y": 40
      },
      "hint": "Chạm vào hàm răng sáng bóng",
      "appearAtMs": 9522,
@@ -189,8 +189,8 @@
        "atMs": 0,
        "type": "sparkle",
        "at": {
-        "x": 52,
-        "y": 24
+        "x": 45,
+        "y": 40
        }
       }
      ]
@@ -227,5 +227,5 @@
    "timeline": []
   }
  ],
- "version": "011cdacc17"
+ "version": "51198abaea"
 }
