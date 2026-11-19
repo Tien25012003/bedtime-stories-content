@@ -1,0 +1,231 @@
+{
+ "id": "easter-lamb",
+ "title": "Cừu Con Đi Tìm Trứng",
+ "tagline": "Một buổi sáng mùa xuân đầy trứng màu",
+ "description": "Sáng mùa xuân, Cừu Con và Gà Bông đi tìm những quả trứng sơn màu giấu khắp đồng cỏ hoa. Tìm được nhiều trứng, Cừu Con chia cho bạn cùng chơi.",
+ "ageRange": "2–5 tuổi",
+ "category": "Lễ hội",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D8F0D0",
+  "#FFE0F0"
+ ],
+ "productId": "story.easter_lamb",
+ "characters": [
+  {
+   "id": "cuu",
+   "name": "Cừu Con",
+   "description": "Cừu nhỏ lông trắng xoăn như mây.",
+   "color": "#F4F0E8",
+   "avatar": "cuu.jpg"
+  },
+  {
+   "id": "ga",
+   "name": "Gà Bông",
+   "description": "Chú gà con lông vàng nhỏ xíu.",
+   "color": "#FFF0B0",
+   "avatar": "ga.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#D8F0D0",
+    "#FFE0F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11119,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mùa xuân về, đồng cỏ nở đầy hoa tulip."
+    },
+    {
+     "atMs": 3369,
+     "text": "Cừu Con xách chiếc giỏ mây nhỏ chạy ra đồng."
+    },
+    {
+     "atMs": 6236,
+     "text": "“Hôm nay mình đi tìm trứng màu!” Cừu Con reo lên.",
+     "speaker": "cuu"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#E0F4D0",
+    "#FFF4C0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10765,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gà Bông chạy lon ton tới, cũng muốn tìm trứng."
+    },
+    {
+     "atMs": 3694,
+     "text": "“Cho mình đi cùng với!” Gà Bông nói.",
+     "speaker": "ga"
+    },
+    {
+     "atMs": 7271,
+     "text": "Hai bạn nắm tay nhau đi khắp đồng cỏ."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#D8E8F8",
+    "#FFD8E0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11992,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ồ, có một quả trứng xanh trốn giữa những bông tulip!"
+    },
+    {
+     "atMs": 3627,
+     "text": "Quả trứng sơn sọc trắng, xinh ơi là xinh."
+    },
+    {
+     "atMs": 6597,
+     "text": "Bé ơi, chạm vào quả trứng xanh nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 52
+     },
+     "hint": "Chạm vào quả trứng xanh",
+     "appearAtMs": 8892,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 52
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFE0E8",
+    "#E8F4D8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12361,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Giỏ của Cừu Con đầy trứng, giỏ của Gà Bông chỉ có một quả."
+    },
+    {
+     "atMs": 4337,
+     "text": "“Mình chia cho bạn nhé,” Cừu Con nói.",
+     "speaker": "cuu"
+    },
+    {
+     "atMs": 6998,
+     "text": "Bé ơi, chạm vào quả trứng hồng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 13,
+      "y": 63
+     },
+     "hint": "Chạm vào quả trứng hồng",
+     "appearAtMs": 9261,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 13,
+        "y": 63
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#FFD8C8",
+    "#E0D8F0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10936,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chơi cả ngày mệt rồi, hai bạn nằm nghỉ dưới gốc táo."
+    },
+    {
+     "atMs": 3708,
+     "text": "Chia sẻ với bạn, lòng Cừu Con vui ấm áp."
+    },
+    {
+     "atMs": 6756,
+     "text": "Chúc bé ngủ ngon, mơ thấy đồng hoa mùa xuân nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "d7933b4043"
+}

@@ -1,0 +1,231 @@
+{
+ "id": "thankful-bear",
+ "title": "Gấu Con Và Bữa Tối Biết Ơn",
+ "tagline": "Một mùa thu đầy lời cảm ơn",
+ "description": "Mùa thu, Gấu Con cùng gia đình hái bí ngô, nướng bánh và quây quần bên bàn ăn. Mỗi người nói một điều mình biết ơn.",
+ "ageRange": "3–6 tuổi",
+ "category": "Lễ hội",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD8B0",
+  "#F0C8A0"
+ ],
+ "productId": "story.thankful_bear",
+ "characters": [
+  {
+   "id": "gau",
+   "name": "Gấu Con",
+   "description": "Gấu nhỏ lông nâu, rất thích bánh bí.",
+   "color": "#E8C8A8",
+   "avatar": "gau.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mẹ Gấu",
+   "description": "Mẹ gấu dịu dàng, khéo nấu ăn.",
+   "color": "#F0D8C0",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#FFD8B0",
+    "#F0C8A0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11506,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mùa thu đến, lá cây chuyển sang màu cam đỏ."
+    },
+    {
+     "atMs": 3586,
+     "text": "Gấu Con kéo chiếc xe gỗ nhỏ ra vườn bí ngô."
+    },
+    {
+     "atMs": 6694,
+     "text": "“Mình sẽ chọn quả bí tròn nhất!” Gấu Con nói.",
+     "speaker": "gau"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#FFE0B8",
+    "#E8D0A8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10884,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gấu Con ôm một quả bí ngô to tròn, nặng ơi là nặng."
+    },
+    {
+     "atMs": 4121,
+     "text": "“Con giỏi quá!” Mẹ Gấu khen.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 7450,
+     "text": "Mẹ hái thêm một giỏ táo đỏ thơm lừng."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#FFE8C0",
+    "#F0D0A8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11034,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hai mẹ con cùng nướng một chiếc bánh bí ngô."
+    },
+    {
+     "atMs": 3073,
+     "text": "Mùi bánh thơm lan khắp căn bếp nhỏ."
+    },
+    {
+     "atMs": 5658,
+     "text": "Bé ơi, chạm vào chiếc bánh bí nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 51
+     },
+     "hint": "Chạm vào chiếc bánh bí",
+     "appearAtMs": 7934,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 51
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFD8B8",
+    "#E8C0A0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11978,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Buổi tối, cả nhà quây quần bên bàn ăn."
+    },
+    {
+     "atMs": 3184,
+     "text": "“Con biết ơn vì có cả nhà ở bên con,” Gấu Con nói.",
+     "speaker": "gau"
+    },
+    {
+     "atMs": 6846,
+     "text": "Bé ơi, chạm vào ngọn nến nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 13,
+      "y": 50
+     },
+     "hint": "Chạm vào ngọn nến",
+     "appearAtMs": 8878,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 13,
+        "y": 50
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#D8C8E0",
+    "#FFE0C0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10866,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "No bụng và vui vẻ, Gấu Con lên giường đi ngủ."
+    },
+    {
+     "atMs": 3896,
+     "text": "Gấu Con thì thầm: “Cảm ơn hôm nay thật đẹp.”"
+    },
+    {
+     "atMs": 6838,
+     "text": "Chúc bé ngủ ngon, và nhớ nói lời cảm ơn nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "d5f22aa38f"
+}

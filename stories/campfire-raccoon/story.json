@@ -1,0 +1,231 @@
+{
+ "id": "campfire-raccoon",
+ "title": "Gấu Mèo Cắm Trại",
+ "tagline": "Một đêm bên lửa trại",
+ "description": "Gấu Mèo Con cùng bố đi cắm trại bên hồ. Hai bố con nướng kẹo dẻo bên lửa trại, ngắm sao, rồi ngủ ngon trong lều.",
+ "ageRange": "3–6 tuổi",
+ "category": "Khám phá",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#A8B8E0",
+  "#FFC8A0"
+ ],
+ "productId": "story.campfire_raccoon",
+ "characters": [
+  {
+   "id": "gaumeo",
+   "name": "Gấu Mèo Con",
+   "description": "Gấu mèo nhỏ đeo \"mặt nạ\" đen quanh mắt.",
+   "color": "#D0D0D8",
+   "avatar": "gaumeo.jpg"
+  },
+  {
+   "id": "bo",
+   "name": "Bố Gấu Mèo",
+   "description": "Bố gấu mèo đội mũ len, rất vui tính.",
+   "color": "#C8C8D0",
+   "avatar": "bo.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#FFC8A0",
+    "#A8C8E0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11910,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cuối tuần, Gấu Mèo Con cùng bố đi cắm trại bên hồ."
+    },
+    {
+     "atMs": 3767,
+     "text": "Hai bố con dựng một chiếc lều nhỏ màu cam."
+    },
+    {
+     "atMs": 6707,
+     "text": "“Tối nay mình ngủ ngoài trời hả bố?” Gấu Mèo Con hỏi.",
+     "speaker": "gaumeo"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#B8A8D8",
+    "#FFD0A0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11825,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trời tối dần, bố nhóm một đống lửa trại nhỏ."
+    },
+    {
+     "atMs": 3766,
+     "text": "“Con nhặt thêm cành khô nhé!” Gấu Mèo Con nói.",
+     "speaker": "gaumeo"
+    },
+    {
+     "atMs": 7702,
+     "text": "Ngọn lửa bập bùng, sưởi ấm cả hai bố con."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#FFC898",
+    "#C8B0D8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12065,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hai bố con nướng kẹo dẻo trên que dài."
+    },
+    {
+     "atMs": 3054,
+     "text": "Kẹo dẻo vàng ruộm, kẹp vào bánh quy với sô cô la."
+    },
+    {
+     "atMs": 6661,
+     "text": "Bé ơi, chạm vào viên kẹo dẻo nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 32,
+      "y": 23
+     },
+     "hint": "Chạm vào viên kẹo dẻo",
+     "appearAtMs": 8965,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 32,
+        "y": 23
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#7888C8",
+    "#C8B8E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12974,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hai bố con nằm trên tấm chăn, ngắm bầu trời đầy sao."
+    },
+    {
+     "atMs": 4026,
+     "text": "“Ngôi sao sáng nhất kia là ngôi sao Bắc Cực,” bố nói.",
+     "speaker": "bo"
+    },
+    {
+     "atMs": 7595,
+     "text": "Bé ơi, chạm vào ngôi sao sáng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 83,
+      "y": 18
+     },
+     "hint": "Chạm vào ngôi sao sáng",
+     "appearAtMs": 9874,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 83,
+        "y": 18
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#A8A8D8",
+    "#FFD8B0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11124,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gấu Mèo Con chui vào túi ngủ ấm áp trong lều."
+    },
+    {
+     "atMs": 3303,
+     "text": "Tiếng ếch kêu ngoài hồ, như bài hát ru dịu dàng."
+    },
+    {
+     "atMs": 6720,
+     "text": "Chúc bé ngủ ngon, như Gấu Mèo Con dưới trời sao nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "03656b7329"
+}

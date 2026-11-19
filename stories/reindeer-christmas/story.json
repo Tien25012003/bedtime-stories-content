@@ -1,0 +1,230 @@
+{
+ "id": "reindeer-christmas",
+ "title": "Tuần Lộc Con Đón Giáng Sinh",
+ "tagline": "Đêm Giáng Sinh ấm áp",
+ "description": "Đêm Giáng Sinh, Tuần Lộc Con cùng bà trang trí cây thông, treo tất bên lò sưởi, rồi ngắm xe trượt tuyết bay qua trăng trước khi đi ngủ.",
+ "ageRange": "3–6 tuổi",
+ "category": "Lễ hội",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C8D8F0",
+  "#FFD8C8"
+ ],
+ "productId": "story.reindeer_christmas",
+ "characters": [
+  {
+   "id": "tuanloc",
+   "name": "Tuần Lộc Con",
+   "description": "Tuần lộc nhỏ có chiếc mũi hồng.",
+   "color": "#E8D0B8",
+   "avatar": "tuanloc.jpg"
+  },
+  {
+   "id": "ba",
+   "name": "Bà Gấu",
+   "description": "Bà gấu hiền lành đeo kính tròn.",
+   "color": "#F0DCC8",
+   "avatar": "ba.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#C8D8F0",
+    "#FFE8D0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12916,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đêm nay là đêm Giáng Sinh, tuyết rơi trắng xóa."
+    },
+    {
+     "atMs": 3650,
+     "text": "Tuần Lộc Con quàng khăn đỏ, chạy đến nhà Bà Gấu."
+    },
+    {
+     "atMs": 7078,
+     "text": "“Bà ơi, mình cùng trang trí cây thông nhé!” Tuần Lộc Con reo lên.",
+     "speaker": "tuanloc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#D8E8C8",
+    "#FFE0C0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12742,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hai bà cháu treo những quả châu đỏ, vàng, xanh lên cây thông."
+    },
+    {
+     "atMs": 4531,
+     "text": "“Cây thông đẹp quá bà ơi!” Tuần Lộc Con nói.",
+     "speaker": "tuanloc"
+    },
+    {
+     "atMs": 8433,
+     "text": "Bà Gấu mỉm cười, đưa cho cháu một ngôi sao vàng."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#E0E8C8",
+    "#FFE8A8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12748,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tuần Lộc Con đứng lên ghế, gắn ngôi sao lên đỉnh cây."
+    },
+    {
+     "atMs": 3926,
+     "text": "Ngôi sao sáng lấp lánh, cả căn phòng ấm áp hẳn lên."
+    },
+    {
+     "atMs": 7536,
+     "text": "Bé ơi, chạm vào ngôi sao nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 49,
+      "y": 19
+     },
+     "hint": "Chạm vào ngôi sao",
+     "appearAtMs": 9648,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 49,
+        "y": 19
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFD8C0",
+    "#F0C8C8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11601,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tuần Lộc Con treo một chiếc tất đỏ bên lò sưởi."
+    },
+    {
+     "atMs": 3340,
+     "text": "Bà để sẵn bánh quy và sữa cho ông già Noel."
+    },
+    {
+     "atMs": 6431,
+     "text": "Bé ơi, chạm vào chiếc tất nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 91,
+      "y": 17
+     },
+     "hint": "Chạm vào chiếc tất",
+     "appearAtMs": 8501,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 91,
+        "y": 17
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#B8C8E8",
+    "#FFE8D8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11024,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ngoài cửa sổ, một chiếc xe trượt tuyết bay ngang qua mặt trăng."
+    },
+    {
+     "atMs": 4169,
+     "text": "Tuần Lộc Con ngáp dài, cuộn mình trong chăn ấm."
+    },
+    {
+     "atMs": 7357,
+     "text": "Chúc bé ngủ ngon, Giáng Sinh an lành nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "e6db3b0854"
+}
