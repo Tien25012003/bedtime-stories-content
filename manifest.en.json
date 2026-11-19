@@ -232,6 +232,91 @@
    "version": "62de086b3d",
    "durationMs": 64246,
    "sceneCount": 5
+  },
+  {
+   "id": "otter-hands",
+   "title": "Otters Hold Hands to Sleep",
+   "tagline": "Hold on tight and nobody drifts away",
+   "description": "Little Otter is afraid to sleep on the sea in case the waves carry her away. Big Brother Otter shares a secret: hold hands tight and fall asleep together.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Friendship",
+   "cover": "stories/otter-hands/scene-1.jpg",
+   "coverColors": [
+    "#B8DCF2",
+    "#FFE2C8"
+   ],
+   "productId": "story.otter_hands",
+   "version": "67ead7f3a2",
+   "durationMs": 60203,
+   "sceneCount": 5
+  },
+  {
+   "id": "snail-slow",
+   "title": "Slow Little Snail",
+   "tagline": "Slow and steady, slow and happy",
+   "description": "Little Snail feels sad for being the slowest in the garden. On the way home one afternoon, Ladybug helps him see how many lovely things you notice when you go slow.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Feelings",
+   "cover": "stories/snail-slow/scene-1.jpg",
+   "coverColors": [
+    "#D0EEC0",
+    "#FFE6C8"
+   ],
+   "productId": "story.snail_slow",
+   "version": "a135b4e530",
+   "durationMs": 64154,
+   "sceneCount": 5
+  },
+  {
+   "id": "shy-firefly",
+   "title": "The Little Firefly Lights Up",
+   "tagline": "Even a small light is precious",
+   "description": "Little Firefly is too shy to light up because her glow is so small. Tonight a baby bunny gets lost, and that small light is just what guides him home.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Courage",
+   "cover": "stories/shy-firefly/scene-1.jpg",
+   "coverColors": [
+    "#B8C2F0",
+    "#FFF0B8"
+   ],
+   "productId": "story.shy_firefly",
+   "version": "c2f8bf3795",
+   "durationMs": 66682,
+   "sceneCount": 5
+  },
+  {
+   "id": "kitten-bath",
+   "title": "Tabby’s Bubble Bath",
+   "tagline": "Clean and cozy, then off to bed",
+   "description": "Tabby the kitten played all day and got muddy from head to toe, but he doesn’t want a bath. Rubber Duck turns bath time into a fun bubble game.",
+   "ageRange": "Ages 2 to 5",
+   "category": "Good habits",
+   "cover": "stories/kitten-bath/scene-1.jpg",
+   "coverColors": [
+    "#C8E8FF",
+    "#FFE0E8"
+   ],
+   "productId": "story.kitten_bath",
+   "version": "1d7a7a6d4d",
+   "durationMs": 64682,
+   "sceneCount": 5
+  },
+  {
+   "id": "koala-rain",
+   "title": "Koala Listens to the Rain",
+   "tagline": "The rain sings a gentle lullaby",
+   "description": "On a rainy night, Baby Koala wakes up to the pitter patter on the leaves. Mama Koala teaches him to listen, and the rain becomes the softest lullaby of all.",
+   "ageRange": "Ages 2 to 5",
+   "category": "Sleepy time",
+   "cover": "stories/koala-rain/scene-1.jpg",
+   "coverColors": [
+    "#B8C8E8",
+    "#E8DCF2"
+   ],
+   "productId": "story.koala_rain",
+   "version": "f53fab0c28",
+   "durationMs": 64981,
+   "sceneCount": 5
   }
  ]
 }

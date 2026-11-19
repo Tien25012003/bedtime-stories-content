@@ -1,0 +1,231 @@
+{
+ "id": "shy-firefly",
+ "title": "The Little Firefly Lights Up",
+ "tagline": "Even a small light is precious",
+ "description": "Little Firefly is too shy to light up because her glow is so small. Tonight a baby bunny gets lost, and that small light is just what guides him home.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Courage",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8C2F0",
+  "#FFF0B8"
+ ],
+ "productId": "story.shy_firefly",
+ "characters": [
+  {
+   "id": "dom",
+   "name": "Little Firefly",
+   "description": "A tiny firefly with a teeny yellow light.",
+   "color": "#FFF4B8",
+   "avatar": "dom.jpg"
+  },
+  {
+   "id": "tho",
+   "name": "Baby Bunny",
+   "description": "A white bunny with long ears, lost in the forest.",
+   "color": "#F4F0F4",
+   "avatar": "tho.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B8C2F0",
+    "#FFF0B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 14565,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Night fell, and the fireflies lit their lights all over the forest."
+    },
+    {
+     "atMs": 5036,
+     "text": "Only Little Firefly hid behind a leaf, too shy to light up."
+    },
+    {
+     "atMs": 9000,
+     "text": "“My light is so tiny, nobody will even see it,” Little Firefly thought.",
+     "speaker": "dom"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 353,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#A8B0E0",
+    "#E8DCF0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10574,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Suddenly, there was a sniffle under a tree."
+    },
+    {
+     "atMs": 3208,
+     "text": "“It’s so dark, I can’t find my way home,” Baby Bunny cried.",
+     "speaker": "tho"
+    },
+    {
+     "atMs": 7155,
+     "text": "Little Firefly really wanted to help."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#B0B8E8",
+    "#FFF0C0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 15130,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Firefly took a deep breath and switched on her light."
+    },
+    {
+     "atMs": 4086,
+     "text": "It was a tiny glow, but just enough to light up Baby Bunny’s face."
+    },
+    {
+     "atMs": 8522,
+     "text": "Little one, tap Little Firefly to make her shine brighter!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 33,
+      "y": 33
+     },
+     "hint": "Tap Little Firefly",
+     "appearAtMs": 12030,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 33,
+        "y": 33
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#A0A8E0",
+    "#FFE6C8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12599,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Firefly flew ahead, and Baby Bunny hopped behind."
+    },
+    {
+     "atMs": 4360,
+     "text": "“There’s my house!” Baby Bunny cheered.",
+     "speaker": "tho"
+    },
+    {
+     "atMs": 7240,
+     "text": "Little one, tap Bunny’s front door!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 81,
+      "y": 43
+     },
+     "hint": "Tap Bunny’s front door",
+     "appearAtMs": 9499,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 43
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F6E2C8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13814,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Baby Bunny snuggled under his blanket and said thank you again and again."
+    },
+    {
+     "atMs": 5174,
+     "text": "That night, Little Firefly was his very own nightlight."
+    },
+    {
+     "atMs": 8993,
+     "text": "Good night, little one. Your little light is precious too."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "c2f8bf3795"
+}

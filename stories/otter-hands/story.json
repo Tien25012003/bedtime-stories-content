@@ -1,0 +1,232 @@
+{
+ "id": "otter-hands",
+ "title": "Rái Cá Nắm Tay Ngủ",
+ "tagline": "Nắm tay nhau thì chẳng ai trôi xa",
+ "description": "Rái Cá Bé sợ ngủ trên mặt biển vì sợ bị sóng đưa đi xa. Anh Rái Cá chỉ cho Bé một bí mật: nắm tay nhau thật chặt rồi cùng ngủ.",
+ "ageRange": "3–6 tuổi",
+ "category": "Tình bạn",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8DCF2",
+  "#FFE2C8"
+ ],
+ "productId": "story.otter_hands",
+ "characters": [
+  {
+   "id": "be",
+   "name": "Rái Cá Bé",
+   "description": "Cô rái cá nhỏ lông nâu mềm, hơi nhút nhát.",
+   "color": "#E8D2BE",
+   "avatar": "be.jpg"
+  },
+  {
+   "id": "anh",
+   "name": "Anh Rái Cá",
+   "description": "Anh rái cá lớn hơn một chút, rất hiền.",
+   "color": "#D8C2A8",
+   "avatar": "anh.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8DCF2",
+    "#FFE2C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12765,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên mặt biển xanh, có cô rái cá nhỏ tên là Rái Cá Bé."
+    },
+    {
+     "atMs": 4138,
+     "text": "Trời sắp tối, sóng khẽ đung đưa lăn tăn."
+    },
+    {
+     "atMs": 7155,
+     "text": "“Lỡ ngủ say, sóng đưa mình đi xa thì sao?” Bé lo lắng.",
+     "speaker": "be"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#C2CCF0",
+    "#FFDCD0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10345,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Anh Rái Cá bơi tới, nằm ngửa ngay bên cạnh."
+    },
+    {
+     "atMs": 3406,
+     "text": "“Đừng lo, anh có một bí mật nè,” Anh Rái Cá cười.",
+     "speaker": "anh"
+    },
+    {
+     "atMs": 7020,
+     "text": "Bé tò mò ghé sát lại gần anh."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#A8D0E0",
+    "#F2E6C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12411,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Anh quấn một dải rong biển mềm quanh bụng hai anh em."
+    },
+    {
+     "atMs": 3470,
+     "text": "“Rong biển giữ cho mình không trôi đi đâu cả,” anh nói.",
+     "speaker": "anh"
+    },
+    {
+     "atMs": 7043,
+     "text": "Bé ơi, chạm vào dải rong biển nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 20,
+      "y": 60
+     },
+     "hint": "Chạm vào dải rong biển",
+     "appearAtMs": 9311,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 20,
+        "y": 60
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#9FAAE0",
+    "#F0D8E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11237,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Rồi hai anh em nắm tay nhau thật chặt."
+    },
+    {
+     "atMs": 2894,
+     "text": "Ông trăng nhô lên, soi sáng mặt biển êm đềm."
+    },
+    {
+     "atMs": 6059,
+     "text": "Bé ơi, chạm vào ông trăng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 81,
+      "y": 14
+     },
+     "hint": "Chạm vào ông trăng",
+     "appearAtMs": 8137,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 14
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#E8D6F0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11091,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Sóng ru nhè nhẹ, mắt Bé díu lại."
+    },
+    {
+     "atMs": 3149,
+     "text": "“Nắm tay anh rồi, em chẳng sợ nữa,” Bé thì thầm.",
+     "speaker": "be"
+    },
+    {
+     "atMs": 6951,
+     "text": "Chúc bé ngủ ngon, nắm tay người thương thật chặt nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "8fea4558f6"
+}

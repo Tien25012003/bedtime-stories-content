@@ -1,0 +1,231 @@
+{
+ "id": "koala-rain",
+ "title": "Koala Listens to the Rain",
+ "tagline": "The rain sings a gentle lullaby",
+ "description": "On a rainy night, Baby Koala wakes up to the pitter patter on the leaves. Mama Koala teaches him to listen, and the rain becomes the softest lullaby of all.",
+ "ageRange": "Ages 2 to 5",
+ "category": "Sleepy time",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8C8E8",
+  "#E8DCF2"
+ ],
+ "productId": "story.koala_rain",
+ "characters": [
+  {
+   "id": "tui",
+   "name": "Baby Koala",
+   "description": "A little grey koala with round, fluffy ears.",
+   "color": "#DCDCE4",
+   "avatar": "tui.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mama Koala",
+   "description": "A warm mama koala who always holds her baby close.",
+   "color": "#E8E4EC",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B8C8E8",
+    "#E8DCF2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13408,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tonight, the rain was falling on the eucalyptus tree."
+    },
+    {
+     "atMs": 4264,
+     "text": "Pitter patter, pitter patter, Baby Koala woke with a start."
+    },
+    {
+     "atMs": 8599,
+     "text": "“Mama, what’s that sound?” Baby Koala asked.",
+     "speaker": "tui"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 346,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#A8B8E0",
+    "#E0D8F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12005,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mama Koala held her baby close and warm."
+    },
+    {
+     "atMs": 3705,
+     "text": "“That’s the rain singing, let’s listen together,” Mama said.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 7171,
+     "text": "Baby Koala closed his eyes and perked up his round ears."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#B0C8D8",
+    "#E6E0F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13861,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Drip, drop, drip, drop, the raindrops danced on the leaves."
+    },
+    {
+     "atMs": 4959,
+     "text": "It sounded like someone playing a very soft drum."
+    },
+    {
+     "atMs": 8376,
+     "text": "Little one, tap the raindrop on the leaf!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 46,
+      "y": 57
+     },
+     "hint": "Tap the raindrop on the leaf",
+     "appearAtMs": 10761,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 46,
+        "y": 57
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#A0B0E0",
+    "#DCE8E0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12802,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Under the tree, Frog sang along, ribbit, ribbit."
+    },
+    {
+     "atMs": 4167,
+     "text": "The rain grew softer and softer, gentle as a lullaby."
+    },
+    {
+     "atMs": 8108,
+     "text": "Little one, tap Frog!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 82,
+      "y": 54
+     },
+     "hint": "Tap Frog",
+     "appearAtMs": 9702,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 82,
+        "y": 54
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#E6D8EC"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12905,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Baby Koala snuggled into Mama, his breathing slow and calm."
+    },
+    {
+     "atMs": 5109,
+     "text": "“The rain is singing you to sleep,” Mama whispered.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 8265,
+     "text": "Good night, little one. Let the rain sing you a lullaby."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "f53fab0c28"
+}

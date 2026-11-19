@@ -331,6 +331,91 @@
    "version": "e65511a2e7",
    "durationMs": 59208,
    "sceneCount": 5
+  },
+  {
+   "id": "otter-hands",
+   "title": "Rái Cá Nắm Tay Ngủ",
+   "tagline": "Nắm tay nhau thì chẳng ai trôi xa",
+   "description": "Rái Cá Bé sợ ngủ trên mặt biển vì sợ bị sóng đưa đi xa. Anh Rái Cá chỉ cho Bé một bí mật: nắm tay nhau thật chặt rồi cùng ngủ.",
+   "ageRange": "3–6 tuổi",
+   "category": "Tình bạn",
+   "cover": "stories/otter-hands/scene-1.jpg",
+   "coverColors": [
+    "#B8DCF2",
+    "#FFE2C8"
+   ],
+   "productId": "story.otter_hands",
+   "version": "8fea4558f6",
+   "durationMs": 57849,
+   "sceneCount": 5
+  },
+  {
+   "id": "snail-slow",
+   "title": "Ốc Sên Đi Chậm",
+   "tagline": "Chậm mà chắc, chậm mà vui",
+   "description": "Ốc Sên Nhỏ buồn vì mình đi chậm nhất khu vườn. Trên đường về nhà buổi chiều, bạn Bọ Rùa giúp Ốc Sên thấy đi chậm lại được ngắm bao nhiêu điều đẹp.",
+   "ageRange": "3–6 tuổi",
+   "category": "Cảm xúc",
+   "cover": "stories/snail-slow/scene-1.jpg",
+   "coverColors": [
+    "#D0EEC0",
+    "#FFE6C8"
+   ],
+   "productId": "story.snail_slow",
+   "version": "9b26efd768",
+   "durationMs": 58616,
+   "sceneCount": 5
+  },
+  {
+   "id": "shy-firefly",
+   "title": "Đom Đóm Nhỏ Thắp Đèn",
+   "tagline": "Ánh sáng nhỏ cũng thật đáng quý",
+   "description": "Đom Đóm Nhỏ ngại thắp đèn vì ánh sáng của mình bé xíu. Đêm nay, một bạn Thỏ con lạc đường, và ánh sáng nhỏ ấy lại là thứ dẫn bạn về nhà.",
+   "ageRange": "3–6 tuổi",
+   "category": "Can đảm",
+   "cover": "stories/shy-firefly/scene-1.jpg",
+   "coverColors": [
+    "#B8C2F0",
+    "#FFF0B8"
+   ],
+   "productId": "story.shy_firefly",
+   "version": "bb29042170",
+   "durationMs": 58951,
+   "sceneCount": 5
+  },
+  {
+   "id": "kitten-bath",
+   "title": "Mèo Mướp Tắm Bong Bóng",
+   "tagline": "Tắm thơm tho rồi đi ngủ",
+   "description": "Mèo Mướp chơi cả ngày, lấm lem khắp người mà chẳng chịu tắm. Bạn Vịt Cao Su biến giờ tắm thành trò chơi bong bóng thật vui.",
+   "ageRange": "2–5 tuổi",
+   "category": "Thói quen tốt",
+   "cover": "stories/kitten-bath/scene-1.jpg",
+   "coverColors": [
+    "#C8E8FF",
+    "#FFE0E8"
+   ],
+   "productId": "story.kitten_bath",
+   "version": "d8acce94fc",
+   "durationMs": 60564,
+   "sceneCount": 5
+  },
+  {
+   "id": "koala-rain",
+   "title": "Gấu Túi Nghe Mưa Ru",
+   "tagline": "Tiếng mưa hát ru dịu dàng",
+   "description": "Đêm mưa, Gấu Túi Con giật mình vì tiếng lộp độp trên lá. Mẹ Gấu Túi dạy con lắng nghe, và tiếng mưa bỗng thành bài hát ru êm nhất.",
+   "ageRange": "2–5 tuổi",
+   "category": "Ngủ ngon",
+   "cover": "stories/koala-rain/scene-1.jpg",
+   "coverColors": [
+    "#B8C8E8",
+    "#E8DCF2"
+   ],
+   "productId": "story.koala_rain",
+   "version": "0dc4a3e0ae",
+   "durationMs": 57679,
+   "sceneCount": 5
   }
  ]
 }

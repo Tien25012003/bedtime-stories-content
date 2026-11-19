@@ -1,0 +1,231 @@
+{
+ "id": "kitten-bath",
+ "title": "Mèo Mướp Tắm Bong Bóng",
+ "tagline": "Tắm thơm tho rồi đi ngủ",
+ "description": "Mèo Mướp chơi cả ngày, lấm lem khắp người mà chẳng chịu tắm. Bạn Vịt Cao Su biến giờ tắm thành trò chơi bong bóng thật vui.",
+ "ageRange": "2–5 tuổi",
+ "category": "Thói quen tốt",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C8E8FF",
+  "#FFE0E8"
+ ],
+ "productId": "story.kitten_bath",
+ "characters": [
+  {
+   "id": "muop",
+   "name": "Mèo Mướp",
+   "description": "Chú mèo con lông vằn xám, rất ham chơi.",
+   "color": "#E0DCD8",
+   "avatar": "muop.jpg"
+  },
+  {
+   "id": "vit",
+   "name": "Vịt Cao Su",
+   "description": "Chú vịt cao su vàng biết cười.",
+   "color": "#FFF1B8",
+   "avatar": "vit.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#C8E8FF",
+    "#FFE0E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12035,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chơi cả ngày ngoài vườn, Mèo Mướp lấm lem từ đầu đến chân."
+    },
+    {
+     "atMs": 4183,
+     "text": "Mẹ gọi đi tắm, Mèo Mướp lắc đầu nguầy nguậy."
+    },
+    {
+     "atMs": 7540,
+     "text": "“Con không thích nước đâu!” Mèo Mướp nói.",
+     "speaker": "muop"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#D0E8FF",
+    "#FFF0D0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12088,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trong bồn tắm, Vịt Cao Su đang bơi giữa đám bọt."
+    },
+    {
+     "atMs": 3546,
+     "text": "“Vào đây chơi bong bóng với mình đi!” Vịt Cao Su gọi.",
+     "speaker": "vit"
+    },
+    {
+     "atMs": 7868,
+     "text": "Mèo Mướp nhón chân, thò một ngón vào nước ấm."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#C8E0FF",
+    "#FFE6F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12477,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Nước ấm thật dễ chịu, bọt xà phòng thơm phức."
+    },
+    {
+     "atMs": 3361,
+     "text": "Một quả bong bóng to bay lên, lấp lánh bảy màu."
+    },
+    {
+     "atMs": 6824,
+     "text": "Bé ơi, chạm vào bong bóng xà phòng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 58,
+      "y": 20
+     },
+     "hint": "Chạm vào bong bóng xà phòng",
+     "appearAtMs": 9377,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 58,
+        "y": 20
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFE0EC",
+    "#D8E8FF"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13463,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tắm xong, Mèo Mướp quấn khăn bông, thơm tho mềm mại."
+    },
+    {
+     "atMs": 4101,
+     "text": "“Mai mình lại tắm bong bóng nhé!” Mèo Mướp cười.",
+     "speaker": "muop"
+    },
+    {
+     "atMs": 8084,
+     "text": "Bé ơi, chạm vào miếng bọt biển nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 11,
+      "y": 61
+     },
+     "hint": "Chạm vào miếng bọt biển",
+     "appearAtMs": 10363,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 11,
+        "y": 61
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#A8B0EC",
+    "#F6DCE8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10501,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mèo Mướp nằm trong chăn, lông mềm như bông."
+    },
+    {
+     "atMs": 3392,
+     "text": "Người thơm tho, giấc ngủ cũng đến thật nhanh."
+    },
+    {
+     "atMs": 6451,
+     "text": "Chúc bé ngủ ngon, tắm thơm rồi đi ngủ bé nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "d8acce94fc"
+}

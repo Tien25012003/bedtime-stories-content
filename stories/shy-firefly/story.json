@@ -1,0 +1,231 @@
+{
+ "id": "shy-firefly",
+ "title": "Đom Đóm Nhỏ Thắp Đèn",
+ "tagline": "Ánh sáng nhỏ cũng thật đáng quý",
+ "description": "Đom Đóm Nhỏ ngại thắp đèn vì ánh sáng của mình bé xíu. Đêm nay, một bạn Thỏ con lạc đường, và ánh sáng nhỏ ấy lại là thứ dẫn bạn về nhà.",
+ "ageRange": "3–6 tuổi",
+ "category": "Can đảm",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8C2F0",
+  "#FFF0B8"
+ ],
+ "productId": "story.shy_firefly",
+ "characters": [
+  {
+   "id": "dom",
+   "name": "Đom Đóm Nhỏ",
+   "description": "Bạn đom đóm tí hon, có chiếc đèn vàng nhỏ xíu.",
+   "color": "#FFF4B8",
+   "avatar": "dom.jpg"
+  },
+  {
+   "id": "tho",
+   "name": "Thỏ Con",
+   "description": "Bạn thỏ trắng tai dài, bị lạc trong rừng.",
+   "color": "#F4F0F4",
+   "avatar": "tho.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8C2F0",
+    "#FFF0B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12379,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đêm xuống, các bạn đom đóm thắp đèn bay khắp rừng."
+    },
+    {
+     "atMs": 3689,
+     "text": "Chỉ có Đom Đóm Nhỏ trốn sau chiếc lá, chẳng dám thắp đèn."
+    },
+    {
+     "atMs": 7543,
+     "text": "“Đèn của mình nhỏ xíu, ai mà thấy được,” Đom Đóm nghĩ.",
+     "speaker": "dom"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A8B0E0",
+    "#E8DCF0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 9556,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bỗng có tiếng sụt sịt dưới gốc cây."
+    },
+    {
+     "atMs": 2631,
+     "text": "“Tối quá, mình không tìm được đường về nhà,” Thỏ Con khóc.",
+     "speaker": "tho"
+    },
+    {
+     "atMs": 6362,
+     "text": "Đom Đóm Nhỏ muốn giúp bạn lắm."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#B0B8E8",
+    "#FFF0C0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13290,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đom Đóm hít một hơi thật sâu, rồi thắp đèn lên."
+    },
+    {
+     "atMs": 3665,
+     "text": "Ánh sáng nhỏ xíu, nhưng đủ soi khuôn mặt Thỏ Con."
+    },
+    {
+     "atMs": 7114,
+     "text": "Bé ơi, chạm vào Đom Đóm Nhỏ để đèn sáng hơn nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 33,
+      "y": 33
+     },
+     "hint": "Chạm vào Đom Đóm Nhỏ",
+     "appearAtMs": 10190,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 33,
+        "y": 33
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#A0A8E0",
+    "#FFE6C8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12101,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đom Đóm bay trước, Thỏ Con nhảy theo sau."
+    },
+    {
+     "atMs": 3307,
+     "text": "“Nhà mình kia rồi!” Thỏ Con reo lên.",
+     "speaker": "tho"
+    },
+    {
+     "atMs": 6743,
+     "text": "Bé ơi, chạm vào cửa nhà Thỏ nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 81,
+      "y": 43
+     },
+     "hint": "Chạm vào cửa nhà Thỏ",
+     "appearAtMs": 9001,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 43
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F6E2C8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11625,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Thỏ Con chui vào chăn, cảm ơn Đom Đóm mãi."
+    },
+    {
+     "atMs": 3552,
+     "text": "Đêm ấy, Đom Đóm Nhỏ làm chiếc đèn ngủ cho bạn."
+    },
+    {
+     "atMs": 7060,
+     "text": "Chúc bé ngủ ngon, ánh sáng nhỏ của bé cũng thật quý nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "bb29042170"
+}

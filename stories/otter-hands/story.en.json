@@ -1,0 +1,232 @@
+{
+ "id": "otter-hands",
+ "title": "Otters Hold Hands to Sleep",
+ "tagline": "Hold on tight and nobody drifts away",
+ "description": "Little Otter is afraid to sleep on the sea in case the waves carry her away. Big Brother Otter shares a secret: hold hands tight and fall asleep together.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Friendship",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8DCF2",
+  "#FFE2C8"
+ ],
+ "productId": "story.otter_hands",
+ "characters": [
+  {
+   "id": "be",
+   "name": "Little Otter",
+   "description": "A tiny otter with soft brown fur, a little bit shy.",
+   "color": "#E8D2BE",
+   "avatar": "be.jpg"
+  },
+  {
+   "id": "anh",
+   "name": "Big Brother Otter",
+   "description": "A slightly bigger otter who is very kind.",
+   "color": "#D8C2A8",
+   "avatar": "anh.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B8DCF2",
+    "#FFE2C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12970,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On the blue sea lived a tiny otter named Little Otter."
+    },
+    {
+     "atMs": 3870,
+     "text": "Night was coming, and the little waves rocked gently."
+    },
+    {
+     "atMs": 7229,
+     "text": "“What if I fall asleep and the waves carry me far away?” Little Otter worried.",
+     "speaker": "be"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 305,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#C2CCF0",
+    "#FFDCD0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11337,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Big Brother Otter swam over and floated right beside her."
+    },
+    {
+     "atMs": 4202,
+     "text": "“Don’t worry, I have a secret,” Big Brother Otter smiled.",
+     "speaker": "anh"
+    },
+    {
+     "atMs": 7866,
+     "text": "Little Otter leaned in close to listen."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#A8D0E0",
+    "#F2E6C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11438,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "He wrapped a soft ribbon of kelp around them both."
+    },
+    {
+     "atMs": 3210,
+     "text": "“The kelp keeps us from drifting anywhere,” he said.",
+     "speaker": "anh"
+    },
+    {
+     "atMs": 6211,
+     "text": "Little one, tap the ribbon of kelp!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 20,
+      "y": 60
+     },
+     "hint": "Tap the ribbon of kelp",
+     "appearAtMs": 8338,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 20,
+        "y": 60
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#9FAAE0",
+    "#F0D8E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11365,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Then the two of them held hands, nice and tight."
+    },
+    {
+     "atMs": 3358,
+     "text": "The Moon rose up and lit the calm, quiet sea."
+    },
+    {
+     "atMs": 6769,
+     "text": "Little one, tap the Moon!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 81,
+      "y": 14
+     },
+     "hint": "Tap the Moon",
+     "appearAtMs": 8265,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 14
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#E8D6F0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13093,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The waves rocked softly, and Little Otter’s eyes grew heavy."
+    },
+    {
+     "atMs": 4221,
+     "text": "“Holding your hand, I’m not scared anymore,” Little Otter whispered.",
+     "speaker": "be"
+    },
+    {
+     "atMs": 8698,
+     "text": "Good night, little one. Hold the ones you love tight."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "67ead7f3a2"
+}

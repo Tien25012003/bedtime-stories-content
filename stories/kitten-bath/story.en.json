@@ -1,0 +1,231 @@
+{
+ "id": "kitten-bath",
+ "title": "Tabby’s Bubble Bath",
+ "tagline": "Clean and cozy, then off to bed",
+ "description": "Tabby the kitten played all day and got muddy from head to toe, but he doesn’t want a bath. Rubber Duck turns bath time into a fun bubble game.",
+ "ageRange": "Ages 2 to 5",
+ "category": "Good habits",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C8E8FF",
+  "#FFE0E8"
+ ],
+ "productId": "story.kitten_bath",
+ "characters": [
+  {
+   "id": "muop",
+   "name": "Tabby",
+   "description": "A grey striped kitten who loves to play.",
+   "color": "#E0DCD8",
+   "avatar": "muop.jpg"
+  },
+  {
+   "id": "vit",
+   "name": "Rubber Duck",
+   "description": "A smiling yellow rubber duck.",
+   "color": "#FFF1B8",
+   "avatar": "vit.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#C8E8FF",
+    "#FFE0E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11749,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "After playing in the garden all day, Tabby was muddy from head to toe."
+    },
+    {
+     "atMs": 4587,
+     "text": "When Mama called him for a bath, Tabby shook his head."
+    },
+    {
+     "atMs": 8192,
+     "text": "“I don’t like water!” Tabby said.",
+     "speaker": "muop"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 293,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#D0E8FF",
+    "#FFF0D0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11812,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In the tub, Rubber Duck was swimming through the bubbles."
+    },
+    {
+     "atMs": 3980,
+     "text": "“Come play bubbles with me!” Rubber Duck called.",
+     "speaker": "vit"
+    },
+    {
+     "atMs": 7135,
+     "text": "Tabby tiptoed over and dipped one paw in the warm water."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#C8E0FF",
+    "#FFE6F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13405,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The warm water felt so nice, and the soap smelled lovely."
+    },
+    {
+     "atMs": 4468,
+     "text": "A big bubble floated up, shimmering with rainbow colors."
+    },
+    {
+     "atMs": 8272,
+     "text": "Little one, tap the soap bubble!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 58,
+      "y": 20
+     },
+     "hint": "Tap the soap bubble",
+     "appearAtMs": 10305,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 58,
+        "y": 20
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFE0EC",
+    "#D8E8FF"
+   ],
+   "motion": "pan-left",
+   "durationMs": 14249,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "After his bath, Tabby wrapped up in a towel, all fresh and soft."
+    },
+    {
+     "atMs": 5335,
+     "text": "“Let’s have a bubble bath again tomorrow!” Tabby giggled.",
+     "speaker": "muop"
+    },
+    {
+     "atMs": 8977,
+     "text": "Little one, tap the bath sponge!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 11,
+      "y": 61
+     },
+     "hint": "Tap the bath sponge",
+     "appearAtMs": 11149,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 11,
+        "y": 61
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#A8B0EC",
+    "#F6DCE8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13467,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tabby lay under his blanket, his fur as soft as cotton."
+    },
+    {
+     "atMs": 4624,
+     "text": "All clean and cozy, sleep came along very quickly."
+    },
+    {
+     "atMs": 8578,
+     "text": "Good night, little one. A warm bath, and then off to bed."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "1d7a7a6d4d"
+}

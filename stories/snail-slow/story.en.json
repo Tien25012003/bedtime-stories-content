@@ -1,0 +1,232 @@
+{
+ "id": "snail-slow",
+ "title": "Slow Little Snail",
+ "tagline": "Slow and steady, slow and happy",
+ "description": "Little Snail feels sad for being the slowest in the garden. On the way home one afternoon, Ladybug helps him see how many lovely things you notice when you go slow.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Feelings",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D0EEC0",
+  "#FFE6C8"
+ ],
+ "productId": "story.snail_slow",
+ "characters": [
+  {
+   "id": "oc",
+   "name": "Little Snail",
+   "description": "A little snail with a swirly orange shell.",
+   "color": "#FFE0C2",
+   "avatar": "oc.jpg"
+  },
+  {
+   "id": "bo-rua",
+   "name": "Ladybug",
+   "description": "A cheerful red ladybug with black spots.",
+   "color": "#FFD0C8",
+   "avatar": "bo-rua.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#D0EEC0",
+    "#FFE6C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13308,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "This afternoon, everyone in the garden was in a hurry."
+    },
+    {
+     "atMs": 4041,
+     "text": "Rabbit zoomed, Grasshopper hopped, and Little Snail crept along bit by bit."
+    },
+    {
+     "atMs": 9300,
+     "text": "“Why am I so slow?” Little Snail sighed.",
+     "speaker": "oc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 326,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#E0F0C8",
+    "#FFDCC8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12179,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ladybug landed on a leaf right beside him."
+    },
+    {
+     "atMs": 3420,
+     "text": "“When you go slow, you get to see so many things,” Ladybug said.",
+     "speaker": "bo-rua"
+    },
+    {
+     "atMs": 7548,
+     "text": "So the two friends strolled home together, nice and easy."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#C8ECD8",
+    "#FFF0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12201,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On a leaf sat a round dewdrop, sparkling like a jewel."
+    },
+    {
+     "atMs": 4203,
+     "text": "Inside the dewdrop was a teeny tiny sun."
+    },
+    {
+     "atMs": 7339,
+     "text": "Little one, tap the dewdrop!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 52,
+      "y": 41
+     },
+     "hint": "Tap the dewdrop",
+     "appearAtMs": 9101,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 52,
+        "y": 41
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFD8C8",
+    "#E6D8F5"
+   ],
+   "motion": "pan-left",
+   "durationMs": 14464,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The sun went down, and a pink flower gently closed its petals."
+    },
+    {
+     "atMs": 4697,
+     "text": "“The flower is going to sleep too!” Little Snail cheered.",
+     "speaker": "oc"
+    },
+    {
+     "atMs": 8583,
+     "text": "Little one, tap the flower to wish it good night!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 30,
+      "y": 19
+     },
+     "hint": "Tap the flower",
+     "appearAtMs": 11364,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 30,
+        "y": 19
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#A8B0E8",
+    "#F2DCC8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12002,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Snail got home and tucked into his warm shell."
+    },
+    {
+     "atMs": 3795,
+     "text": "“I saw so many beautiful things today,” Little Snail smiled.",
+     "speaker": "oc"
+    },
+    {
+     "atMs": 7709,
+     "text": "Good night, little one. It’s okay to take your time."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "a135b4e530"
+}

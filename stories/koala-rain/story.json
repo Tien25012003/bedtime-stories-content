@@ -1,0 +1,231 @@
+{
+ "id": "koala-rain",
+ "title": "Gấu Túi Nghe Mưa Ru",
+ "tagline": "Tiếng mưa hát ru dịu dàng",
+ "description": "Đêm mưa, Gấu Túi Con giật mình vì tiếng lộp độp trên lá. Mẹ Gấu Túi dạy con lắng nghe, và tiếng mưa bỗng thành bài hát ru êm nhất.",
+ "ageRange": "2–5 tuổi",
+ "category": "Ngủ ngon",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8C8E8",
+  "#E8DCF2"
+ ],
+ "productId": "story.koala_rain",
+ "characters": [
+  {
+   "id": "tui",
+   "name": "Gấu Túi Con",
+   "description": "Chú gấu túi nhỏ lông xám, tai tròn bông xù.",
+   "color": "#DCDCE4",
+   "avatar": "tui.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mẹ Gấu Túi",
+   "description": "Mẹ gấu túi ấm áp, luôn ôm con vào lòng.",
+   "color": "#E8E4EC",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8C8E8",
+    "#E8DCF2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11621,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đêm nay, mưa rơi trên cây bạch đàn."
+    },
+    {
+     "atMs": 3013,
+     "text": "Lộp độp, lộp độp, Gấu Túi Con giật mình thức giấc."
+    },
+    {
+     "atMs": 6631,
+     "text": "“Mẹ ơi, tiếng gì thế?” Gấu Túi Con hỏi.",
+     "speaker": "tui"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A8B8E0",
+    "#E0D8F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11345,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mẹ Gấu Túi ôm con vào lòng thật ấm."
+    },
+    {
+     "atMs": 2953,
+     "text": "“Đó là mưa đang hát đấy con, mình cùng nghe nhé,” mẹ nói.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 6982,
+     "text": "Gấu Túi Con nhắm mắt, dỏng đôi tai tròn lên nghe."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#B0C8D8",
+    "#E6E0F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12048,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tí tách, tí tách, giọt mưa nhảy trên lá bạch đàn."
+    },
+    {
+     "atMs": 4033,
+     "text": "Nghe như ai đang gõ trống thật khẽ."
+    },
+    {
+     "atMs": 6495,
+     "text": "Bé ơi, chạm vào giọt mưa trên lá nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 46,
+      "y": 57
+     },
+     "hint": "Chạm vào giọt mưa trên lá",
+     "appearAtMs": 8948,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 46,
+        "y": 57
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#A0B0E0",
+    "#DCE8E0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12494,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Dưới gốc cây, bạn Ếch cũng hát theo, ộp ộp."
+    },
+    {
+     "atMs": 3730,
+     "text": "Mưa nhỏ dần, nhỏ dần, êm như tiếng hát ru."
+    },
+    {
+     "atMs": 7349,
+     "text": "Bé ơi, chạm vào bạn Ếch nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 82,
+      "y": 54
+     },
+     "hint": "Chạm vào bạn Ếch",
+     "appearAtMs": 9394,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 82,
+        "y": 54
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#E6D8EC"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10171,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gấu Túi Con rúc vào lòng mẹ, hơi thở chậm dần."
+    },
+    {
+     "atMs": 3698,
+     "text": "“Mưa ru con ngủ đó,” mẹ thì thầm.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 6333,
+     "text": "Chúc bé ngủ ngon, nghe mưa hát ru bé nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "0dc4a3e0ae"
+}

@@ -1,0 +1,232 @@
+{
+ "id": "snail-slow",
+ "title": "Ốc Sên Đi Chậm",
+ "tagline": "Chậm mà chắc, chậm mà vui",
+ "description": "Ốc Sên Nhỏ buồn vì mình đi chậm nhất khu vườn. Trên đường về nhà buổi chiều, bạn Bọ Rùa giúp Ốc Sên thấy đi chậm lại được ngắm bao nhiêu điều đẹp.",
+ "ageRange": "3–6 tuổi",
+ "category": "Cảm xúc",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D0EEC0",
+  "#FFE6C8"
+ ],
+ "productId": "story.snail_slow",
+ "characters": [
+  {
+   "id": "oc",
+   "name": "Ốc Sên Nhỏ",
+   "description": "Chú ốc sên có chiếc vỏ xoắn màu cam.",
+   "color": "#FFE0C2",
+   "avatar": "oc.jpg"
+  },
+  {
+   "id": "bo-rua",
+   "name": "Bọ Rùa",
+   "description": "Bạn bọ rùa đỏ chấm bi, rất vui tính.",
+   "color": "#FFD0C8",
+   "avatar": "bo-rua.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#D0EEC0",
+    "#FFE6C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12232,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chiều nay, cả khu vườn ai cũng vội vội vàng vàng."
+    },
+    {
+     "atMs": 3485,
+     "text": "Thỏ chạy vèo, Châu Chấu nhảy tót, còn Ốc Sên Nhỏ bò từng chút."
+    },
+    {
+     "atMs": 7792,
+     "text": "“Sao mình chậm thế này?” Ốc Sên buồn rầu.",
+     "speaker": "oc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#E0F0C8",
+    "#FFDCC8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 9798,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bạn Bọ Rùa đáp xuống chiếc lá bên cạnh."
+    },
+    {
+     "atMs": 3034,
+     "text": "“Đi chậm thì được ngắm nhiều thứ lắm đó,” Bọ Rùa nói.",
+     "speaker": "bo-rua"
+    },
+    {
+     "atMs": 6657,
+     "text": "Hai bạn cùng thong thả đi về nhà."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#C8ECD8",
+    "#FFF0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12120,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên lá có một giọt sương tròn, lấp lánh như viên ngọc."
+    },
+    {
+     "atMs": 3802,
+     "text": "Bên trong giọt sương có cả một mặt trời nhỏ xíu."
+    },
+    {
+     "atMs": 6934,
+     "text": "Bé ơi, chạm vào giọt sương nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 52,
+      "y": 41
+     },
+     "hint": "Chạm vào giọt sương",
+     "appearAtMs": 9020,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 52,
+        "y": 41
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFD8C8",
+    "#E6D8F5"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13414,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mặt trời lặn, bông hoa hồng khẽ khép cánh lại."
+    },
+    {
+     "atMs": 3630,
+     "text": "“Hoa cũng đi ngủ kìa!” Ốc Sên reo lên.",
+     "speaker": "oc"
+    },
+    {
+     "atMs": 7210,
+     "text": "Bé ơi, chạm vào bông hoa để chúc hoa ngủ ngon nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 30,
+      "y": 19
+     },
+     "hint": "Chạm vào bông hoa",
+     "appearAtMs": 10314,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 30,
+        "y": 19
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#A8B0E8",
+    "#F2DCC8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11052,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ốc Sên về tới nhà, chui vào chiếc vỏ ấm áp."
+    },
+    {
+     "atMs": 3609,
+     "text": "“Hôm nay mình thấy được bao nhiêu điều đẹp,” Ốc Sên mỉm cười.",
+     "speaker": "oc"
+    },
+    {
+     "atMs": 7205,
+     "text": "Chúc bé ngủ ngon, mình cứ thong thả bé nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "9b26efd768"
+}
