@@ -1,0 +1,230 @@
+{
+ "id": "polar-aurora",
+ "title": "Gấu Trắng Ngắm Cực Quang",
+ "tagline": "Bầu trời nhảy múa sắc màu",
+ "description": "Ở xứ băng tuyết, Gấu Trắng Con thức khuya cùng mẹ để ngắm cực quang. Bầu trời hiện lên những dải màu xanh, hồng, tím như đang nhảy múa.",
+ "ageRange": "3–6 tuổi",
+ "category": "Khám phá",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8E0E8",
+  "#D8C8F5"
+ ],
+ "productId": "story.polar_aurora",
+ "characters": [
+  {
+   "id": "gau",
+   "name": "Gấu Trắng Con",
+   "description": "Chú gấu bắc cực con lông trắng muốt.",
+   "color": "#F4F8FA",
+   "avatar": "gau.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mẹ Gấu Trắng",
+   "description": "Mẹ gấu trắng to lớn, ôm con thật ấm.",
+   "color": "#EEF2F4",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8E0E8",
+    "#D8C8F5"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11880,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ở xứ băng tuyết, có chú gấu trắng con tên là Gấu Trắng Con."
+    },
+    {
+     "atMs": 4284,
+     "text": "Đêm nay, mẹ cho Gấu Con thức khuya một chút."
+    },
+    {
+     "atMs": 7191,
+     "text": "“Mình đợi gì vậy mẹ?” Gấu Trắng Con hỏi.",
+     "speaker": "gau"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A8E0D0",
+    "#C8C0F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 9990,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bỗng trên trời hiện ra một dải sáng xanh."
+    },
+    {
+     "atMs": 2932,
+     "text": "“Đó là cực quang đấy con,” Mẹ Gấu Trắng nói.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 6078,
+     "text": "Dải sáng uốn lượn như dải lụa bay trong gió."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#B8E8D8",
+    "#F0C8E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11925,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Rồi thêm dải hồng, dải tím, cùng nhau nhảy múa."
+    },
+    {
+     "atMs": 3998,
+     "text": "Cả bầu trời như một bức tranh lung linh."
+    },
+    {
+     "atMs": 6509,
+     "text": "Bé ơi, chạm vào dải cực quang nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 36,
+      "y": 18
+     },
+     "hint": "Chạm vào dải cực quang",
+     "appearAtMs": 8825,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 36,
+        "y": 18
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#B0D8E8",
+    "#E0C8F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12441,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Gấu Con vui quá, trượt xuống dốc tuyết, vèo!"
+    },
+    {
+     "atMs": 3629,
+     "text": "Bạn Cáo Tuyết ló đầu ra, cũng thức xem cực quang."
+    },
+    {
+     "atMs": 7034,
+     "text": "Bé ơi, chạm vào bạn Cáo Tuyết nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 81,
+      "y": 48
+     },
+     "hint": "Chạm vào bạn Cáo Tuyết",
+     "appearAtMs": 9341,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 48
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#E0D8F0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10368,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cực quang nhạt dần, Gấu Con ngáp một cái thật dài."
+    },
+    {
+     "atMs": 3713,
+     "text": "Mẹ ôm con vào hang tuyết ấm áp."
+    },
+    {
+     "atMs": 6018,
+     "text": "Chúc bé ngủ ngon, mơ thấy bầu trời đầy màu sắc nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "164deee550"
+}

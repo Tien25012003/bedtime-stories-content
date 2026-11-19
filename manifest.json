@@ -518,6 +518,74 @@
    "version": "c2f4cfc9d8",
    "durationMs": 57100,
    "sceneCount": 5
+  },
+  {
+   "id": "polar-aurora",
+   "title": "Gấu Trắng Ngắm Cực Quang",
+   "tagline": "Bầu trời nhảy múa sắc màu",
+   "description": "Ở xứ băng tuyết, Gấu Trắng Con thức khuya cùng mẹ để ngắm cực quang. Bầu trời hiện lên những dải màu xanh, hồng, tím như đang nhảy múa.",
+   "ageRange": "3–6 tuổi",
+   "category": "Khám phá",
+   "cover": "stories/polar-aurora/scene-1.jpg",
+   "coverColors": [
+    "#B8E0E8",
+    "#D8C8F5"
+   ],
+   "productId": "story.polar_aurora",
+   "version": "164deee550",
+   "durationMs": 56604,
+   "sceneCount": 5
+  },
+  {
+   "id": "crab-new-shell",
+   "title": "Ốc Mượn Hồn Tìm Nhà Mới",
+   "tagline": "Lớn lên thì cần nhà mới",
+   "description": "Ốc Mượn Hồn đã lớn, chiếc vỏ cũ chật quá rồi. Cua Đỏ giúp bạn đi tìm một chiếc vỏ mới vừa vặn, và Ốc thấy thay đổi cũng không đáng sợ.",
+   "ageRange": "3–6 tuổi",
+   "category": "Can đảm",
+   "cover": "stories/crab-new-shell/scene-1.jpg",
+   "coverColors": [
+    "#B8E4F0",
+    "#FFE0C8"
+   ],
+   "productId": "story.crab_new_shell",
+   "version": "e0e110c5a3",
+   "durationMs": 56545,
+   "sceneCount": 5
+  },
+  {
+   "id": "monkey-nap",
+   "title": "Khỉ Con Ngủ Trưa",
+   "tagline": "Ngủ trưa để chiều chơi tiếp",
+   "description": "Khỉ Con mải chơi đu dây, chẳng chịu ngủ trưa. Bà Voi kể cho Khỉ Con nghe vì sao ngủ trưa giúp chiều chơi vui hơn.",
+   "ageRange": "2–5 tuổi",
+   "category": "Thói quen tốt",
+   "cover": "stories/monkey-nap/scene-1.jpg",
+   "coverColors": [
+    "#D0F0C0",
+    "#FFE0B8"
+   ],
+   "productId": "story.monkey_nap",
+   "version": "b3123e8481",
+   "durationMs": 58086,
+   "sceneCount": 5
+  },
+  {
+   "id": "little-bat",
+   "title": "Dơi Nhỏ Ngủ Ngày",
+   "tagline": "Mỗi bạn một giờ ngủ khác nhau",
+   "description": "Dơi Nhỏ thức dậy khi mọi người đi ngủ, và đi ngủ khi trời sáng. Dơi Nhỏ dẫn bé đi xem khu rừng ban đêm, rồi treo mình ngủ khi bình minh lên.",
+   "ageRange": "3–6 tuổi",
+   "category": "Khám phá",
+   "cover": "stories/little-bat/scene-1.jpg",
+   "coverColors": [
+    "#B0A8E8",
+    "#FFD8C8"
+   ],
+   "productId": "story.little_bat",
+   "version": "331ef0dde8",
+   "durationMs": 58684,
+   "sceneCount": 5
   }
  ]
 }

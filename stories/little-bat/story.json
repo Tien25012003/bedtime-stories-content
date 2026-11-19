@@ -1,0 +1,231 @@
+{
+ "id": "little-bat",
+ "title": "Dơi Nhỏ Ngủ Ngày",
+ "tagline": "Mỗi bạn một giờ ngủ khác nhau",
+ "description": "Dơi Nhỏ thức dậy khi mọi người đi ngủ, và đi ngủ khi trời sáng. Dơi Nhỏ dẫn bé đi xem khu rừng ban đêm, rồi treo mình ngủ khi bình minh lên.",
+ "ageRange": "3–6 tuổi",
+ "category": "Khám phá",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B0A8E8",
+  "#FFD8C8"
+ ],
+ "productId": "story.little_bat",
+ "characters": [
+  {
+   "id": "doi",
+   "name": "Dơi Nhỏ",
+   "description": "Bạn dơi tí hon có đôi cánh mỏng màu tím.",
+   "color": "#D8C8F0",
+   "avatar": "doi.jpg"
+  },
+  {
+   "id": "soc",
+   "name": "Sóc Bay",
+   "description": "Bạn sóc bay cũng thích ban đêm.",
+   "color": "#E8D8C8",
+   "avatar": "soc.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B0A8E8",
+    "#FFD8C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12984,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Khi mặt trời lặn, các bạn đi ngủ hết."
+    },
+    {
+     "atMs": 3019,
+     "text": "Nhưng Dơi Nhỏ lại vừa mở mắt, treo ngược trên cành cây."
+    },
+    {
+     "atMs": 6651,
+     "text": "“Chào buổi tối! Đến giờ mình dậy rồi!” Dơi Nhỏ nói.",
+     "speaker": "doi"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#A0A0E0",
+    "#E8D0E8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10388,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Sóc Bay lướt tới, cũng thích chơi ban đêm."
+    },
+    {
+     "atMs": 3237,
+     "text": "“Mình cùng đi dạo rừng đêm nhé!” Sóc Bay rủ.",
+     "speaker": "soc"
+    },
+    {
+     "atMs": 7118,
+     "text": "Hai bạn bay vút qua những tán cây."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#A8B0E8",
+    "#F0F0E0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11564,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ban đêm, có bông hoa quỳnh trắng chỉ nở dưới trăng."
+    },
+    {
+     "atMs": 3665,
+     "text": "Hoa thơm ngát, trắng muốt như tuyết."
+    },
+    {
+     "atMs": 6151,
+     "text": "Bé ơi, chạm vào bông hoa đêm nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 52,
+      "y": 48
+     },
+     "hint": "Chạm vào bông hoa đêm",
+     "appearAtMs": 8464,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 52,
+        "y": 48
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#F0C8D0",
+    "#FFE8C8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11757,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trời hửng sáng, ông mặt trời ló lên sau đồi."
+    },
+    {
+     "atMs": 3386,
+     "text": "“Đến giờ mình đi ngủ rồi,” Dơi Nhỏ ngáp.",
+     "speaker": "doi"
+    },
+    {
+     "atMs": 6373,
+     "text": "Bé ơi, chạm vào ông mặt trời nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 83,
+      "y": 49
+     },
+     "hint": "Chạm vào ông mặt trời",
+     "appearAtMs": 8657,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 83,
+        "y": 49
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#B8B0E8",
+    "#FFE0D0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11991,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Dơi Nhỏ treo mình trong hang, cuộn cánh như chăn."
+    },
+    {
+     "atMs": 3559,
+     "text": "Bạn ngủ ban đêm, Dơi ngủ ban ngày, ai cũng cần giấc ngủ."
+    },
+    {
+     "atMs": 7774,
+     "text": "Chúc bé ngủ ngon, như Dơi Nhỏ trong hang ấm nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "331ef0dde8"
+}

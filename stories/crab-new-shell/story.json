@@ -1,0 +1,231 @@
+{
+ "id": "crab-new-shell",
+ "title": "Ốc Mượn Hồn Tìm Nhà Mới",
+ "tagline": "Lớn lên thì cần nhà mới",
+ "description": "Ốc Mượn Hồn đã lớn, chiếc vỏ cũ chật quá rồi. Cua Đỏ giúp bạn đi tìm một chiếc vỏ mới vừa vặn, và Ốc thấy thay đổi cũng không đáng sợ.",
+ "ageRange": "3–6 tuổi",
+ "category": "Can đảm",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8E4F0",
+  "#FFE0C8"
+ ],
+ "productId": "story.crab_new_shell",
+ "characters": [
+  {
+   "id": "oc",
+   "name": "Ốc Mượn Hồn",
+   "description": "Bạn ốc mượn hồn nhỏ, hơi rụt rè.",
+   "color": "#FFD8C8",
+   "avatar": "oc.jpg"
+  },
+  {
+   "id": "cua",
+   "name": "Cua Đỏ",
+   "description": "Bạn cua đỏ đi ngang, rất nhiệt tình.",
+   "color": "#FFC8B8",
+   "avatar": "cua.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8E4F0",
+    "#FFE0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10848,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên bãi cát, có bạn Ốc Mượn Hồn nhỏ xíu."
+    },
+    {
+     "atMs": 3471,
+     "text": "Ốc lớn lên rồi, chiếc vỏ cũ chật ních."
+    },
+    {
+     "atMs": 6420,
+     "text": "“Chật quá, nhưng đổi nhà mình sợ lắm,” Ốc nói.",
+     "speaker": "oc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#C8E0F0",
+    "#FFD8C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10154,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cua Đỏ đi ngang tới, vẫy vẫy càng."
+    },
+    {
+     "atMs": 3104,
+     "text": "“Mình đi tìm nhà mới với bạn nhé!” Cua Đỏ nói.",
+     "speaker": "cua"
+    },
+    {
+     "atMs": 7016,
+     "text": "Hai bạn cùng dạo dọc bờ biển."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#FFD8C0",
+    "#D0E4F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11511,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Có vỏ to quá, có vỏ lại bé quá."
+    },
+    {
+     "atMs": 3137,
+     "text": "Rồi hai bạn thấy một chiếc vỏ sọc hồng thật xinh."
+    },
+    {
+     "atMs": 6134,
+     "text": "Bé ơi, chạm vào vỏ ốc mới nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 52,
+      "y": 54
+     },
+     "hint": "Chạm vào vỏ ốc mới",
+     "appearAtMs": 8411,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 52,
+        "y": 54
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFC8C0",
+    "#D8D0F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13098,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Ốc hít một hơi thật sâu, rồi chui sang vỏ mới."
+    },
+    {
+     "atMs": 3690,
+     "text": "“Vừa khít luôn, rộng rãi quá!” Ốc reo lên.",
+     "speaker": "oc"
+    },
+    {
+     "atMs": 7785,
+     "text": "Bé ơi, chạm vào bạn Sao Biển nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 21,
+      "y": 63
+     },
+     "hint": "Chạm vào bạn Sao Biển",
+     "appearAtMs": 9998,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 21,
+        "y": 63
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F0D8E0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10934,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đêm xuống, sóng biển hát ru rì rào."
+    },
+    {
+     "atMs": 3111,
+     "text": "Ốc nằm trong ngôi nhà mới, ấm áp và êm ái."
+    },
+    {
+     "atMs": 6569,
+     "text": "Chúc bé ngủ ngon, mỗi ngày bé lại lớn thêm một chút nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "e0e110c5a3"
+}

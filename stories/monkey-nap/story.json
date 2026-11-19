@@ -1,0 +1,231 @@
+{
+ "id": "monkey-nap",
+ "title": "Khỉ Con Ngủ Trưa",
+ "tagline": "Ngủ trưa để chiều chơi tiếp",
+ "description": "Khỉ Con mải chơi đu dây, chẳng chịu ngủ trưa. Bà Voi kể cho Khỉ Con nghe vì sao ngủ trưa giúp chiều chơi vui hơn.",
+ "ageRange": "2–5 tuổi",
+ "category": "Thói quen tốt",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D0F0C0",
+  "#FFE0B8"
+ ],
+ "productId": "story.monkey_nap",
+ "characters": [
+  {
+   "id": "khi",
+   "name": "Khỉ Con",
+   "description": "Chú khỉ nâu nhỏ, lúc nào cũng nhảy nhót.",
+   "color": "#E8D0B8",
+   "avatar": "khi.jpg"
+  },
+  {
+   "id": "voi",
+   "name": "Bà Voi",
+   "description": "Bà voi già hiền hậu, hay kể chuyện.",
+   "color": "#DCDCE4",
+   "avatar": "voi.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#D0F0C0",
+    "#FFE0B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11271,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Buổi trưa, cả khu rừng nằm nghỉ dưới bóng cây."
+    },
+    {
+     "atMs": 3397,
+     "text": "Chỉ có Khỉ Con vẫn đu dây, ú òa, ú òa."
+    },
+    {
+     "atMs": 6974,
+     "text": "“Con không buồn ngủ đâu!” Khỉ Con nói.",
+     "speaker": "khi"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#C8E8C0",
+    "#FFE8C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11114,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Nhưng Khỉ Con ngáp một cái, rồi hai cái."
+    },
+    {
+     "atMs": 3447,
+     "text": "“Ngủ trưa một chút, chiều cháu sẽ chơi khỏe hơn,” Bà Voi nói.",
+     "speaker": "voi"
+    },
+    {
+     "atMs": 7508,
+     "text": "Khỉ Con tụt xuống, ngồi cạnh Bà Voi."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#C0E8C8",
+    "#F5F0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12010,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bà Voi lấy lá chuối quạt mát cho Khỉ Con."
+    },
+    {
+     "atMs": 3001,
+     "text": "Gió hiu hiu, mát rượi, êm ru."
+    },
+    {
+     "atMs": 5957,
+     "text": "Bé ơi, chạm vào chiếc lá chuối để quạt cho Khỉ nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 76,
+      "y": 33
+     },
+     "hint": "Chạm vào chiếc lá chuối",
+     "appearAtMs": 8910,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 76,
+        "y": 33
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#B8E0C8",
+    "#F0E0D0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11373,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chẳng mấy chốc, Khỉ Con đã ngủ say."
+    },
+    {
+     "atMs": 2857,
+     "text": "Bạn Bướm đậu trên hoa, cũng nghỉ trưa cùng Khỉ."
+    },
+    {
+     "atMs": 6207,
+     "text": "Bé ơi, chạm vào bạn Bướm nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 89,
+      "y": 21
+     },
+     "hint": "Chạm vào bạn Bướm",
+     "appearAtMs": 8273,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 89,
+        "y": 21
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#D8F0C0",
+    "#FFD8B8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12318,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chiều đến, Khỉ Con thức dậy, khỏe khoắn lạ thường."
+    },
+    {
+     "atMs": 3848,
+     "text": "“Ngủ trưa xong, con chơi vui hơn hẳn!” Khỉ Con cười.",
+     "speaker": "khi"
+    },
+    {
+     "atMs": 8425,
+     "text": "Bé cũng ngủ trưa ngoan để chiều chơi thật vui nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "b3123e8481"
+}
