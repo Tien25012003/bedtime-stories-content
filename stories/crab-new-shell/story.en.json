@@ -1,0 +1,231 @@
+{
+ "id": "crab-new-shell",
+ "title": "Hermit Crab Finds a New Home",
+ "tagline": "Growing up means a new home",
+ "description": "Hermit Crab has grown, and the old shell is far too tight. Red Crab helps find a new shell that fits just right, and Hermit Crab learns that change isn’t so scary.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Courage",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8E4F0",
+  "#FFE0C8"
+ ],
+ "productId": "story.crab_new_shell",
+ "characters": [
+  {
+   "id": "oc",
+   "name": "Hermit Crab",
+   "description": "A little hermit crab, a bit shy.",
+   "color": "#FFD8C8",
+   "avatar": "oc.jpg"
+  },
+  {
+   "id": "cua",
+   "name": "Red Crab",
+   "description": "A red crab who walks sideways and loves to help.",
+   "color": "#FFC8B8",
+   "avatar": "cua.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B8E4F0",
+    "#FFE0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13484,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On the sandy beach lived a teeny tiny Hermit Crab."
+    },
+    {
+     "atMs": 3892,
+     "text": "Hermit Crab had grown, and the old shell was much too tight."
+    },
+    {
+     "atMs": 8121,
+     "text": "“It’s so squishy, but I’m scared to move house,” Hermit Crab said.",
+     "speaker": "oc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 373,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#C8E0F0",
+    "#FFD8C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11134,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Red Crab came walking sideways and waved a claw."
+    },
+    {
+     "atMs": 3903,
+     "text": "“Let’s go find you a new home together!” Red Crab said.",
+     "speaker": "cua"
+    },
+    {
+     "atMs": 7493,
+     "text": "So the two friends strolled along the shore."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#FFD8C0",
+    "#D0E4F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11993,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Some shells were too big, and some shells were too small."
+    },
+    {
+     "atMs": 3956,
+     "text": "Then they found a lovely shell with pink stripes."
+    },
+    {
+     "atMs": 7050,
+     "text": "Little one, tap the new shell!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 52,
+      "y": 54
+     },
+     "hint": "Tap the new shell",
+     "appearAtMs": 8893,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 52,
+        "y": 54
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFC8C0",
+    "#D8D0F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13869,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hermit Crab took a deep breath and moved into the new shell."
+    },
+    {
+     "atMs": 4235,
+     "text": "“It fits just right, and it’s so roomy!” Hermit Crab cheered.",
+     "speaker": "oc"
+    },
+    {
+     "atMs": 8957,
+     "text": "Little one, tap Starfish!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 21,
+      "y": 63
+     },
+     "hint": "Tap Starfish",
+     "appearAtMs": 10769,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 21,
+        "y": 63
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F0D8E0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13222,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Night fell, and the waves hummed a gentle lullaby."
+    },
+    {
+     "atMs": 4060,
+     "text": "Hermit Crab lay in the new home, warm and snug."
+    },
+    {
+     "atMs": 8300,
+     "text": "Good night, little one. You grow a little bit every day."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "c9159aca9e"
+}

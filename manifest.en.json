@@ -419,6 +419,176 @@
    "version": "f53fab0c28",
    "durationMs": 64981,
    "sceneCount": 5
+  },
+  {
+   "id": "giraffe-neck",
+   "title": "The Giraffe Who Loved Her Neck",
+   "tagline": "What makes you different is lovely",
+   "description": "Little Giraffe feels shy about her very long neck. This afternoon, Monkey’s kite gets stuck at the top of a tree, and only Little Giraffe can reach it.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Feelings",
+   "cover": "stories/giraffe-neck/scene-1.jpg",
+   "coverColors": [
+    "#FFE6B8",
+    "#C8E0F5"
+   ],
+   "productId": "story.giraffe_neck",
+   "version": "7c1bcca9e7",
+   "durationMs": 64993,
+   "sceneCount": 5
+  },
+  {
+   "id": "sheep-clouds",
+   "title": "Fluffy Lamb Meets the Clouds",
+   "tagline": "Sheep shaped clouds up in the sky",
+   "description": "Fluffy Lamb lies on a hill watching the clouds, and every cloud looks like a little sheep. Breeze carries the clouds off to bed, and Fluffy Lamb’s eyes grow sleepy too.",
+   "ageRange": "Ages 2 to 5",
+   "category": "Sleepy time",
+   "cover": "stories/sheep-clouds/scene-1.jpg",
+   "coverColors": [
+    "#C8E4FF",
+    "#FFE6D8"
+   ],
+   "productId": "story.sheep_clouds",
+   "version": "6b61ca9298",
+   "durationMs": 64781,
+   "sceneCount": 5
+  },
+  {
+   "id": "mouse-moon",
+   "title": "Little Mouse and the Moon",
+   "tagline": "Why the Moon grows and shrinks",
+   "description": "Little Mouse sees the Moon change every night, sometimes round like a cake, sometimes curved like a smile. Wise Owl tells Little Mouse the Moon’s secret.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Exploring",
+   "cover": "stories/mouse-moon/scene-1.jpg",
+   "coverColors": [
+    "#B8B8F0",
+    "#FFF0C2"
+   ],
+   "productId": "story.mouse_moon",
+   "version": "612a877b61",
+   "durationMs": 60869,
+   "sceneCount": 5
+  },
+  {
+   "id": "lion-whisper",
+   "title": "Little Lion Learns to Whisper",
+   "tagline": "At night we use quiet voices",
+   "description": "Little Lion loves to roar very loudly, even while everyone is sleeping. Mama Lion teaches him to whisper so the whole forest can sleep well.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Good habits",
+   "cover": "stories/lion-whisper/scene-1.jpg",
+   "coverColors": [
+    "#FFD8A8",
+    "#D8C8F0"
+   ],
+   "productId": "story.lion_whisper",
+   "version": "7bf7ae4d8d",
+   "durationMs": 64241,
+   "sceneCount": 5
+  },
+  {
+   "id": "busy-bee",
+   "title": "Little Bee Makes Honey",
+   "tagline": "Working together is quicker",
+   "description": "Little Bee wants to make a whole jar of honey all by herself. But the sweetest honey comes when she makes it together with her friends.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Friendship",
+   "cover": "stories/busy-bee/scene-1.jpg",
+   "coverColors": [
+    "#FFE8A8",
+    "#D8F0C8"
+   ],
+   "productId": "story.busy_bee",
+   "version": "a63e3a0b03",
+   "durationMs": 65125,
+   "sceneCount": 5
+  },
+  {
+   "id": "water-puppet",
+   "title": "Kitten Goes to the Water Puppet Show",
+   "tagline": "Teu tells stories on the pond",
+   "description": "One evening in the village, Kitten goes with Grandpa to see a water puppet show. Cheerful Teu, a water spraying dragon and little wooden ducks keep Kitten giggling all night.",
+   "ageRange": "Ages 3 to 7",
+   "category": "Vietnamese culture",
+   "cover": "stories/water-puppet/scene-1.jpg",
+   "coverColors": [
+    "#FFD0B0",
+    "#B8D8F0"
+   ],
+   "productId": "story.water_puppet",
+   "version": "4a1453330c",
+   "durationMs": 63887,
+   "sceneCount": 5
+  },
+  {
+   "id": "polar-aurora",
+   "title": "Polar Bear and the Northern Lights",
+   "tagline": "The sky dances with color",
+   "description": "In the land of ice and snow, Polar Bear Cub stays up late with Mama to watch the northern lights. Ribbons of green, pink and purple dance across the sky.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Exploring",
+   "cover": "stories/polar-aurora/scene-1.jpg",
+   "coverColors": [
+    "#B8E0E8",
+    "#D8C8F5"
+   ],
+   "productId": "story.polar_aurora",
+   "version": "7eb546f80a",
+   "durationMs": 62756,
+   "sceneCount": 5
+  },
+  {
+   "id": "crab-new-shell",
+   "title": "Hermit Crab Finds a New Home",
+   "tagline": "Growing up means a new home",
+   "description": "Hermit Crab has grown, and the old shell is far too tight. Red Crab helps find a new shell that fits just right, and Hermit Crab learns that change isn’t so scary.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Courage",
+   "cover": "stories/crab-new-shell/scene-1.jpg",
+   "coverColors": [
+    "#B8E4F0",
+    "#FFE0C8"
+   ],
+   "productId": "story.crab_new_shell",
+   "version": "c9159aca9e",
+   "durationMs": 63702,
+   "sceneCount": 5
+  },
+  {
+   "id": "monkey-nap",
+   "title": "Little Monkey’s Nap Time",
+   "tagline": "Nap now, play more later",
+   "description": "Little Monkey is too busy swinging on vines to take a nap. Grandma Elephant tells him why a nap makes the afternoon even more fun.",
+   "ageRange": "Ages 2 to 5",
+   "category": "Good habits",
+   "cover": "stories/monkey-nap/scene-1.jpg",
+   "coverColors": [
+    "#D0F0C0",
+    "#FFE0B8"
+   ],
+   "productId": "story.monkey_nap",
+   "version": "6b1b62f27a",
+   "durationMs": 68328,
+   "sceneCount": 5
+  },
+  {
+   "id": "little-bat",
+   "title": "Little Bat Sleeps All Day",
+   "tagline": "Everyone has their own sleepy time",
+   "description": "Little Bat wakes up when everyone else goes to bed, and goes to sleep when the sun comes up. Little Bat shows you the forest at night, then hangs upside down to sleep at dawn.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Exploring",
+   "cover": "stories/little-bat/scene-1.jpg",
+   "coverColors": [
+    "#B0A8E8",
+    "#FFD8C8"
+   ],
+   "productId": "story.little_bat",
+   "version": "fe79e4d492",
+   "durationMs": 63886,
+   "sceneCount": 5
   }
  ]
 }

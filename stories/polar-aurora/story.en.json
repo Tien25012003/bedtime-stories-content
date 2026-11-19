@@ -1,0 +1,230 @@
+{
+ "id": "polar-aurora",
+ "title": "Polar Bear and the Northern Lights",
+ "tagline": "The sky dances with color",
+ "description": "In the land of ice and snow, Polar Bear Cub stays up late with Mama to watch the northern lights. Ribbons of green, pink and purple dance across the sky.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Exploring",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8E0E8",
+  "#D8C8F5"
+ ],
+ "productId": "story.polar_aurora",
+ "characters": [
+  {
+   "id": "gau",
+   "name": "Polar Bear Cub",
+   "description": "A polar bear cub with snow white fur.",
+   "color": "#F4F8FA",
+   "avatar": "gau.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mama Polar Bear",
+   "description": "A big mama polar bear who gives the warmest hugs.",
+   "color": "#EEF2F4",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B8E0E8",
+    "#D8C8F5"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13792,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In the land of ice and snow lived a little polar bear named Polar Bear Cub."
+    },
+    {
+     "atMs": 5168,
+     "text": "Tonight, Mama let him stay up just a little bit late."
+    },
+    {
+     "atMs": 9329,
+     "text": "“What are we waiting for, Mama?” Polar Bear Cub asked.",
+     "speaker": "gau"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 348,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#A8E0D0",
+    "#C8C0F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11127,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Suddenly, a green ribbon of light appeared in the sky."
+    },
+    {
+     "atMs": 3990,
+     "text": "“Those are the northern lights,” Mama Polar Bear said.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 7207,
+     "text": "The light swayed like a silk ribbon in the wind."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#B8E8D8",
+    "#F0C8E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12910,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Then came pink ribbons and purple ribbons, all dancing together."
+    },
+    {
+     "atMs": 4759,
+     "text": "The whole sky looked like a shimmering painting."
+    },
+    {
+     "atMs": 7772,
+     "text": "Little one, tap the ribbon of light!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 36,
+      "y": 18
+     },
+     "hint": "Tap the ribbon of light",
+     "appearAtMs": 9810,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 36,
+        "y": 18
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#B0D8E8",
+    "#E0C8F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13207,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cub was so happy that he slid down the snowy hill, whee!"
+    },
+    {
+     "atMs": 4021,
+     "text": "Arctic Fox peeked out, staying up to watch the lights too."
+    },
+    {
+     "atMs": 7968,
+     "text": "Little one, tap Arctic Fox!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 81,
+      "y": 48
+     },
+     "hint": "Tap Arctic Fox",
+     "appearAtMs": 10107,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 81,
+        "y": 48
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#E0D8F0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11720,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The lights faded, and Cub gave a great big yawn."
+    },
+    {
+     "atMs": 3748,
+     "text": "Mama carried him into their warm snow den."
+    },
+    {
+     "atMs": 6791,
+     "text": "Good night, little one. Dream of a sky full of colors."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "7eb546f80a"
+}

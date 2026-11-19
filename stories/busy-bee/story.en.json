@@ -1,0 +1,231 @@
+{
+ "id": "busy-bee",
+ "title": "Little Bee Makes Honey",
+ "tagline": "Working together is quicker",
+ "description": "Little Bee wants to make a whole jar of honey all by herself. But the sweetest honey comes when she makes it together with her friends.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Friendship",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFE8A8",
+  "#D8F0C8"
+ ],
+ "productId": "story.busy_bee",
+ "characters": [
+  {
+   "id": "ong",
+   "name": "Little Bee",
+   "description": "A hardworking bee with yellow and black stripes.",
+   "color": "#FFE8A8",
+   "avatar": "ong.jpg"
+  },
+  {
+   "id": "buom",
+   "name": "Blue Butterfly",
+   "description": "A butterfly with bright blue wings.",
+   "color": "#C8E0FF",
+   "avatar": "buom.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFE8A8",
+    "#D8F0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13997,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In the morning, Little Bee flew all over the flower garden."
+    },
+    {
+     "atMs": 4497,
+     "text": "“I’m going to make a big jar of honey all by myself!” Little Bee said.",
+     "speaker": "ong"
+    },
+    {
+     "atMs": 8786,
+     "text": "She flew back and forth, back and forth, and got very tired."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 383,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#FFF0C2",
+    "#C8E4FF"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11355,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "By noon, there was only a teeny bit of honey in the jar."
+    },
+    {
+     "atMs": 3823,
+     "text": "“Why not ask your friends to help?” Blue Butterfly asked.",
+     "speaker": "buom"
+    },
+    {
+     "atMs": 7595,
+     "text": "Little Bee thought for a moment, then nodded."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#FFE0A0",
+    "#E8F5D0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11914,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The other bees came buzzing over, each bringing a drop of honey."
+    },
+    {
+     "atMs": 4431,
+     "text": "Soon the hive was full of golden honey."
+    },
+    {
+     "atMs": 7156,
+     "text": "Little one, tap the beehive!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 73,
+      "y": 21
+     },
+     "hint": "Tap the beehive",
+     "appearAtMs": 8814,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 73,
+        "y": 21
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFD8B0",
+    "#F0E0F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 14664,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In the afternoon, the friends all tasted the sweet honey together."
+    },
+    {
+     "atMs": 4803,
+     "text": "“Honey we make together is the sweetest!” Little Bee laughed.",
+     "speaker": "ong"
+    },
+    {
+     "atMs": 8607,
+     "text": "Little one, tap the pink flower to say thank you!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 83,
+      "y": 63
+     },
+     "hint": "Tap the pink flower",
+     "appearAtMs": 11564,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 83,
+        "y": 63
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#B0A8E8",
+    "#FFE6B8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13195,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Night came, and Little Bee lay down in her cozy little cell."
+    },
+    {
+     "atMs": 4353,
+     "text": "The whole hive fell fast asleep, smelling of sweet honey."
+    },
+    {
+     "atMs": 8393,
+     "text": "Good night, little one. Everything is more fun together."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "a63e3a0b03"
+}

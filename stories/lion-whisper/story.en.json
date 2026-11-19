@@ -1,0 +1,231 @@
+{
+ "id": "lion-whisper",
+ "title": "Little Lion Learns to Whisper",
+ "tagline": "At night we use quiet voices",
+ "description": "Little Lion loves to roar very loudly, even while everyone is sleeping. Mama Lion teaches him to whisper so the whole forest can sleep well.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Good habits",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD8A8",
+  "#D8C8F0"
+ ],
+ "productId": "story.lion_whisper",
+ "characters": [
+  {
+   "id": "su-tu",
+   "name": "Little Lion",
+   "description": "A lion cub with a fluffy orange mane.",
+   "color": "#FFD8A8",
+   "avatar": "su-tu.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mama Lion",
+   "description": "A gentle mama lion with a warm voice.",
+   "color": "#F5DEB8",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFD8A8",
+    "#D8C8F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13356,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "As the sun went down, Little Lion stood up on a big rock."
+    },
+    {
+     "atMs": 4404,
+     "text": "“Roar, roar, roar!” Little Lion roared as loud as he could.",
+     "speaker": "su-tu"
+    },
+    {
+     "atMs": 8988,
+     "text": "The birds jumped and flew off in every direction."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 361,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#E0C8E8",
+    "#FFE0C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12707,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mama Lion lay down beside him."
+    },
+    {
+     "atMs": 2912,
+     "text": "“It’s night now, everyone’s sleeping, so let’s use quiet voices,” Mama said.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 7835,
+     "text": "Little Lion looked around, and everyone had their eyes closed."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#B8B8E8",
+    "#F5E0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13617,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In a nest, a baby bird was fast asleep."
+    },
+    {
+     "atMs": 4108,
+     "text": "Little Lion tiptoed past, not making a single sound."
+    },
+    {
+     "atMs": 7940,
+     "text": "Little one, tap the nest very gently!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 82,
+      "y": 43
+     },
+     "hint": "Tap the nest",
+     "appearAtMs": 10517,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 82,
+        "y": 43
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#A8A8E8",
+    "#F0D8E0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12569,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“I love you, Mama,” Little Lion whispered very softly.",
+     "speaker": "su-tu"
+    },
+    {
+     "atMs": 4191,
+     "text": "A Firefly flew by and nodded, “Well done!”"
+    },
+    {
+     "atMs": 7443,
+     "text": "Little one, tap the Firefly!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 15,
+      "y": 12
+     },
+     "hint": "Tap the Firefly",
+     "appearAtMs": 9469,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 15,
+        "y": 12
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F6DCC2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11992,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The whole forest grew calm and quiet."
+    },
+    {
+     "atMs": 3307,
+     "text": "Little Lion snuggled up to Mama and slept soundly."
+    },
+    {
+     "atMs": 7006,
+     "text": "Good night, little one. At night we use our quiet voices."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "7bf7ae4d8d"
+}

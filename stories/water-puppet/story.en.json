@@ -1,0 +1,230 @@
+{
+ "id": "water-puppet",
+ "title": "Kitten Goes to the Water Puppet Show",
+ "tagline": "Teu tells stories on the pond",
+ "description": "One evening in the village, Kitten goes with Grandpa to see a water puppet show. Cheerful Teu, a water spraying dragon and little wooden ducks keep Kitten giggling all night.",
+ "ageRange": "Ages 3 to 7",
+ "category": "Vietnamese culture",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD0B0",
+  "#B8D8F0"
+ ],
+ "productId": "story.water_puppet",
+ "characters": [
+  {
+   "id": "meo",
+   "name": "Kitten",
+   "description": "A curious little orange kitten.",
+   "color": "#FFDCB8",
+   "avatar": "meo.jpg"
+  },
+  {
+   "id": "teu",
+   "name": "Teu",
+   "description": "A round bellied wooden puppet who loves to laugh.",
+   "color": "#FFE0C8",
+   "avatar": "teu.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFD0B0",
+    "#B8D8F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12836,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tonight, the whole village was going to the water puppet show."
+    },
+    {
+     "atMs": 4247,
+     "text": "Kitten held Grandpa’s hand and walked toward the village pond."
+    },
+    {
+     "atMs": 8522,
+     "text": "“What is a water puppet, Grandpa?” Kitten asked.",
+     "speaker": "meo"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 351,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#F5C8B0",
+    "#B0D0F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12228,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Boom, boom, boom went the drums, and Teu popped up on the water."
+    },
+    {
+     "atMs": 5088,
+     "text": "“Hello everyone, hello little friends!” Teu laughed.",
+     "speaker": "teu"
+    },
+    {
+     "atMs": 8906,
+     "text": "Kitten clapped her paws and giggled."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#FFD8A0",
+    "#A8C8E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13354,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Then a golden dragon swirled across the pond."
+    },
+    {
+     "atMs": 3747,
+     "text": "The dragon sprayed water high into the air, sparkling like fireworks."
+    },
+    {
+     "atMs": 8530,
+     "text": "Little one, tap the dragon!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 42,
+      "y": 34
+     },
+     "hint": "Tap the dragon",
+     "appearAtMs": 10254,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 42,
+        "y": 34
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#F0D0B8",
+    "#B8D0E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12677,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "A line of wooden ducks swam by, quack, quack, quack."
+    },
+    {
+     "atMs": 4015,
+     "text": "And a little puppet farmer was planting rice on the pond."
+    },
+    {
+     "atMs": 7609,
+     "text": "Little one, tap the wooden duck!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 23,
+      "y": 60
+     },
+     "hint": "Tap the wooden duck",
+     "appearAtMs": 9577,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 23,
+        "y": 60
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F6D8C2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12792,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "When the show was over, Grandpa carried Kitten home on his back."
+    },
+    {
+     "atMs": 4548,
+     "text": "Kitten fell asleep on Grandpa’s back, dreaming of Teu."
+    },
+    {
+     "atMs": 8412,
+     "text": "Good night, little one, and may your dreams be happy."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "4a1453330c"
+}

@@ -1,0 +1,232 @@
+{
+ "id": "giraffe-neck",
+ "title": "The Giraffe Who Loved Her Neck",
+ "tagline": "What makes you different is lovely",
+ "description": "Little Giraffe feels shy about her very long neck. This afternoon, Monkey’s kite gets stuck at the top of a tree, and only Little Giraffe can reach it.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Feelings",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFE6B8",
+  "#C8E0F5"
+ ],
+ "productId": "story.giraffe_neck",
+ "characters": [
+  {
+   "id": "huou",
+   "name": "Little Giraffe",
+   "description": "A baby giraffe with pretty brown patches.",
+   "color": "#FFE2B0",
+   "avatar": "huou.jpg"
+  },
+  {
+   "id": "khi",
+   "name": "Little Monkey",
+   "description": "A playful little monkey who loves flying kites.",
+   "color": "#E8D0B8",
+   "avatar": "khi.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFE6B8",
+    "#C8E0F5"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 15589,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On the savanna lived a baby giraffe named Little Giraffe."
+    },
+    {
+     "atMs": 4440,
+     "text": "Her friends played hide and seek, but her neck was so tall that she was always found."
+    },
+    {
+     "atMs": 10335,
+     "text": "“I wish my neck were short like my friends’,” Little Giraffe said sadly.",
+     "speaker": "huou"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 365,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#FFDCC2",
+    "#C8E6FF"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13015,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Suddenly Little Monkey cried out, his kite was stuck at the top of a tree."
+    },
+    {
+     "atMs": 5241,
+     "text": "“The tree is too tall, I can’t climb that high,” Little Monkey sniffled.",
+     "speaker": "khi"
+    },
+    {
+     "atMs": 9951,
+     "text": "Little Giraffe looked up at the kite."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#FFE0B8",
+    "#BFE0FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10872,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Giraffe stretched her neck up, up, up, so very high."
+    },
+    {
+     "atMs": 4573,
+     "text": "And she reached the kite!"
+    },
+    {
+     "atMs": 6334,
+     "text": "Little one, tap the kite!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 67,
+      "y": 16
+     },
+     "hint": "Tap the kite",
+     "appearAtMs": 7772,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 67,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFD0B0",
+    "#E0D0F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13213,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Monkey sat on her head and watched the sunset from way up high."
+    },
+    {
+     "atMs": 4824,
+     "text": "“Your long neck is amazing!” Little Monkey cheered.",
+     "speaker": "khi"
+    },
+    {
+     "atMs": 8476,
+     "text": "Little one, tap the sun!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 80,
+      "y": 34
+     },
+     "hint": "Tap the sun",
+     "appearAtMs": 10113,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 80,
+        "y": 34
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F6DCC8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12304,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Night fell, and Little Giraffe curled up under the tree."
+    },
+    {
+     "atMs": 4035,
+     "text": "“I love my neck now,” Little Giraffe smiled.",
+     "speaker": "huou"
+    },
+    {
+     "atMs": 7140,
+     "text": "Good night, little one. You are one of a kind and so lovable."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "7c1bcca9e7"
+}

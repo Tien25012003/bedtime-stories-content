@@ -1,0 +1,231 @@
+{
+ "id": "monkey-nap",
+ "title": "Little Monkey’s Nap Time",
+ "tagline": "Nap now, play more later",
+ "description": "Little Monkey is too busy swinging on vines to take a nap. Grandma Elephant tells him why a nap makes the afternoon even more fun.",
+ "ageRange": "Ages 2 to 5",
+ "category": "Good habits",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D0F0C0",
+  "#FFE0B8"
+ ],
+ "productId": "story.monkey_nap",
+ "characters": [
+  {
+   "id": "khi",
+   "name": "Little Monkey",
+   "description": "A little brown monkey who is always bouncing around.",
+   "color": "#E8D0B8",
+   "avatar": "khi.jpg"
+  },
+  {
+   "id": "voi",
+   "name": "Grandma Elephant",
+   "description": "A kind old elephant who loves telling stories.",
+   "color": "#DCDCE4",
+   "avatar": "voi.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#D0F0C0",
+    "#FFE0B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12975,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "At noon, the whole forest rested in the shade of the trees."
+    },
+    {
+     "atMs": 4509,
+     "text": "Only Little Monkey kept swinging on the vines, peekaboo, peekaboo."
+    },
+    {
+     "atMs": 8691,
+     "text": "“I’m not sleepy at all!” Little Monkey said.",
+     "speaker": "khi"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 345,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#C8E8C0",
+    "#FFE8C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13254,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "But then Little Monkey yawned once, and then twice."
+    },
+    {
+     "atMs": 3365,
+     "text": "“Have a little nap, and you’ll play even better this afternoon,” Grandma Elephant said.",
+     "speaker": "voi"
+    },
+    {
+     "atMs": 8333,
+     "text": "Little Monkey climbed down and sat beside Grandma Elephant."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#C0E8C8",
+    "#F5F0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13511,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Grandma Elephant fanned Little Monkey with a big banana leaf."
+    },
+    {
+     "atMs": 4236,
+     "text": "The breeze was soft, cool and gentle."
+    },
+    {
+     "atMs": 7386,
+     "text": "Little one, tap the banana leaf to fan Monkey!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 76,
+      "y": 33
+     },
+     "hint": "Tap the banana leaf",
+     "appearAtMs": 10411,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 76,
+        "y": 33
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#B8E0C8",
+    "#F0E0D0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13250,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Before long, Little Monkey was fast asleep."
+    },
+    {
+     "atMs": 3821,
+     "text": "A Butterfly rested on a flower, napping right along with him."
+    },
+    {
+     "atMs": 8119,
+     "text": "Little one, tap the Butterfly!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 89,
+      "y": 21
+     },
+     "hint": "Tap the Butterfly",
+     "appearAtMs": 10150,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 89,
+        "y": 21
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#D8F0C0",
+    "#FFD8B8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 15338,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In the afternoon, Little Monkey woke up feeling strong and full of energy."
+    },
+    {
+     "atMs": 5385,
+     "text": "“After my nap, playing is even more fun!” Little Monkey laughed.",
+     "speaker": "khi"
+    },
+    {
+     "atMs": 10181,
+     "text": "Take a nice nap too, little one, so your afternoon is full of fun."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "6b1b62f27a"
+}

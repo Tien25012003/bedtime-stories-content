@@ -1,0 +1,231 @@
+{
+ "id": "sheep-clouds",
+ "title": "Fluffy Lamb Meets the Clouds",
+ "tagline": "Sheep shaped clouds up in the sky",
+ "description": "Fluffy Lamb lies on a hill watching the clouds, and every cloud looks like a little sheep. Breeze carries the clouds off to bed, and Fluffy Lamb’s eyes grow sleepy too.",
+ "ageRange": "Ages 2 to 5",
+ "category": "Sleepy time",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C8E4FF",
+  "#FFE6D8"
+ ],
+ "productId": "story.sheep_clouds",
+ "characters": [
+  {
+   "id": "cuu",
+   "name": "Fluffy Lamb",
+   "description": "A baby lamb with curly wool as soft as cotton.",
+   "color": "#F6F2EC",
+   "avatar": "cuu.jpg"
+  },
+  {
+   "id": "gio",
+   "name": "Breeze",
+   "description": "A gentle breeze who loves taking clouds for a stroll.",
+   "color": "#D8F0FF",
+   "avatar": "gio.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#C8E4FF",
+    "#FFE6D8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13690,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "In the afternoon, Fluffy Lamb lay on the green grassy hill."
+    },
+    {
+     "atMs": 4749,
+     "text": "Fluffy Lamb looked up at the white clouds drifting slowly by."
+    },
+    {
+     "atMs": 8743,
+     "text": "“Oh, the clouds look just like me!” Fluffy Lamb said.",
+     "speaker": "cuu"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 361,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#C2DCFF",
+    "#FFE0C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11775,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Breeze floated over and gently blew the clouds along."
+    },
+    {
+     "atMs": 4111,
+     "text": "“That’s my flock of cloud sheep,” Breeze laughed.",
+     "speaker": "gio"
+    },
+    {
+     "atMs": 7222,
+     "text": "One, two, three cloud sheep, all in a row."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#D8D0F5",
+    "#FFDCD0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13389,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "There was one cloud sheep bigger than all the rest, round as a ball."
+    },
+    {
+     "atMs": 4422,
+     "text": "The cloud sheep wiggled its fluffy tail at Fluffy Lamb."
+    },
+    {
+     "atMs": 8321,
+     "text": "Little one, tap the cloud sheep!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 56,
+      "y": 16
+     },
+     "hint": "Tap the cloud sheep",
+     "appearAtMs": 10289,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 56,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#B8B8F0",
+    "#F5D8E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12477,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "As it grew dark, Breeze took the cloud sheep home to the Moon."
+    },
+    {
+     "atMs": 4581,
+     "text": "“The cloud sheep are going to bed now,” Breeze whispered.",
+     "speaker": "gio"
+    },
+    {
+     "atMs": 7880,
+     "text": "Little one, tap the Moon!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 12,
+      "y": 13
+     },
+     "hint": "Tap the Moon",
+     "appearAtMs": 9377,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 12,
+        "y": 13
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#EADCF0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13450,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Fluffy Lamb curled up on the soft grass, warm as a cozy blanket."
+    },
+    {
+     "atMs": 5523,
+     "text": "His eyes grew heavy, just like the sleeping clouds."
+    },
+    {
+     "atMs": 9005,
+     "text": "Good night, little one. Dream of the cloud sheep."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "6b61ca9298"
+}
