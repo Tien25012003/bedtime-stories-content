@@ -1,0 +1,231 @@
+{
+ "id": "lion-whisper",
+ "title": "Sư Tử Con Gầm Khẽ",
+ "tagline": "Ban đêm mình nói thật khẽ",
+ "description": "Sư Tử Con thích gầm thật to, cả lúc các bạn đang ngủ. Mẹ Sư Tử dạy con cách nói thì thầm, để cả khu rừng được ngủ ngon.",
+ "ageRange": "3–6 tuổi",
+ "category": "Thói quen tốt",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD8A8",
+  "#D8C8F0"
+ ],
+ "productId": "story.lion_whisper",
+ "characters": [
+  {
+   "id": "su-tu",
+   "name": "Sư Tử Con",
+   "description": "Chú sư tử con có bờm xù vàng cam.",
+   "color": "#FFD8A8",
+   "avatar": "su-tu.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mẹ Sư Tử",
+   "description": "Mẹ sư tử hiền từ, giọng nói ấm áp.",
+   "color": "#F5DEB8",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#FFD8A8",
+    "#D8C8F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11089,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trời chập choạng tối, Sư Tử Con đứng trên tảng đá."
+    },
+    {
+     "atMs": 3937,
+     "text": "“Gừ gừ gừ!” Sư Tử Con gầm thật to.",
+     "speaker": "su-tu"
+    },
+    {
+     "atMs": 7758,
+     "text": "Các bạn chim giật mình bay tán loạn."
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#E0C8E8",
+    "#FFE0C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11222,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mẹ Sư Tử nằm xuống bên cạnh con."
+    },
+    {
+     "atMs": 2828,
+     "text": "“Đêm rồi, các bạn đang ngủ, mình nói khẽ thôi con nhé,” mẹ nói.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 7240,
+     "text": "Sư Tử Con ngó quanh, ai cũng đang nhắm mắt."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#B8B8E8",
+    "#F5E0C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11761,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trong tổ, chim non đang ngủ say."
+    },
+    {
+     "atMs": 2927,
+     "text": "Sư Tử Con nhón chân thật nhẹ, không một tiếng động."
+    },
+    {
+     "atMs": 6426,
+     "text": "Bé ơi, chạm nhẹ vào tổ chim nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 82,
+      "y": 43
+     },
+     "hint": "Chạm vào tổ chim",
+     "appearAtMs": 8661,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 82,
+        "y": 43
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#A8A8E8",
+    "#F0D8E0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12007,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Con yêu mẹ,” Sư Tử Con thì thầm thật khẽ.",
+     "speaker": "su-tu"
+    },
+    {
+     "atMs": 3494,
+     "text": "Bạn Đom Đóm bay qua, gật gù khen giỏi."
+    },
+    {
+     "atMs": 6655,
+     "text": "Bé ơi, chạm vào bạn Đom Đóm nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 15,
+      "y": 12
+     },
+     "hint": "Chạm vào bạn Đom Đóm",
+     "appearAtMs": 8907,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 15,
+        "y": 12
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F6DCC2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 9912,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cả khu rừng chìm vào yên lặng."
+    },
+    {
+     "atMs": 2516,
+     "text": "Sư Tử Con rúc vào lòng mẹ, ngủ thật ngon."
+    },
+    {
+     "atMs": 5710,
+     "text": "Chúc bé ngủ ngon, ban đêm mình nói thật khẽ bé nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "71dd4763e0"
+}

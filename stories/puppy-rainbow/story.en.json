@@ -1,0 +1,231 @@
+{
+ "id": "puppy-rainbow",
+ "title": "Puppy Looks for the Rainbow",
+ "tagline": "An afternoon after the rain",
+ "description": "One afternoon, the rain has just stopped. Puppy and Little Frog go looking for the end of the rainbow, and learn that a rainbow has seven beautiful colors.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Exploring",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C8E6FF",
+  "#FFE6C8"
+ ],
+ "productId": "story.puppy_rainbow",
+ "characters": [
+  {
+   "id": "cun",
+   "name": "Puppy",
+   "description": "A lively little puppy with floppy ears.",
+   "color": "#F5E1C8",
+   "avatar": "cun.jpg"
+  },
+  {
+   "id": "com",
+   "name": "Little Frog",
+   "description": "A green frog who loves the rain.",
+   "color": "#D0F0C8",
+   "avatar": "com.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#C8E6FF",
+    "#FFE6C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12279,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "One afternoon, the rain shower had just stopped."
+    },
+    {
+     "atMs": 3763,
+     "text": "Puppy ran out to the garden, where raindrops sparkled on the leaves."
+    },
+    {
+     "atMs": 8033,
+     "text": "“Ooh, what’s that up in the sky?” Puppy cried.",
+     "speaker": "cun"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 321,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#BFE0FF",
+    "#FFF0C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10412,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "A huge rainbow stretched across the sky."
+    },
+    {
+     "atMs": 3304,
+     "text": "“That’s a rainbow, let’s go find where it ends!” Little Frog said.",
+     "speaker": "com"
+    },
+    {
+     "atMs": 7480,
+     "text": "And off the two friends went."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#C2E2F5",
+    "#FFEBD0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12541,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On the way, there was a big puddle."
+    },
+    {
+     "atMs": 2804,
+     "text": "Puppy jumped in, splash, and water flew everywhere!"
+    },
+    {
+     "atMs": 6693,
+     "text": "Little one, tap the puddle to jump with Puppy!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 55
+     },
+     "hint": "Tap the puddle",
+     "appearAtMs": 9441,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 55
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#D8E6FF",
+    "#FFE0EC"
+   ],
+   "motion": "pan-left",
+   "durationMs": 15924,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The sun shone through a raindrop, and seven colors appeared."
+    },
+    {
+     "atMs": 4337,
+     "text": "Red, orange, yellow, green, blue, indigo, violet, how beautiful!"
+    },
+    {
+     "atMs": 10296,
+     "text": "Little one, tap the sparkling raindrop!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 56,
+      "y": 25
+     },
+     "hint": "Tap the sparkling raindrop",
+     "appearAtMs": 12824,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 56,
+        "y": 25
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#FFD6B8",
+    "#E0D8FF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13394,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The rainbow faded slowly in the afternoon sun."
+    },
+    {
+     "atMs": 3500,
+     "text": "“When it rains tomorrow, let’s look for the rainbow again!” Puppy said.",
+     "speaker": "cun"
+    },
+    {
+     "atMs": 7910,
+     "text": "After the rain, the sky always brightens again, little one."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "1de5607789"
+}

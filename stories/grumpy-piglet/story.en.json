@@ -1,0 +1,231 @@
+{
+ "id": "grumpy-piglet",
+ "title": "Little Piglet Feels Better",
+ "tagline": "Learning to talk about feelings",
+ "description": "At noon, Little Piglet gets cross when her block tower falls down. With Panda’s help, she learns to take deep breaths and say how she feels.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Feelings",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD6E0",
+  "#E8E0FF"
+ ],
+ "productId": "story.grumpy_piglet",
+ "characters": [
+  {
+   "id": "heo",
+   "name": "Little Piglet",
+   "description": "A rosy little piglet who sometimes pouts.",
+   "color": "#FFD6E0",
+   "avatar": "heo.jpg"
+  },
+  {
+   "id": "gau-truc",
+   "name": "Panda",
+   "description": "A calm panda who loves to help.",
+   "color": "#EDEDED",
+   "avatar": "gau-truc.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFD6E0",
+    "#E8E0FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13621,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "At noon, Little Piglet built a very tall block tower."
+    },
+    {
+     "atMs": 4424,
+     "text": "Then crash! The tower tumbled to the floor."
+    },
+    {
+     "atMs": 7959,
+     "text": "“Humph! I’m so cross!” Little Piglet stamped her feet.",
+     "speaker": "heo"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 330,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#E8D6E8",
+    "#DDE6FF"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12604,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Her face turned red, like a dark cloud over her head."
+    },
+    {
+     "atMs": 4408,
+     "text": "Panda came over and sat down beside her."
+    },
+    {
+     "atMs": 7596,
+     "text": "“You’re feeling cross, aren’t you? I’m right here,” Panda said.",
+     "speaker": "gau-truc"
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#DDEBFF",
+    "#FFE6F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 14877,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“Let’s blow the pinwheel together, breathe in… and blow out…”"
+    },
+    {
+     "atMs": 3893,
+     "text": "The pinwheel spun round and round, and the dark cloud floated away."
+    },
+    {
+     "atMs": 8697,
+     "text": "Little one, tap the pinwheel and blow along!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 29
+     },
+     "hint": "Tap the pinwheel",
+     "appearAtMs": 11777,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 29
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFE0EA",
+    "#EDE6FF"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13731,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "“I was sad because my tower fell down,” Little Piglet said softly.",
+     "speaker": "heo"
+    },
+    {
+     "atMs": 4960,
+     "text": "Panda gave Little Piglet a big warm hug."
+    },
+    {
+     "atMs": 8035,
+     "text": "Little one, tap the heart to send a hug!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 50,
+      "y": 42
+     },
+     "hint": "Tap the heart",
+     "appearAtMs": 10631,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 42
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#FFE6D6",
+    "#E6E8FF"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12150,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The two friends built a brand new tower together."
+    },
+    {
+     "atMs": 3501,
+     "text": "The new tower was even better than the old one!"
+    },
+    {
+     "atMs": 6394,
+     "text": "When you feel cross, take a deep breath and tell Mommy or Daddy."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "742d821245"
+}

@@ -1,0 +1,232 @@
+{
+ "id": "giraffe-neck",
+ "title": "Hươu Cao Cổ Thích Cổ Mình",
+ "tagline": "Điều khác biệt của bé thật đáng yêu",
+ "description": "Hươu Nhỏ ngại chiếc cổ dài ngoằng của mình. Chiều nay, chiếc diều của bạn Khỉ mắc trên ngọn cây, và chỉ có Hươu Nhỏ mới với tới được.",
+ "ageRange": "3–6 tuổi",
+ "category": "Cảm xúc",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFE6B8",
+  "#C8E0F5"
+ ],
+ "productId": "story.giraffe_neck",
+ "characters": [
+  {
+   "id": "huou",
+   "name": "Hươu Nhỏ",
+   "description": "Cô hươu cao cổ con có những đốm nâu xinh.",
+   "color": "#FFE2B0",
+   "avatar": "huou.jpg"
+  },
+  {
+   "id": "khi",
+   "name": "Khỉ Con",
+   "description": "Bạn khỉ nhỏ nghịch ngợm, thích thả diều.",
+   "color": "#E8D0B8",
+   "avatar": "khi.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#FFE6B8",
+    "#C8E0F5"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12827,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trên thảo nguyên, có cô hươu cao cổ con tên là Hươu Nhỏ."
+    },
+    {
+     "atMs": 4052,
+     "text": "Các bạn chơi trốn tìm, nhưng cổ Hươu cao quá, trốn đâu cũng lộ."
+    },
+    {
+     "atMs": 8459,
+     "text": "“Ước gì cổ mình ngắn như các bạn,” Hươu Nhỏ buồn bã.",
+     "speaker": "huou"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#FFDCC2",
+    "#C8E6FF"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10768,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bỗng Khỉ Con kêu lên, chiếc diều bị mắc trên ngọn cây."
+    },
+    {
+     "atMs": 3902,
+     "text": "“Cây cao quá, mình leo không tới,” Khỉ Con mếu máo.",
+     "speaker": "khi"
+    },
+    {
+     "atMs": 7757,
+     "text": "Hươu Nhỏ ngước lên nhìn chiếc diều."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#FFE0B8",
+    "#BFE0FF"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11307,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Hươu Nhỏ vươn cổ thật cao, cao mãi, cao mãi."
+    },
+    {
+     "atMs": 3987,
+     "text": "Thế là chạm tới chiếc diều rồi!"
+    },
+    {
+     "atMs": 6161,
+     "text": "Bé ơi, chạm vào chiếc diều nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 67,
+      "y": 16
+     },
+     "hint": "Chạm vào chiếc diều",
+     "appearAtMs": 8207,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 67,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#FFD0B0",
+    "#E0D0F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13004,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Khỉ Con ngồi lên đầu Hươu, ngắm hoàng hôn từ trên cao."
+    },
+    {
+     "atMs": 3927,
+     "text": "“Cổ bạn dài thật tuyệt!” Khỉ Con reo lên.",
+     "speaker": "khi"
+    },
+    {
+     "atMs": 7620,
+     "text": "Bé ơi, chạm vào ông mặt trời nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 80,
+      "y": 34
+     },
+     "hint": "Chạm vào ông mặt trời",
+     "appearAtMs": 9904,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 80,
+        "y": 34
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F6DCC8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10617,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đêm xuống, Hươu Nhỏ nằm cuộn tròn dưới gốc cây."
+    },
+    {
+     "atMs": 3500,
+     "text": "“Mình thích cổ mình rồi,” Hươu Nhỏ mỉm cười.",
+     "speaker": "huou"
+    },
+    {
+     "atMs": 6347,
+     "text": "Chúc bé ngủ ngon, bé là duy nhất và thật đáng yêu."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "335361d3db"
+}

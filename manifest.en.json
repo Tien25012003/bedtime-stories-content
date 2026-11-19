@@ -183,6 +183,108 @@
    "sceneCount": 5
   },
   {
+   "id": "hippo-teeth",
+   "title": "Little Hippo Brushes His Teeth",
+   "tagline": "A happy morning with a toothbrush",
+   "description": "Every morning, Little Hippo is too lazy to brush his teeth. Today, Sparrow shares a secret with him: brushing your teeth can be as fun as a song.",
+   "ageRange": "Ages 2 to 5",
+   "category": "Good habits",
+   "cover": "stories/hippo-teeth/scene-1.jpg",
+   "coverColors": [
+    "#BFE6FF",
+    "#FFF1C2"
+   ],
+   "productId": "story.hippo_teeth",
+   "version": "a49328bc75",
+   "durationMs": 66375,
+   "sceneCount": 5
+  },
+  {
+   "id": "chick-tet",
+   "title": "Little Chick Goes to the Tet Market",
+   "tagline": "A busy, happy Lunar New Year morning",
+   "description": "Early one morning at the end of the year, Little Chick goes with Mama to the Tet market. There are yellow apricot blossoms, green banh chung cakes and bright red lucky envelopes.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Vietnamese culture",
+   "cover": "stories/chick-tet/scene-1.jpg",
+   "coverColors": [
+    "#FFD9B8",
+    "#FFF0B8"
+   ],
+   "productId": "story.chick_tet",
+   "version": "e7d70c1c1a",
+   "durationMs": 65527,
+   "sceneCount": 5
+  },
+  {
+   "id": "buffalo-field",
+   "title": "Baby Buffalo in the Rice Field",
+   "tagline": "Midday in the countryside",
+   "description": "At midday, Baby Buffalo follows White Egret around the rice field. Baby Buffalo learns where fragrant rice comes from.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Exploring",
+   "cover": "stories/buffalo-field/scene-1.jpg",
+   "coverColors": [
+    "#D8F0B8",
+    "#FFF0C2"
+   ],
+   "productId": "story.buffalo_field",
+   "version": "135cf7fb47",
+   "durationMs": 64461,
+   "sceneCount": 5
+  },
+  {
+   "id": "grumpy-piglet",
+   "title": "Little Piglet Feels Better",
+   "tagline": "Learning to talk about feelings",
+   "description": "At noon, Little Piglet gets cross when her block tower falls down. With Panda’s help, she learns to take deep breaths and say how she feels.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Feelings",
+   "cover": "stories/grumpy-piglet/scene-1.jpg",
+   "coverColors": [
+    "#FFD6E0",
+    "#E8E0FF"
+   ],
+   "productId": "story.grumpy_piglet",
+   "version": "742d821245",
+   "durationMs": 66983,
+   "sceneCount": 5
+  },
+  {
+   "id": "puppy-rainbow",
+   "title": "Puppy Looks for the Rainbow",
+   "tagline": "An afternoon after the rain",
+   "description": "One afternoon, the rain has just stopped. Puppy and Little Frog go looking for the end of the rainbow, and learn that a rainbow has seven beautiful colors.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Exploring",
+   "cover": "stories/puppy-rainbow/scene-1.jpg",
+   "coverColors": [
+    "#C8E6FF",
+    "#FFE6C8"
+   ],
+   "productId": "story.puppy_rainbow",
+   "version": "1de5607789",
+   "durationMs": 64550,
+   "sceneCount": 5
+  },
+  {
+   "id": "mid-autumn-rabbit",
+   "title": "Jade Rabbit’s Mid-Autumn Lanterns",
+   "tagline": "A glowing full moon night",
+   "description": "On the Mid Autumn night, Jade Rabbit comes down from the Moon to play with the village children. Everyone parades with star lanterns and shares sweet mooncakes.",
+   "ageRange": "Ages 3 to 7",
+   "category": "Vietnamese culture",
+   "cover": "stories/mid-autumn-rabbit/scene-1.jpg",
+   "coverColors": [
+    "#B8B0FF",
+    "#FFE0B8"
+   ],
+   "productId": "story.mid_autumn_rabbit",
+   "version": "b7ccbe449f",
+   "durationMs": 68059,
+   "sceneCount": 5
+  },
+  {
    "id": "owl-leaf-bed",
    "title": "Fluff the Owl and the Cozy Leaf",
    "tagline": "Two friends make a cozy nest",

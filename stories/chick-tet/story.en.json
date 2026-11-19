@@ -1,0 +1,232 @@
+{
+ "id": "chick-tet",
+ "title": "Little Chick Goes to the Tet Market",
+ "tagline": "A busy, happy Lunar New Year morning",
+ "description": "Early one morning at the end of the year, Little Chick goes with Mama to the Tet market. There are yellow apricot blossoms, green banh chung cakes and bright red lucky envelopes.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Vietnamese culture",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD9B8",
+  "#FFF0B8"
+ ],
+ "productId": "story.chick_tet",
+ "characters": [
+  {
+   "id": "ga-con",
+   "name": "Little Chick",
+   "description": "A fluffy yellow chick who loves to explore.",
+   "color": "#FFF1B8",
+   "avatar": "ga-con.jpg"
+  },
+  {
+   "id": "ga-me",
+   "name": "Mama Hen",
+   "description": "A gentle mama hen with a market basket.",
+   "color": "#F5D6B8",
+   "avatar": "ga-me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFD9B8",
+    "#FFF0B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13505,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "It was early morning at the end of the year, and the air was a little chilly."
+    },
+    {
+     "atMs": 4777,
+     "text": "Little Chick went to the Tet market with Mama, feeling so excited."
+    },
+    {
+     "atMs": 9195,
+     "text": "“What’s at the Tet market, Mama?” Little Chick asked.",
+     "speaker": "ga-con"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 381,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#FFE0C2",
+    "#FFE8F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 14674,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The Tet market was busy, with bright yellow apricot blossoms and pink peach blossoms."
+    },
+    {
+     "atMs": 6044,
+     "text": "“When the apricot blossoms bloom, Tet is here,” Mama Hen said.",
+     "speaker": "ga-me"
+    },
+    {
+     "atMs": 10341,
+     "text": "Little Chick sniffed, oh it smelled so lovely!"
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#D8F0C8",
+    "#FFF1C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12501,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "This is banh chung, green and square."
+    },
+    {
+     "atMs": 3331,
+     "text": "It is wrapped in leaves, with sticky rice and mung beans inside."
+    },
+    {
+     "atMs": 7488,
+     "text": "Little one, tap the banh chung!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 50
+     },
+     "hint": "Tap the banh chung",
+     "appearAtMs": 9401,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 50
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFD0C2",
+    "#FFF0C8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12952,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mama Hen took out a bright red envelope."
+    },
+    {
+     "atMs": 3047,
+     "text": "“Lucky money for you, grow up healthy and strong,” Mama said.",
+     "speaker": "ga-me"
+    },
+    {
+     "atMs": 7178,
+     "text": "Little one, tap the lucky red envelope!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 46,
+      "y": 46
+     },
+     "hint": "Tap the lucky red envelope",
+     "appearAtMs": 9852,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 46,
+        "y": 46
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#FFDCC2",
+    "#FFF4D0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11895,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Mama and Little Chick carried a full basket home."
+    },
+    {
+     "atMs": 3851,
+     "text": "“I love Tet so much, Mama!” Little Chick cheered.",
+     "speaker": "ga-con"
+    },
+    {
+     "atMs": 7585,
+     "text": "Wishing you a happy and healthy new year, little one."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "e7d70c1c1a"
+}

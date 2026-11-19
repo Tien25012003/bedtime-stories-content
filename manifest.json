@@ -416,6 +416,108 @@
    "version": "0dc4a3e0ae",
    "durationMs": 57679,
    "sceneCount": 5
+  },
+  {
+   "id": "giraffe-neck",
+   "title": "Hươu Cao Cổ Thích Cổ Mình",
+   "tagline": "Điều khác biệt của bé thật đáng yêu",
+   "description": "Hươu Nhỏ ngại chiếc cổ dài ngoằng của mình. Chiều nay, chiếc diều của bạn Khỉ mắc trên ngọn cây, và chỉ có Hươu Nhỏ mới với tới được.",
+   "ageRange": "3–6 tuổi",
+   "category": "Cảm xúc",
+   "cover": "stories/giraffe-neck/scene-1.jpg",
+   "coverColors": [
+    "#FFE6B8",
+    "#C8E0F5"
+   ],
+   "productId": "story.giraffe_neck",
+   "version": "335361d3db",
+   "durationMs": 58523,
+   "sceneCount": 5
+  },
+  {
+   "id": "sheep-clouds",
+   "title": "Cừu Bông Gặp Mây",
+   "tagline": "Những đám mây hình cừu trên trời",
+   "description": "Cừu Bông nằm trên đồi ngắm mây và thấy đám mây nào cũng giống một chú cừu. Gió đưa các đám mây đi ngủ, và Cừu Bông cũng díu mắt theo.",
+   "ageRange": "2–5 tuổi",
+   "category": "Ngủ ngon",
+   "cover": "stories/sheep-clouds/scene-1.jpg",
+   "coverColors": [
+    "#C8E4FF",
+    "#FFE6D8"
+   ],
+   "productId": "story.sheep_clouds",
+   "version": "f449975ded",
+   "durationMs": 56724,
+   "sceneCount": 5
+  },
+  {
+   "id": "mouse-moon",
+   "title": "Chuột Nhắt Và Mặt Trăng",
+   "tagline": "Vì sao trăng lúc tròn lúc khuyết",
+   "description": "Chuột Nhắt thấy mặt trăng mỗi đêm một khác, lúc tròn như bánh, lúc cong như lưỡi liềm. Bác Cú Mèo kể cho Chuột nghe bí mật của mặt trăng.",
+   "ageRange": "3–6 tuổi",
+   "category": "Khám phá",
+   "cover": "stories/mouse-moon/scene-1.jpg",
+   "coverColors": [
+    "#B8B8F0",
+    "#FFF0C2"
+   ],
+   "productId": "story.mouse_moon",
+   "version": "022b2bc09f",
+   "durationMs": 57491,
+   "sceneCount": 5
+  },
+  {
+   "id": "lion-whisper",
+   "title": "Sư Tử Con Gầm Khẽ",
+   "tagline": "Ban đêm mình nói thật khẽ",
+   "description": "Sư Tử Con thích gầm thật to, cả lúc các bạn đang ngủ. Mẹ Sư Tử dạy con cách nói thì thầm, để cả khu rừng được ngủ ngon.",
+   "ageRange": "3–6 tuổi",
+   "category": "Thói quen tốt",
+   "cover": "stories/lion-whisper/scene-1.jpg",
+   "coverColors": [
+    "#FFD8A8",
+    "#D8C8F0"
+   ],
+   "productId": "story.lion_whisper",
+   "version": "71dd4763e0",
+   "durationMs": 55991,
+   "sceneCount": 5
+  },
+  {
+   "id": "busy-bee",
+   "title": "Ong Nhỏ Làm Mật",
+   "tagline": "Cùng nhau làm thì nhanh hơn",
+   "description": "Ong Nhỏ muốn tự mình làm cả một hũ mật. Nhưng mật ngọt nhất lại đến khi Ong Nhỏ cùng làm với các bạn.",
+   "ageRange": "3–6 tuổi",
+   "category": "Tình bạn",
+   "cover": "stories/busy-bee/scene-1.jpg",
+   "coverColors": [
+    "#FFE8A8",
+    "#D8F0C8"
+   ],
+   "productId": "story.busy_bee",
+   "version": "58ebdd9664",
+   "durationMs": 56994,
+   "sceneCount": 5
+  },
+  {
+   "id": "water-puppet",
+   "title": "Mèo Con Xem Múa Rối Nước",
+   "tagline": "Chú Tễu kể chuyện trên mặt ao",
+   "description": "Buổi tối ở làng, Mèo Con theo ông đi xem múa rối nước. Chú Tễu vui tính, rồng phun nước và những chú vịt gỗ làm Mèo Con cười mãi.",
+   "ageRange": "3–7 tuổi",
+   "category": "Văn hoá Việt",
+   "cover": "stories/water-puppet/scene-1.jpg",
+   "coverColors": [
+    "#FFD0B0",
+    "#B8D8F0"
+   ],
+   "productId": "story.water_puppet",
+   "version": "c2f4cfc9d8",
+   "durationMs": 57100,
+   "sceneCount": 5
   }
  ]
 }

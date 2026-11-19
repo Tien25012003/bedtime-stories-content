@@ -1,0 +1,232 @@
+{
+ "id": "mouse-moon",
+ "title": "Chuột Nhắt Và Mặt Trăng",
+ "tagline": "Vì sao trăng lúc tròn lúc khuyết",
+ "description": "Chuột Nhắt thấy mặt trăng mỗi đêm một khác, lúc tròn như bánh, lúc cong như lưỡi liềm. Bác Cú Mèo kể cho Chuột nghe bí mật của mặt trăng.",
+ "ageRange": "3–6 tuổi",
+ "category": "Khám phá",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8B8F0",
+  "#FFF0C2"
+ ],
+ "productId": "story.mouse_moon",
+ "characters": [
+  {
+   "id": "chuot",
+   "name": "Chuột Nhắt",
+   "description": "Chú chuột xám nhỏ, hay thắc mắc.",
+   "color": "#E0DCE4",
+   "avatar": "chuot.jpg"
+  },
+  {
+   "id": "cu",
+   "name": "Bác Cú Mèo",
+   "description": "Bác cú già thông thái, đeo kính tròn.",
+   "color": "#E8D8C2",
+   "avatar": "cu.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#B8B8F0",
+    "#FFF0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11782,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đêm nay, mặt trăng tròn vành vạnh như chiếc bánh."
+    },
+    {
+     "atMs": 3519,
+     "text": "Nhưng mấy hôm sau, Chuột Nhắt thấy trăng chỉ còn một nửa."
+    },
+    {
+     "atMs": 7056,
+     "text": "“Ai đã ăn mất mặt trăng vậy?” Chuột Nhắt hỏi.",
+     "speaker": "chuot"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#AAB0E8",
+    "#F5E6C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10265,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chuột Nhắt leo lên cây, tìm Bác Cú Mèo."
+    },
+    {
+     "atMs": 3297,
+     "text": "“Không ai ăn trăng đâu cháu,” Bác Cú Mèo cười hiền.",
+     "speaker": "cu"
+    },
+    {
+     "atMs": 6652,
+     "text": "“Trăng chỉ đang chơi trốn tìm với bóng tối thôi.”",
+     "speaker": "cu"
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#9FA8E8",
+    "#F0E0D0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11185,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Có đêm trăng cong cong như một nụ cười."
+    },
+    {
+     "atMs": 2808,
+     "text": "Rồi trăng lớn dần, lớn dần mỗi đêm."
+    },
+    {
+     "atMs": 5801,
+     "text": "Bé ơi, chạm vào trăng lưỡi liềm nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 84,
+      "y": 14
+     },
+     "hint": "Chạm vào trăng lưỡi liềm",
+     "appearAtMs": 8085,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 84,
+        "y": 14
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#B0B0F0",
+    "#FFF0C8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13363,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cho đến khi trăng lại tròn xoe, sáng rực cả cánh đồng."
+    },
+    {
+     "atMs": 3862,
+     "text": "“Vậy là trăng không mất đâu cả!” Chuột Nhắt reo lên.",
+     "speaker": "chuot"
+    },
+    {
+     "atMs": 8135,
+     "text": "Bé ơi, chạm vào trăng tròn nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 68,
+      "y": 15
+     },
+     "hint": "Chạm vào trăng tròn",
+     "appearAtMs": 10263,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 68,
+        "y": 15
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F4E0C8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10896,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chuột Nhắt chui vào chiếc tổ nhỏ, đắp chăn thật ấm."
+    },
+    {
+     "atMs": 3798,
+     "text": "Trăng tròn hay khuyết, trăng vẫn luôn ở đó."
+    },
+    {
+     "atMs": 6782,
+     "text": "Chúc bé ngủ ngon, có ông trăng thức canh cho bé nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "022b2bc09f"
+}

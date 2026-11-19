@@ -1,0 +1,231 @@
+{
+ "id": "sheep-clouds",
+ "title": "Cừu Bông Gặp Mây",
+ "tagline": "Những đám mây hình cừu trên trời",
+ "description": "Cừu Bông nằm trên đồi ngắm mây và thấy đám mây nào cũng giống một chú cừu. Gió đưa các đám mây đi ngủ, và Cừu Bông cũng díu mắt theo.",
+ "ageRange": "2–5 tuổi",
+ "category": "Ngủ ngon",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C8E4FF",
+  "#FFE6D8"
+ ],
+ "productId": "story.sheep_clouds",
+ "characters": [
+  {
+   "id": "cuu",
+   "name": "Cừu Bông",
+   "description": "Chú cừu non lông trắng xoăn như bông.",
+   "color": "#F6F2EC",
+   "avatar": "cuu.jpg"
+  },
+  {
+   "id": "gio",
+   "name": "Bạn Gió",
+   "description": "Làn gió nhẹ thích thổi mây đi chơi.",
+   "color": "#D8F0FF",
+   "avatar": "gio.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#C8E4FF",
+    "#FFE6D8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11368,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Chiều chiều, Cừu Bông nằm trên đồi cỏ xanh."
+    },
+    {
+     "atMs": 3321,
+     "text": "Cừu Bông ngước nhìn những đám mây trắng trôi lững lờ."
+    },
+    {
+     "atMs": 6372,
+     "text": "“Ơ, mây trông giống mình quá!” Cừu Bông nói.",
+     "speaker": "cuu"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#C2DCFF",
+    "#FFE0C8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 10525,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Bạn Gió bay tới, khẽ thổi các đám mây."
+    },
+    {
+     "atMs": 3280,
+     "text": "“Đó là đàn cừu mây của mình đó,” Gió cười.",
+     "speaker": "gio"
+    },
+    {
+     "atMs": 6333,
+     "text": "Một, hai, ba chú cừu mây nối đuôi nhau."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#D8D0F5",
+    "#FFDCD0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11706,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Có một chú cừu mây to nhất, tròn như quả bóng."
+    },
+    {
+     "atMs": 3649,
+     "text": "Cừu mây vẫy vẫy cái đuôi bông với Cừu Bông."
+    },
+    {
+     "atMs": 6383,
+     "text": "Bé ơi, chạm vào chú cừu mây nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 56,
+      "y": 16
+     },
+     "hint": "Chạm vào chú cừu mây",
+     "appearAtMs": 8606,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 56,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#B8B8F0",
+    "#F5D8E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12015,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Trời tối dần, Gió đưa đàn cừu mây về bên chị Trăng."
+    },
+    {
+     "atMs": 3915,
+     "text": "“Đàn cừu mây đi ngủ rồi,” Gió thì thầm.",
+     "speaker": "gio"
+    },
+    {
+     "atMs": 6862,
+     "text": "Bé ơi, chạm vào mặt trăng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 12,
+      "y": 13
+     },
+     "hint": "Chạm vào mặt trăng",
+     "appearAtMs": 8915,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 12,
+        "y": 13
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#EADCF0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11110,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cừu Bông cuộn tròn trên cỏ mềm, ấm như chăn bông."
+    },
+    {
+     "atMs": 3688,
+     "text": "Mắt Cừu Bông díu lại, như những đám mây đang ngủ."
+    },
+    {
+     "atMs": 7166,
+     "text": "Chúc bé ngủ ngon, mơ thấy đàn cừu mây nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "f449975ded"
+}

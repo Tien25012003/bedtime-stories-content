@@ -1,0 +1,231 @@
+{
+ "id": "buffalo-field",
+ "title": "Baby Buffalo in the Rice Field",
+ "tagline": "Midday in the countryside",
+ "description": "At midday, Baby Buffalo follows White Egret around the rice field. Baby Buffalo learns where fragrant rice comes from.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Exploring",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D8F0B8",
+  "#FFF0C2"
+ ],
+ "productId": "story.buffalo_field",
+ "characters": [
+  {
+   "id": "nghe",
+   "name": "Baby Buffalo",
+   "description": "A gentle, curious baby water buffalo.",
+   "color": "#D8D8E0",
+   "avatar": "nghe.jpg"
+  },
+  {
+   "id": "co",
+   "name": "White Egret",
+   "description": "A long legged egret who knows lots of things.",
+   "color": "#F4F4F4",
+   "avatar": "co.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#D8F0B8",
+    "#FFF0C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12171,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "At midday, golden sunshine spread across the field."
+    },
+    {
+     "atMs": 4493,
+     "text": "Baby Buffalo watched the green rice rustling in the wind."
+    },
+    {
+     "atMs": 8143,
+     "text": "“What is rice for?” Baby Buffalo wondered.",
+     "speaker": "nghe"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 333,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#C8EBC8",
+    "#FFF4D0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11750,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "White Egret spread her wings and landed beside him."
+    },
+    {
+     "atMs": 3967,
+     "text": "“Come with me, I’ll show you!” White Egret said.",
+     "speaker": "co"
+    },
+    {
+     "atMs": 7642,
+     "text": "The two friends waded along the cool paddy edge."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#F5E6A8",
+    "#FFF4D0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13071,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "This is a rice stalk, heavy with golden grains."
+    },
+    {
+     "atMs": 3849,
+     "text": "Every grain will become a fragrant white grain of rice."
+    },
+    {
+     "atMs": 7468,
+     "text": "Little one, tap the golden rice stalk!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 45,
+      "y": 48
+     },
+     "hint": "Tap the golden rice stalk",
+     "appearAtMs": 9971,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 45,
+        "y": 48
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFE8C2",
+    "#E8F5D0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 14856,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "When rice is cooked, it becomes a warm bowl of steaming rice."
+    },
+    {
+     "atMs": 4762,
+     "text": "“So the rice I eat every day comes from this field!” Baby Buffalo said.",
+     "speaker": "nghe"
+    },
+    {
+     "atMs": 9634,
+     "text": "Little one, tap the bowl of rice!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 50,
+      "y": 52
+     },
+     "hint": "Tap the bowl of rice",
+     "appearAtMs": 11756,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 52
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#D0EBC0",
+    "#FFF0C8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12613,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Baby Buffalo rested under the cool banyan tree."
+    },
+    {
+     "atMs": 3388,
+     "text": "The breeze blew softly, and the rice sang a rustling lullaby."
+    },
+    {
+     "atMs": 7598,
+     "text": "Remember to finish your rice and thank the farmers, little one."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "135cf7fb47"
+}

@@ -1,0 +1,231 @@
+{
+ "id": "hippo-teeth",
+ "title": "Little Hippo Brushes His Teeth",
+ "tagline": "A happy morning with a toothbrush",
+ "description": "Every morning, Little Hippo is too lazy to brush his teeth. Today, Sparrow shares a secret with him: brushing your teeth can be as fun as a song.",
+ "ageRange": "Ages 2 to 5",
+ "category": "Good habits",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#BFE6FF",
+  "#FFF1C2"
+ ],
+ "productId": "story.hippo_teeth",
+ "characters": [
+  {
+   "id": "ha-ma",
+   "name": "Little Hippo",
+   "description": "A baby hippo with a big mouth who is often sleepy.",
+   "color": "#E3D8F5",
+   "avatar": "ha-ma.jpg"
+  },
+  {
+   "id": "se",
+   "name": "Sparrow",
+   "description": "A quick little sparrow who loves to sing.",
+   "color": "#F5E1C8",
+   "avatar": "se.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#BFE6FF",
+    "#FFF1C2"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11267,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The sun was up, and the birds were singing by the river."
+    },
+    {
+     "atMs": 3705,
+     "text": "Little Hippo gave a great big yawn, oh what a big mouth!"
+    },
+    {
+     "atMs": 7374,
+     "text": "“I don’t want to brush my teeth yet,” Little Hippo said.",
+     "speaker": "ha-ma"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 295,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#C8ECFF",
+    "#FFE8D0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13696,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Sparrow flew over, carrying a tiny toothbrush in her beak."
+    },
+    {
+     "atMs": 4395,
+     "text": "“Brushing is so much fun, let me sing you a song!” Sparrow said.",
+     "speaker": "se"
+    },
+    {
+     "atMs": 9360,
+     "text": "Little Hippo opened his eyes wide, curious."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#B8E0FF",
+    "#FFF4C8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13795,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Brush up, brush down, brush this way, brush that way."
+    },
+    {
+     "atMs": 4797,
+     "text": "The white foam was like teeny tiny clouds."
+    },
+    {
+     "atMs": 7757,
+     "text": "Little one, tap the toothbrush to brush along!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 32,
+      "y": 42
+     },
+     "hint": "Tap the toothbrush",
+     "appearAtMs": 10695,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 32,
+        "y": 42
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#C2EAFF",
+    "#FFE6F0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13652,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Hippo rinsed his mouth, gurgle, gurgle."
+    },
+    {
+     "atMs": 3952,
+     "text": "His teeth were shiny white, sparkling like pearls."
+    },
+    {
+     "atMs": 7886,
+     "text": "Little one, tap Little Hippo’s shiny teeth!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 45,
+      "y": 40
+     },
+     "hint": "Tap the shiny teeth",
+     "appearAtMs": 10552,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 45,
+        "y": 40
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#BFE6FF",
+    "#FFDCC2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13965,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "With clean teeth, breakfast tasted even better."
+    },
+    {
+     "atMs": 3959,
+     "text": "“Tomorrow I’ll brush my teeth all by myself!” Little Hippo grinned.",
+     "speaker": "ha-ma"
+    },
+    {
+     "atMs": 8528,
+     "text": "Brush your teeth nice and clean too, every morning and every night."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "a49328bc75"
+}

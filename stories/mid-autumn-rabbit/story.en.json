@@ -1,0 +1,231 @@
+{
+ "id": "mid-autumn-rabbit",
+ "title": "Jade Rabbit’s Mid-Autumn Lanterns",
+ "tagline": "A glowing full moon night",
+ "description": "On the Mid Autumn night, Jade Rabbit comes down from the Moon to play with the village children. Everyone parades with star lanterns and shares sweet mooncakes.",
+ "ageRange": "Ages 3 to 7",
+ "category": "Vietnamese culture",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#B8B0FF",
+  "#FFE0B8"
+ ],
+ "productId": "story.mid_autumn_rabbit",
+ "characters": [
+  {
+   "id": "tho-ngoc",
+   "name": "Jade Rabbit",
+   "description": "A white rabbit who lives on the Moon.",
+   "color": "#F4F0FF",
+   "avatar": "tho-ngoc.jpg"
+  },
+  {
+   "id": "cuoi",
+   "name": "Cuoi",
+   "description": "A cheerful boy who sits under the banyan tree.",
+   "color": "#F0DCC2",
+   "avatar": "cuoi.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#B8B0FF",
+    "#FFE0B8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13611,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On the full moon night of the eighth month, the Moon was big and round."
+    },
+    {
+     "atMs": 4782,
+     "text": "Jade Rabbit slid down a moonbeam to the little village."
+    },
+    {
+     "atMs": 8343,
+     "text": "“Mid Autumn down here is so much fun!” Jade Rabbit cheered.",
+     "speaker": "tho-ngoc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 374,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#A8A8F0",
+    "#FFD8C2"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13240,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Cuoi sat under the banyan tree, waving hello."
+    },
+    {
+     "atMs": 3569,
+     "text": "“Jade Rabbit, come join the lantern parade!” Cuoi said.",
+     "speaker": "cuoi"
+    },
+    {
+     "atMs": 7824,
+     "text": "Boom, boom went the lion dance drums, so lively and bright."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#9FA0E8",
+    "#FFD0B0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 14522,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The children carried star lanterns and carp lanterns all around the village."
+    },
+    {
+     "atMs": 5298,
+     "text": "Jade Rabbit was given a red star lantern."
+    },
+    {
+     "atMs": 8257,
+     "text": "Little one, tap the star lantern to make it shine!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 25,
+      "y": 27
+     },
+     "hint": "Tap the star lantern",
+     "appearAtMs": 11422,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 25,
+        "y": 27
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#B0A8F0",
+    "#FFE6C2"
+   ],
+   "motion": "pan-left",
+   "durationMs": 13596,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "It was time for the Mid Autumn feast, with mooncakes and pomelo too."
+    },
+    {
+     "atMs": 4776,
+     "text": "The whole village gathered around, laughing and chatting."
+    },
+    {
+     "atMs": 8623,
+     "text": "Little one, tap the mooncake!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 52,
+      "y": 45
+     },
+     "hint": "Tap the mooncake",
+     "appearAtMs": 10496,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 52,
+        "y": 45
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#9A9BF0",
+    "#F9D2C2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13090,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "The Moon rose high, and Jade Rabbit had to go home."
+    },
+    {
+     "atMs": 3854,
+     "text": "“See you next Mid Autumn, everyone!” Jade Rabbit waved.",
+     "speaker": "tho-ngoc"
+    },
+    {
+     "atMs": 7884,
+     "text": "Good night, little one. Dream of the Moon Lady and Jade Rabbit."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "b7ccbe449f"
+}

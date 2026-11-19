@@ -1,0 +1,230 @@
+{
+ "id": "water-puppet",
+ "title": "Mèo Con Xem Múa Rối Nước",
+ "tagline": "Chú Tễu kể chuyện trên mặt ao",
+ "description": "Buổi tối ở làng, Mèo Con theo ông đi xem múa rối nước. Chú Tễu vui tính, rồng phun nước và những chú vịt gỗ làm Mèo Con cười mãi.",
+ "ageRange": "3–7 tuổi",
+ "category": "Văn hoá Việt",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD0B0",
+  "#B8D8F0"
+ ],
+ "productId": "story.water_puppet",
+ "characters": [
+  {
+   "id": "meo",
+   "name": "Mèo Con",
+   "description": "Cô mèo con lông cam, rất tò mò.",
+   "color": "#FFDCB8",
+   "avatar": "meo.jpg"
+  },
+  {
+   "id": "teu",
+   "name": "Chú Tễu",
+   "description": "Chú rối gỗ bụng tròn, hay cười.",
+   "color": "#FFE0C8",
+   "avatar": "teu.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "narration": {
+    "minh": "narration-1-minh.m4a"
+   },
+   "colors": [
+    "#FFD0B0",
+    "#B8D8F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 10956,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tối nay, cả làng đi xem múa rối nước."
+    },
+    {
+     "atMs": 3051,
+     "text": "Mèo Con nắm tay ông, đi về phía ao làng."
+    },
+    {
+     "atMs": 6317,
+     "text": "“Rối nước là gì hả ông?” Mèo Con hỏi.",
+     "speaker": "meo"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 300,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ]
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "narration": {
+    "minh": "narration-2-minh.m4a"
+   },
+   "colors": [
+    "#F5C8B0",
+    "#B0D0F0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 12143,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tùng tùng tùng, trống vang lên, Chú Tễu nhảy ra mặt nước."
+    },
+    {
+     "atMs": 4141,
+     "text": "“Chào bà con cô bác, chào các bạn nhỏ!” Chú Tễu cười.",
+     "speaker": "teu"
+    },
+    {
+     "atMs": 8845,
+     "text": "Mèo Con vỗ tay, cười khúc khích."
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "narration": {
+    "minh": "narration-3-minh.m4a"
+   },
+   "colors": [
+    "#FFD8A0",
+    "#A8C8E8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11512,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Rồi một chú rồng vàng lượn trên mặt ao."
+    },
+    {
+     "atMs": 2980,
+     "text": "Rồng phun nước lên cao, lấp lánh như pháo hoa."
+    },
+    {
+     "atMs": 6363,
+     "text": "Bé ơi, chạm vào chú rồng nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 42,
+      "y": 34
+     },
+     "hint": "Chạm vào chú rồng",
+     "appearAtMs": 8412,
+     "waitForTap": true,
+     "sfx": "whoosh",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 42,
+        "y": 34
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "narration": {
+    "minh": "narration-4-minh.m4a"
+   },
+   "colors": [
+    "#F0D0B8",
+    "#B8D0E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11594,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Đàn vịt gỗ bơi nối đuôi nhau, cạc cạc cạc."
+    },
+    {
+     "atMs": 3380,
+     "text": "Bác nông dân rối thì đang cấy lúa trên ao."
+    },
+    {
+     "atMs": 6284,
+     "text": "Bé ơi, chạm vào chú vịt gỗ nhé!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 23,
+      "y": 60
+     },
+     "hint": "Chạm vào chú vịt gỗ",
+     "appearAtMs": 8494,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 23,
+        "y": 60
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "narration": {
+    "minh": "narration-5-minh.m4a"
+   },
+   "colors": [
+    "#9A9BF0",
+    "#F6D8C2"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 10895,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Buổi diễn kết thúc, ông cõng Mèo Con về nhà."
+    },
+    {
+     "atMs": 3417,
+     "text": "Mèo Con ngủ trên lưng ông, mơ thấy Chú Tễu."
+    },
+    {
+     "atMs": 6740,
+     "text": "Chúc bé ngủ ngon, mơ những giấc mơ thật vui nhé."
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "version": "c2f4cfc9d8"
+}
