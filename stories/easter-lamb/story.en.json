@@ -1,0 +1,231 @@
+{
+ "id": "easter-lamb",
+ "title": "Little Lamb’s Easter Egg Hunt",
+ "tagline": "A spring morning full of colorful eggs",
+ "description": "One spring morning, Little Lamb and Baby Chick hunt for painted eggs hidden all over the flower meadow. Little Lamb finds lots, and shares them with her friend.",
+ "ageRange": "Ages 2 to 5",
+ "category": "Holidays",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#D8F0D0",
+  "#FFE0F0"
+ ],
+ "productId": "story.easter_lamb",
+ "characters": [
+  {
+   "id": "cuu",
+   "name": "Little Lamb",
+   "description": "A little lamb with wool as curly as a cloud.",
+   "color": "#F4F0E8",
+   "avatar": "cuu.jpg"
+  },
+  {
+   "id": "ga",
+   "name": "Baby Chick",
+   "description": "A tiny fluffy yellow chick.",
+   "color": "#FFF0B0",
+   "avatar": "ga.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#D8F0D0",
+    "#FFE0F0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12162,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Spring had come, and the meadow was full of tulips."
+    },
+    {
+     "atMs": 3900,
+     "text": "Little Lamb grabbed her little basket and ran outside."
+    },
+    {
+     "atMs": 7518,
+     "text": "“Today is the Easter egg hunt!” Little Lamb cheered.",
+     "speaker": "cuu"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 328,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#E0F4D0",
+    "#FFF4C0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11043,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Baby Chick came running over, wanting to hunt for eggs too."
+    },
+    {
+     "atMs": 3845,
+     "text": "“Can I come with you?” asked Baby Chick.",
+     "speaker": "ga"
+    },
+    {
+     "atMs": 6842,
+     "text": "The two friends held hands and searched the whole meadow."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#D8E8F8",
+    "#FFD8E0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11690,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Look, a blue egg was hiding among the tulips!"
+    },
+    {
+     "atMs": 3488,
+     "text": "It was painted with white stripes, oh so pretty."
+    },
+    {
+     "atMs": 6896,
+     "text": "Little one, tap the blue egg!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 52
+     },
+     "hint": "Tap the blue egg",
+     "appearAtMs": 8590,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 52
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFE0E8",
+    "#E8F4D8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12436,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Lamb’s basket was full of eggs, but Baby Chick had only one."
+    },
+    {
+     "atMs": 5042,
+     "text": "“Let’s share mine,” said Little Lamb.",
+     "speaker": "cuu"
+    },
+    {
+     "atMs": 7471,
+     "text": "Little one, tap the pink egg!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 13,
+      "y": 63
+     },
+     "hint": "Tap the pink egg",
+     "appearAtMs": 9336,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 13,
+        "y": 63
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#FFD8C8",
+    "#E0D8F0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12207,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Tired from playing, the two friends rested under the apple tree."
+    },
+    {
+     "atMs": 4342,
+     "text": "Sharing with a friend made Little Lamb feel warm inside."
+    },
+    {
+     "atMs": 8026,
+     "text": "Good night, little one, and dream of the spring meadow."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "1e91c2c314"
+}

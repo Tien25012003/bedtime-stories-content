@@ -1,0 +1,231 @@
+{
+ "id": "campfire-raccoon",
+ "title": "Raccoon’s Campfire Night",
+ "tagline": "A night by the campfire",
+ "description": "Little Raccoon goes camping by the lake with Daddy. They toast marshmallows for s’mores, look for the North Star, and fall asleep snug in their tent.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Exploring",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#A8B8E0",
+  "#FFC8A0"
+ ],
+ "productId": "story.campfire_raccoon",
+ "characters": [
+  {
+   "id": "gaumeo",
+   "name": "Little Raccoon",
+   "description": "A little raccoon with a black mask around his eyes.",
+   "color": "#D0D0D8",
+   "avatar": "gaumeo.jpg"
+  },
+  {
+   "id": "bo",
+   "name": "Daddy Raccoon",
+   "description": "A cheerful daddy raccoon in a woolly hat.",
+   "color": "#C8C8D0",
+   "avatar": "bo.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFC8A0",
+    "#A8C8E0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12570,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "On the weekend, Little Raccoon went camping by the lake with Daddy."
+    },
+    {
+     "atMs": 4746,
+     "text": "Together they set up a little orange tent."
+    },
+    {
+     "atMs": 7591,
+     "text": "“Are we sleeping outside tonight, Daddy?” asked Little Raccoon.",
+     "speaker": "gaumeo"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 317,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#B8A8D8",
+    "#FFD0A0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11732,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "As it got dark, Daddy lit a small campfire."
+    },
+    {
+     "atMs": 3961,
+     "text": "“I’ll find more dry sticks!” said Little Raccoon.",
+     "speaker": "gaumeo"
+    },
+    {
+     "atMs": 7674,
+     "text": "The fire crackled and kept them both warm."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#FFC898",
+    "#C8B0D8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13984,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "They toasted marshmallows on long sticks."
+    },
+    {
+     "atMs": 3109,
+     "text": "Golden marshmallows, squished with chocolate between crackers, made s’mores."
+    },
+    {
+     "atMs": 8778,
+     "text": "Little one, tap the marshmallow!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 32,
+      "y": 23
+     },
+     "hint": "Tap the marshmallow",
+     "appearAtMs": 10884,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 32,
+        "y": 23
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#7888C8",
+    "#C8B8E8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12023,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "They lay on a blanket and looked up at the starry sky."
+    },
+    {
+     "atMs": 3667,
+     "text": "“That brightest one is the North Star,” said Daddy.",
+     "speaker": "bo"
+    },
+    {
+     "atMs": 6914,
+     "text": "Little one, tap the bright star!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 83,
+      "y": 18
+     },
+     "hint": "Tap the bright star",
+     "appearAtMs": 8923,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 83,
+        "y": 18
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#A8A8D8",
+    "#FFD8B0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 13170,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Raccoon wriggled into his warm sleeping bag in the tent."
+    },
+    {
+     "atMs": 4257,
+     "text": "Frogs sang by the lake, like a gentle lullaby."
+    },
+    {
+     "atMs": 7737,
+     "text": "Good night, little one, snug as Little Raccoon under the stars."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "2bd7ee298c"
+}

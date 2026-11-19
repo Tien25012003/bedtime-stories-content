@@ -521,6 +521,74 @@
    "version": "fe79e4d492",
    "durationMs": 63886,
    "sceneCount": 5
+  },
+  {
+   "id": "reindeer-christmas",
+   "title": "Little Reindeer’s Christmas Eve",
+   "tagline": "A cozy, snowy Christmas night",
+   "description": "On Christmas Eve, Little Reindeer helps Grandma Bear trim the tree and hang a stocking by the fire, then spots a sleigh flying past the Moon before bedtime.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Holidays",
+   "cover": "stories/reindeer-christmas/scene-1.jpg",
+   "coverColors": [
+    "#C8D8F0",
+    "#FFD8C8"
+   ],
+   "productId": "story.reindeer_christmas",
+   "version": "f5105f84a3",
+   "durationMs": 65239,
+   "sceneCount": 5
+  },
+  {
+   "id": "thankful-bear",
+   "title": "Little Bear’s Thankful Dinner",
+   "tagline": "An autumn full of thank yous",
+   "description": "In autumn, Little Bear picks a pumpkin, bakes a pie with Mama, and sits down to a big family dinner where everyone shares what they are thankful for.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Holidays",
+   "cover": "stories/thankful-bear/scene-1.jpg",
+   "coverColors": [
+    "#FFD8B0",
+    "#F0C8A0"
+   ],
+   "productId": "story.thankful_bear",
+   "version": "a79c13be1e",
+   "durationMs": 58309,
+   "sceneCount": 5
+  },
+  {
+   "id": "easter-lamb",
+   "title": "Little Lamb’s Easter Egg Hunt",
+   "tagline": "A spring morning full of colorful eggs",
+   "description": "One spring morning, Little Lamb and Baby Chick hunt for painted eggs hidden all over the flower meadow. Little Lamb finds lots, and shares them with her friend.",
+   "ageRange": "Ages 2 to 5",
+   "category": "Holidays",
+   "cover": "stories/easter-lamb/scene-1.jpg",
+   "coverColors": [
+    "#D8F0D0",
+    "#FFE0F0"
+   ],
+   "productId": "story.easter_lamb",
+   "version": "1e91c2c314",
+   "durationMs": 59538,
+   "sceneCount": 5
+  },
+  {
+   "id": "campfire-raccoon",
+   "title": "Raccoon’s Campfire Night",
+   "tagline": "A night by the campfire",
+   "description": "Little Raccoon goes camping by the lake with Daddy. They toast marshmallows for s’mores, look for the North Star, and fall asleep snug in their tent.",
+   "ageRange": "Ages 3 to 6",
+   "category": "Exploring",
+   "cover": "stories/campfire-raccoon/scene-1.jpg",
+   "coverColors": [
+    "#A8B8E0",
+    "#FFC8A0"
+   ],
+   "productId": "story.campfire_raccoon",
+   "version": "2bd7ee298c",
+   "durationMs": 63479,
+   "sceneCount": 5
   }
  ]
 }

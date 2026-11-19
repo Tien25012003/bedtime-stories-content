@@ -1,0 +1,230 @@
+{
+ "id": "reindeer-christmas",
+ "title": "Little Reindeer’s Christmas Eve",
+ "tagline": "A cozy, snowy Christmas night",
+ "description": "On Christmas Eve, Little Reindeer helps Grandma Bear trim the tree and hang a stocking by the fire, then spots a sleigh flying past the Moon before bedtime.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Holidays",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#C8D8F0",
+  "#FFD8C8"
+ ],
+ "productId": "story.reindeer_christmas",
+ "characters": [
+  {
+   "id": "tuanloc",
+   "name": "Little Reindeer",
+   "description": "A little reindeer with a pink nose.",
+   "color": "#E8D0B8",
+   "avatar": "tuanloc.jpg"
+  },
+  {
+   "id": "ba",
+   "name": "Grandma Bear",
+   "description": "A kind grandma bear with round glasses.",
+   "color": "#F0DCC8",
+   "avatar": "ba.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#C8D8F0",
+    "#FFE8D0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 14362,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "It was Christmas Eve, and soft snow covered the village."
+    },
+    {
+     "atMs": 4139,
+     "text": "Little Reindeer wrapped up in his red scarf and ran to Grandma Bear’s house."
+    },
+    {
+     "atMs": 8883,
+     "text": "“Grandma, let’s decorate the Christmas tree!” Little Reindeer cheered.",
+     "speaker": "tuanloc"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 334,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#D8E8C8",
+    "#FFE0C0"
+   ],
+   "motion": "pan-right",
+   "durationMs": 13161,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Together they hung red, gold and green baubles on the tree."
+    },
+    {
+     "atMs": 4574,
+     "text": "“The tree is so pretty, Grandma!” said Little Reindeer.",
+     "speaker": "tuanloc"
+    },
+    {
+     "atMs": 8583,
+     "text": "Grandma Bear smiled and handed him a golden star."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#E0E8C8",
+    "#FFE8A8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 13316,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Reindeer climbed on a stool and put the star on top of the tree."
+    },
+    {
+     "atMs": 4624,
+     "text": "The star twinkled, and the whole room felt warm and bright."
+    },
+    {
+     "atMs": 8603,
+     "text": "Little one, tap the star!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 49,
+      "y": 19
+     },
+     "hint": "Tap the star",
+     "appearAtMs": 10216,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 49,
+        "y": 19
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFD8C0",
+    "#F0C8C8"
+   ],
+   "motion": "pan-left",
+   "durationMs": 11723,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Reindeer hung a red stocking by the fireplace."
+    },
+    {
+     "atMs": 3678,
+     "text": "Grandma left out cookies and milk for Santa."
+    },
+    {
+     "atMs": 6769,
+     "text": "Little one, tap the stocking!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 91,
+      "y": 17
+     },
+     "hint": "Tap the stocking",
+     "appearAtMs": 8623,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 91,
+        "y": 17
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#B8C8E8",
+    "#FFE8D8"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 12677,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Outside the window, a little sleigh flew right across the Moon."
+    },
+    {
+     "atMs": 4243,
+     "text": "Little Reindeer gave a big yawn and snuggled under his warm quilt."
+    },
+    {
+     "atMs": 8605,
+     "text": "Good night, little one, and merry Christmas."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "f5105f84a3"
+}

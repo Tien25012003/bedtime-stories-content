@@ -1,0 +1,231 @@
+{
+ "id": "thankful-bear",
+ "title": "Little Bear’s Thankful Dinner",
+ "tagline": "An autumn full of thank yous",
+ "description": "In autumn, Little Bear picks a pumpkin, bakes a pie with Mama, and sits down to a big family dinner where everyone shares what they are thankful for.",
+ "ageRange": "Ages 3 to 6",
+ "category": "Holidays",
+ "cover": "scene-1.jpg",
+ "coverColors": [
+  "#FFD8B0",
+  "#F0C8A0"
+ ],
+ "productId": "story.thankful_bear",
+ "characters": [
+  {
+   "id": "gau",
+   "name": "Little Bear",
+   "description": "A little brown bear who loves pumpkin pie.",
+   "color": "#E8C8A8",
+   "avatar": "gau.jpg"
+  },
+  {
+   "id": "me",
+   "name": "Mama Bear",
+   "description": "A gentle mama bear who loves to cook.",
+   "color": "#F0D8C0",
+   "avatar": "me.jpg"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "scene-1",
+   "image": "scene-1.jpg",
+   "colors": [
+    "#FFD8B0",
+    "#F0C8A0"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 12474,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Autumn had come, and the leaves turned orange and red."
+    },
+    {
+     "atMs": 4229,
+     "text": "Little Bear pulled his little wooden wagon to the pumpkin patch."
+    },
+    {
+     "atMs": 7921,
+     "text": "“I’m going to find the roundest pumpkin!” said Little Bear.",
+     "speaker": "gau"
+    }
+   ],
+   "timeline": [
+    {
+     "atMs": 325,
+     "type": "sparkle",
+     "at": {
+      "x": 50,
+      "y": 18
+     }
+    }
+   ],
+   "narration": {
+    "max": "narration-1-max.m4a"
+   }
+  },
+  {
+   "id": "scene-2",
+   "image": "scene-2.jpg",
+   "colors": [
+    "#FFE0B8",
+    "#E8D0A8"
+   ],
+   "motion": "pan-right",
+   "durationMs": 11092,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Little Bear hugged a big round pumpkin, oh so heavy."
+    },
+    {
+     "atMs": 3971,
+     "text": "“Well done, sweetie!” said Mama Bear.",
+     "speaker": "me"
+    },
+    {
+     "atMs": 7000,
+     "text": "Mama picked a basket of sweet red apples too."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-2-max.m4a"
+   }
+  },
+  {
+   "id": "scene-3",
+   "image": "scene-3.jpg",
+   "colors": [
+    "#FFE8C0",
+    "#F0D0A8"
+   ],
+   "motion": "zoom-in",
+   "durationMs": 11359,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Together they baked a golden pumpkin pie."
+    },
+    {
+     "atMs": 3189,
+     "text": "The yummy smell filled the whole little kitchen."
+    },
+    {
+     "atMs": 6081,
+     "text": "Little one, tap the pumpkin pie!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-3",
+     "hotspot": {
+      "x": 50,
+      "y": 51
+     },
+     "hint": "Tap the pumpkin pie",
+     "appearAtMs": 8259,
+     "waitForTap": true,
+     "sfx": "sparkle",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 50,
+        "y": 51
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-3-max.m4a"
+   }
+  },
+  {
+   "id": "scene-4",
+   "image": "scene-4.jpg",
+   "colors": [
+    "#FFD8B8",
+    "#E8C0A0"
+   ],
+   "motion": "pan-left",
+   "durationMs": 12015,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "That evening, the whole family gathered around the table."
+    },
+    {
+     "atMs": 3793,
+     "text": "“I’m thankful my family is here with me,” said Little Bear.",
+     "speaker": "gau"
+    },
+    {
+     "atMs": 7208,
+     "text": "Little one, tap the candle!"
+    }
+   ],
+   "timeline": [],
+   "interactions": [
+    {
+     "id": "tap-4",
+     "hotspot": {
+      "x": 13,
+      "y": 50
+     },
+     "hint": "Tap the candle",
+     "appearAtMs": 8915,
+     "waitForTap": true,
+     "sfx": "pop",
+     "onTap": [
+      {
+       "atMs": 0,
+       "type": "sparkle",
+       "at": {
+        "x": 13,
+        "y": 50
+       }
+      }
+     ]
+    }
+   ],
+   "narration": {
+    "max": "narration-4-max.m4a"
+   }
+  },
+  {
+   "id": "scene-5",
+   "image": "scene-5.jpg",
+   "colors": [
+    "#D8C8E0",
+    "#FFE0C0"
+   ],
+   "motion": "zoom-out",
+   "durationMs": 11369,
+   "cues": [
+    {
+     "atMs": 300,
+     "text": "Full and happy, Little Bear climbed into bed."
+    },
+    {
+     "atMs": 3372,
+     "text": "Little Bear whispered, “Thank you for such a lovely day.”"
+    },
+    {
+     "atMs": 7067,
+     "text": "Good night, little one, and remember to say thank you."
+    }
+   ],
+   "timeline": [],
+   "narration": {
+    "max": "narration-5-max.m4a"
+   }
+  }
+ ],
+ "version": "a79c13be1e"
+}
