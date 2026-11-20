@@ -33,7 +33,8 @@
    "image": "scene-1.jpg",
    "narration": {
     "ut": "narration-1-ut.m4a",
-    "minh": "narration-1-minh.m4a"
+    "minh": "narration-1-minh.m4a",
+    "tu": "narration-1-tu.m4a"
    },
    "colors": [
     "#FFD6E0",
@@ -72,7 +73,8 @@
    "image": "scene-2.jpg",
    "narration": {
     "ut": "narration-2-ut.m4a",
-    "minh": "narration-2-minh.m4a"
+    "minh": "narration-2-minh.m4a",
+    "tu": "narration-2-tu.m4a"
    },
    "colors": [
     "#E8D6E8",
@@ -102,7 +104,8 @@
    "image": "scene-3.jpg",
    "narration": {
     "ut": "narration-3-ut.m4a",
-    "minh": "narration-3-minh.m4a"
+    "minh": "narration-3-minh.m4a",
+    "tu": "narration-3-tu.m4a"
    },
    "colors": [
     "#DDEBFF",
@@ -154,7 +157,8 @@
    "image": "scene-4.jpg",
    "narration": {
     "ut": "narration-4-ut.m4a",
-    "minh": "narration-4-minh.m4a"
+    "minh": "narration-4-minh.m4a",
+    "tu": "narration-4-tu.m4a"
    },
    "colors": [
     "#FFE0EA",
@@ -207,7 +211,8 @@
    "image": "scene-5.jpg",
    "narration": {
     "ut": "narration-5-ut.m4a",
-    "minh": "narration-5-minh.m4a"
+    "minh": "narration-5-minh.m4a",
+    "tu": "narration-5-tu.m4a"
    },
    "colors": [
     "#FFE6D6",
@@ -232,5 +237,5 @@
    "timeline": []
   }
  ],
- "version": "d1cbf6a16d"
+ "version": "b2d638e3fd"
 }
