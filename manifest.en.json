@@ -110,7 +110,7 @@
     "#FFE4C2"
    ],
    "productId": "story.little_turtle",
-   "version": "0aca6d3995",
+   "version": "581c2f9321",
    "durationMs": 61313,
    "sceneCount": 5
   },
@@ -161,7 +161,7 @@
     "#E8D0FF"
    ],
    "productId": "story.dreamy_penguin",
-   "version": "55f5f8dff0",
+   "version": "341bfd847d",
    "durationMs": 61177,
    "sceneCount": 5
   },
@@ -212,7 +212,7 @@
     "#E8E0FF"
    ],
    "productId": "story.grumpy_piglet",
-   "version": "2f9582b87d",
+   "version": "b3f5044e93",
    "durationMs": 66983,
    "sceneCount": 5
   },
@@ -229,7 +229,7 @@
     "#FFE6C8"
    ],
    "productId": "story.puppy_rainbow",
-   "version": "1c98552def",
+   "version": "5307ba9290",
    "durationMs": 64550,
    "sceneCount": 5
   },
@@ -331,7 +331,7 @@
     "#FFF0B8"
    ],
    "productId": "story.shy_firefly",
-   "version": "eaf2399073",
+   "version": "0661d42a91",
    "durationMs": 66682,
    "sceneCount": 5
   },
@@ -348,7 +348,7 @@
     "#FFE0E8"
    ],
    "productId": "story.kitten_bath",
-   "version": "ae54b06e11",
+   "version": "81bcd3d179",
    "durationMs": 64682,
    "sceneCount": 5
   },
@@ -382,7 +382,7 @@
     "#C8E0F5"
    ],
    "productId": "story.giraffe_neck",
-   "version": "5e3907263b",
+   "version": "656569a19e",
    "durationMs": 64993,
    "sceneCount": 5
   },
@@ -399,7 +399,7 @@
     "#FFE6D8"
    ],
    "productId": "story.sheep_clouds",
-   "version": "b564fc9413",
+   "version": "bf4177c75b",
    "durationMs": 64781,
    "sceneCount": 5
   },
@@ -416,7 +416,7 @@
     "#FFF0C2"
    ],
    "productId": "story.mouse_moon",
-   "version": "30d0e6f2a8",
+   "version": "579c31ef11",
    "durationMs": 60869,
    "sceneCount": 5
   },
@@ -433,7 +433,7 @@
     "#D8C8F0"
    ],
    "productId": "story.lion_whisper",
-   "version": "2a5c04964e",
+   "version": "c2a837247b",
    "durationMs": 64241,
    "sceneCount": 5
   },
@@ -501,7 +501,7 @@
     "#FFE0B8"
    ],
    "productId": "story.monkey_nap",
-   "version": "94ade0be9a",
+   "version": "8abf0f8459",
    "durationMs": 68328,
    "sceneCount": 5
   },
@@ -518,7 +518,7 @@
     "#FFD8C8"
    ],
    "productId": "story.little_bat",
-   "version": "b0a7cbfcb7",
+   "version": "7b2f464953",
    "durationMs": 63886,
    "sceneCount": 5
   },
@@ -535,7 +535,7 @@
     "#FFD8C8"
    ],
    "productId": "story.reindeer_christmas",
-   "version": "51b2809cff",
+   "version": "16c46bf688",
    "durationMs": 65239,
    "sceneCount": 5
   },
@@ -552,7 +552,7 @@
     "#F0C8A0"
    ],
    "productId": "story.thankful_bear",
-   "version": "88307e5bdf",
+   "version": "920869e56e",
    "durationMs": 58309,
    "sceneCount": 5
   },
@@ -569,7 +569,7 @@
     "#FFE0F0"
    ],
    "productId": "story.easter_lamb",
-   "version": "4a6af605c4",
+   "version": "5c06baae8c",
    "durationMs": 59538,
    "sceneCount": 5
   },
@@ -586,7 +586,7 @@
     "#FFC8A0"
    ],
    "productId": "story.campfire_raccoon",
-   "version": "e923363514",
+   "version": "c0c1247654",
    "durationMs": 63479,
    "sceneCount": 5
   }
