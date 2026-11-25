@@ -35,27 +35,27 @@
     "#FFD6E8"
    ],
    "motion": "zoom-in",
-   "durationMs": 11881,
+   "durationMs": 13501,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "At the edge of the green forest was a meadow as soft as a blanket.",
      "mood": "gentle"
     },
     {
-     "atMs": 4627,
+     "atMs": 5257,
      "text": "There lived a little white bunny named Cotton.",
      "mood": "gentle"
     },
     {
-     "atMs": 7509,
+     "atMs": 8533,
      "text": "Every night, Cotton looked up at the twinkling stars.",
      "mood": "tender"
     }
    ],
    "timeline": [
     {
-     "atMs": 4504,
+     "atMs": 5118,
      "type": "sfx",
      "sound": "pop"
     }
@@ -75,27 +75,27 @@
     "#FFC9DD"
    ],
    "motion": "pan-right",
-   "durationMs": 14379,
+   "durationMs": 16340,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Suddenly… whoosh! A streak of light flew across the sky.",
      "mood": "excited"
     },
     {
-     "atMs": 4904,
+     "atMs": 5573,
      "text": "Something fell into the grass, twinkling and sparkling.",
      "mood": "magical"
     },
     {
-     "atMs": 8823,
+     "atMs": 10027,
      "text": "Little one, tap the light to see what it is!",
      "mood": "magical"
     }
    ],
    "timeline": [
     {
-     "atMs": 406,
+     "atMs": 461,
      "type": "sfx",
      "sound": "whoosh"
     }
@@ -108,7 +108,7 @@
       "y": 65
      },
      "hint": "Tap the light",
-     "appearAtMs": 13079,
+     "appearAtMs": 15040,
      "waitForTap": true,
      "sfx": "sparkle",
      "onTap": [
@@ -138,22 +138,22 @@
     "#FFE0C2"
    ],
    "motion": "zoom-in",
-   "durationMs": 11941,
+   "durationMs": 13569,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "“Hello,” Cotton whispered. “Who are you?”",
      "speaker": "bong",
      "mood": "tender"
     },
     {
-     "atMs": 3367,
+     "atMs": 3827,
      "text": "“I’m Little Star… I fell down, and I can’t fly back home.”",
      "speaker": "little-star",
      "mood": "tender"
     },
     {
-     "atMs": 7821,
+     "atMs": 8887,
      "text": "“Don’t be sad,” Cotton said. “I’ll help you!”",
      "speaker": "bong",
      "mood": "gentle"
@@ -161,7 +161,7 @@
    ],
    "timeline": [
     {
-     "atMs": 7925,
+     "atMs": 9005,
      "type": "sfx",
      "sound": "pop"
     }
@@ -181,21 +181,21 @@
     "#FFC6D9"
    ],
    "motion": "pan-left",
-   "durationMs": 14525,
+   "durationMs": 16506,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Together they climbed the tallest hill, the one closest to the moon.",
      "mood": "gentle"
     },
     {
-     "atMs": 5045,
+     "atMs": 5733,
      "text": "Cotton said: “Let’s make a great big wish!”",
      "speaker": "bong",
      "mood": "excited"
     },
     {
-     "atMs": 8079,
+     "atMs": 9180,
      "text": "Little one, tap Little Star to send her back to the sky!",
      "mood": "magical"
     }
@@ -209,7 +209,7 @@
       "y": 46
      },
      "hint": "Tap to send Little Star home",
-     "appearAtMs": 13225,
+     "appearAtMs": 15206,
      "waitForTap": true,
      "sfx": "whoosh",
      "onTap": [
@@ -252,27 +252,27 @@
     "#F9C2DF"
    ],
    "motion": "zoom-out",
-   "durationMs": 13940,
+   "durationMs": 15841,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Up in the sky, Little Star twinkled brightest of all, as if saying thank you.",
      "mood": "tender"
     },
     {
-     "atMs": 5554,
+     "atMs": 6312,
      "text": "Cotton lay down in the grass, eyes closing, with a smile.",
      "mood": "gentle"
     },
     {
-     "atMs": 9545,
+     "atMs": 10846,
      "text": "Sleep tight, little one, and have sparkly dreams.",
      "mood": "tender"
     }
    ],
    "timeline": [
     {
-     "atMs": 252,
+     "atMs": 286,
      "type": "sparkle",
      "at": {
       "x": 80,
@@ -288,5 +288,5 @@
    }
   }
  ],
- "version": "3c34d88763"
+ "version": "0ca5db575d"
 }

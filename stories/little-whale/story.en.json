@@ -35,18 +35,18 @@
     "#FFE0C2"
    ],
    "motion": "zoom-in",
-   "durationMs": 11559,
+   "durationMs": 13135,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Deep in the blue sea lived a little whale named Blue."
     },
     {
-     "atMs": 3729,
+     "atMs": 4237,
      "text": "Blue loved singing with Mama every night."
     },
     {
-     "atMs": 6569,
+     "atMs": 7465,
      "text": "But tonight Mama was far away, so Blue had to sing alone."
     }
    ],
@@ -66,19 +66,19 @@
     "#9ED8F0"
    ],
    "motion": "pan-right",
-   "durationMs": 13243,
+   "durationMs": 15049,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "The night sea grew darker, and Blue felt a little scared."
     },
     {
-     "atMs": 4146,
+     "atMs": 4711,
      "text": "“Is anybody there?” Blue called softly.",
      "speaker": "lam"
     },
     {
-     "atMs": 7111,
+     "atMs": 8081,
      "text": "Little one, tap that little light to see who’s coming!"
     }
    ],
@@ -91,7 +91,7 @@
       "y": 44
      },
      "hint": "Tap the little light",
-     "appearAtMs": 11943,
+     "appearAtMs": 13749,
      "waitForTap": true,
      "sfx": "sparkle",
      "onTap": [
@@ -121,25 +121,25 @@
     "#FFC9DE"
    ],
    "motion": "pan-left",
-   "durationMs": 11362,
+   "durationMs": 12911,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "It was Little Jelly, glowing like a lantern."
     },
     {
-     "atMs": 3557,
+     "atMs": 4042,
      "text": "“Don’t be scared, I’ll stay with you,” Little Jelly said.",
      "speaker": "sua"
     },
     {
-     "atMs": 6921,
+     "atMs": 7864,
      "text": "Together they swam past the colorful coral reefs."
     }
    ],
    "timeline": [
     {
-     "atMs": 3772,
+     "atMs": 4286,
      "type": "sfx",
      "sound": "pop"
     }
@@ -159,19 +159,19 @@
     "#FFE6B8"
    ],
    "motion": "zoom-in",
-   "durationMs": 13471,
+   "durationMs": 15308,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "“Let me sing you a song!” Blue said.",
      "speaker": "lam"
     },
     {
-     "atMs": 3162,
+     "atMs": 3593,
      "text": "Blue’s song drifted far away, as soft as the ocean waves."
     },
     {
-     "atMs": 7329,
+     "atMs": 8329,
      "text": "Little one, tap Blue to let the music bubbles float!"
     }
    ],
@@ -184,7 +184,7 @@
       "y": 47
      },
      "hint": "Tap Blue to make bubbles",
-     "appearAtMs": 12171,
+     "appearAtMs": 14008,
      "waitForTap": true,
      "sfx": "pop",
      "onTap": [
@@ -227,24 +227,24 @@
     "#F9C2DF"
    ],
    "motion": "zoom-out",
-   "durationMs": 13165,
+   "durationMs": 14961,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Far away, Mama heard the song and swam back to Blue."
     },
     {
-     "atMs": 4514,
+     "atMs": 5130,
      "text": "Blue snuggled up to Mama and slowly closed his eyes."
     },
     {
-     "atMs": 8557,
+     "atMs": 9724,
      "text": "Good night, little one. Dream of the gentle blue sea."
     }
    ],
    "timeline": [
     {
-     "atMs": 413,
+     "atMs": 470,
      "type": "sfx",
      "sound": "whoosh"
     }
@@ -257,5 +257,5 @@
    }
   }
  ],
- "version": "e24c32a75e"
+ "version": "d9cac5cac7"
 }

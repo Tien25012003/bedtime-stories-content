@@ -35,25 +35,25 @@
     "#FFE7B8"
    ],
    "motion": "zoom-in",
-   "durationMs": 13856,
+   "durationMs": 15746,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "On a big lily pad sat a teeny tiny Green Frog."
     },
     {
-     "atMs": 3961,
+     "atMs": 4501,
      "text": "Green Frog loved counting more than anything. He counted everything!"
     },
     {
-     "atMs": 8849,
+     "atMs": 10055,
      "text": "“Tonight, I’m going to count the stars!” Green Frog cheered.",
      "speaker": "ech"
     }
    ],
    "timeline": [
     {
-     "atMs": 345,
+     "atMs": 393,
      "type": "sparkle",
      "at": {
       "x": 50,
@@ -76,19 +76,19 @@
     "#FFE6C2"
    ],
    "motion": "pan-right",
-   "durationMs": 11519,
+   "durationMs": 13089,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "One star appeared, and then two more."
     },
     {
-     "atMs": 2895,
+     "atMs": 3290,
      "text": "“One, two, three!” Green Frog counted out loud.",
      "speaker": "ech"
     },
     {
-     "atMs": 6547,
+     "atMs": 7440,
      "text": "Little one, let’s count with Green Frog: one, two, three!"
     }
    ],
@@ -108,19 +108,19 @@
     "#FFF1B8"
    ],
    "motion": "zoom-in",
-   "durationMs": 12656,
+   "durationMs": 14382,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "The fourth star twinkled as if it were winking."
     },
     {
-     "atMs": 3315,
+     "atMs": 3767,
      "text": "“Four!” Green Frog said softly, his voice getting quieter.",
      "speaker": "ech"
     },
     {
-     "atMs": 7589,
+     "atMs": 8624,
      "text": "Little one, tap the fourth star!"
     }
    ],
@@ -133,7 +133,7 @@
       "y": 16
      },
      "hint": "Tap the fourth star",
-     "appearAtMs": 9556,
+     "appearAtMs": 11282,
      "waitForTap": true,
      "sfx": "sparkle",
      "onTap": [
@@ -163,18 +163,18 @@
     "#FFC6D9"
    ],
    "motion": "pan-left",
-   "durationMs": 12486,
+   "durationMs": 14188,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "The fifth star was very small, far away in the corner of the sky."
     },
     {
-     "atMs": 4801,
+     "atMs": 5455,
      "text": "Green Frog gave a long, long yawn."
     },
     {
-     "atMs": 7480,
+     "atMs": 8500,
      "text": "Little one, tap the fifth star!"
     }
    ],
@@ -187,7 +187,7 @@
       "y": 16
      },
      "hint": "Tap the fifth star",
-     "appearAtMs": 9386,
+     "appearAtMs": 11088,
      "waitForTap": true,
      "sfx": "sparkle",
      "onTap": [
@@ -217,19 +217,19 @@
     "#F9C2DF"
    ],
    "motion": "zoom-out",
-   "durationMs": 14669,
+   "durationMs": 16670,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "“Five…” Green Frog counted, and his eyes slowly closed.",
      "speaker": "ech"
     },
     {
-     "atMs": 4996,
+     "atMs": 5677,
      "text": "The stars smiled and softly sang Green Frog a lullaby."
     },
     {
-     "atMs": 9147,
+     "atMs": 10394,
      "text": "One, two, three, four, five, good night, little one."
     }
    ],
@@ -242,5 +242,5 @@
    }
   }
  ],
- "version": "54c69cc43d"
+ "version": "25fce7b383"
 }

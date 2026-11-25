@@ -35,25 +35,25 @@
     "#FFE0C2"
    ],
    "motion": "zoom-in",
-   "durationMs": 11243,
+   "durationMs": 12776,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "In a little house lived a kitten named Cloud."
     },
     {
-     "atMs": 3342,
+     "atMs": 3798,
      "text": "Tonight, Cloud tossed and turned and couldn’t fall asleep."
     },
     {
-     "atMs": 7529,
+     "atMs": 8555,
      "text": "“Where did my sleep go?” Cloud wondered.",
      "speaker": "may"
     }
    ],
    "timeline": [
     {
-     "atMs": 297,
+     "atMs": 338,
      "type": "sparkle",
      "at": {
       "x": 50,
@@ -76,19 +76,19 @@
     "#FFE6F0"
    ],
    "motion": "pan-right",
-   "durationMs": 12461,
+   "durationMs": 14161,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Cloud went out to the garden and met Breeze, who was out for a stroll."
     },
     {
-     "atMs": 4698,
+     "atMs": 5339,
      "text": "“Breeze, have you seen my sleep?”",
      "speaker": "may"
     },
     {
-     "atMs": 6970,
+     "atMs": 7921,
      "text": "“Sleep loves places that are very, very quiet,” Breeze whispered.",
      "speaker": "gio"
     }
@@ -109,18 +109,18 @@
     "#FFF1B8"
    ],
    "motion": "zoom-in",
-   "durationMs": 13412,
+   "durationMs": 15241,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Cloud walked on and saw the Fireflies twinkling in the air."
     },
     {
-     "atMs": 4277,
+     "atMs": 4860,
      "text": "They lit their little lamps to help Cloud look for her sleep."
     },
     {
-     "atMs": 7693,
+     "atMs": 8742,
      "text": "Little one, tap the brightest Firefly!"
     }
    ],
@@ -133,7 +133,7 @@
       "y": 17
      },
      "hint": "Tap the brightest Firefly",
-     "appearAtMs": 10312,
+     "appearAtMs": 12141,
      "waitForTap": true,
      "sfx": "sparkle",
      "onTap": [
@@ -163,19 +163,19 @@
     "#FFD6E8"
    ],
    "motion": "pan-left",
-   "durationMs": 11903,
+   "durationMs": 13526,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Up in the sky floated a cloud as soft as a pillow."
     },
     {
-     "atMs": 3745,
+     "atMs": 4256,
      "text": "“Maybe my sleep is hiding up there,” Cloud thought.",
      "speaker": "may"
     },
     {
-     "atMs": 6707,
+     "atMs": 7622,
      "text": "Little one, tap the pillow cloud!"
     }
    ],
@@ -188,7 +188,7 @@
       "y": 14
      },
      "hint": "Tap the pillow cloud",
-     "appearAtMs": 8803,
+     "appearAtMs": 10426,
      "waitForTap": true,
      "sfx": "pop",
      "onTap": [
@@ -218,18 +218,18 @@
     "#F9C2DF"
    ],
    "motion": "zoom-out",
-   "durationMs": 12250,
+   "durationMs": 13921,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Cloud went back to her warm little basket."
     },
     {
-     "atMs": 3145,
+     "atMs": 3573,
      "text": "And there was her sleep, waiting for her in the soft blanket all along."
     },
     {
-     "atMs": 7932,
+     "atMs": 9013,
      "text": "Sleep tight, little one, just like Cloud the kitten."
     }
    ],
@@ -242,5 +242,5 @@
    }
   }
  ],
- "version": "1e64d01d54"
+ "version": "e41ac7d806"
 }

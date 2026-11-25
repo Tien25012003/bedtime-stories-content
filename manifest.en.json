@@ -13,8 +13,8 @@
     "#8EC5FF",
     "#FFC7DE"
    ],
-   "version": "3c34d88763",
-   "durationMs": 66666,
+   "version": "0ca5db575d",
+   "durationMs": 75757,
    "sceneCount": 5
   },
   {
@@ -29,8 +29,8 @@
     "#B9A8FF",
     "#FFD9B8"
    ],
-   "version": "4417ba26c9",
-   "durationMs": 65156,
+   "version": "14bb6f6db2",
+   "durationMs": 74040,
    "sceneCount": 5
   },
   {
@@ -45,8 +45,8 @@
     "#8ED8F8",
     "#FFE0C2"
    ],
-   "version": "e24c32a75e",
-   "durationMs": 62800,
+   "version": "d9cac5cac7",
+   "durationMs": 71364,
    "sceneCount": 5
   },
   {
@@ -61,8 +61,8 @@
     "#C9B8FF",
     "#FFE0C2"
    ],
-   "version": "1e64d01d54",
-   "durationMs": 61269,
+   "version": "e41ac7d806",
+   "durationMs": 69625,
    "sceneCount": 5
   },
   {
@@ -77,8 +77,8 @@
     "#B8D8FF",
     "#FFF0C2"
    ],
-   "version": "e64dbc6715",
-   "durationMs": 62719,
+   "version": "4e65384ed9",
+   "durationMs": 71271,
    "sceneCount": 5
   },
   {
@@ -93,8 +93,8 @@
     "#A8E6C8",
     "#FFE7B8"
    ],
-   "version": "54c69cc43d",
-   "durationMs": 65186,
+   "version": "25fce7b383",
+   "durationMs": 74075,
    "sceneCount": 5
   },
   {
@@ -297,7 +297,7 @@
     "#FFE2C8"
    ],
    "productId": "story.otter_hands",
-   "version": "9b8030b8be",
+   "version": "d119b1590e",
    "durationMs": 60203,
    "sceneCount": 5
   },
@@ -314,7 +314,7 @@
     "#FFE6C8"
    ],
    "productId": "story.snail_slow",
-   "version": "9d246784c3",
+   "version": "6f86877c8e",
    "durationMs": 64154,
    "sceneCount": 5
   },
@@ -365,7 +365,7 @@
     "#E8DCF2"
    ],
    "productId": "story.koala_rain",
-   "version": "79fabb9212",
+   "version": "6056601831",
    "durationMs": 64981,
    "sceneCount": 5
   },
@@ -450,7 +450,7 @@
     "#D8F0C8"
    ],
    "productId": "story.busy_bee",
-   "version": "973d7f05ba",
+   "version": "ea535b2b48",
    "durationMs": 65125,
    "sceneCount": 5
   },
@@ -467,7 +467,7 @@
     "#D8C8F5"
    ],
    "productId": "story.polar_aurora",
-   "version": "be4d02db80",
+   "version": "f83639cfe1",
    "durationMs": 62756,
    "sceneCount": 5
   },
@@ -484,7 +484,7 @@
     "#FFE0C8"
    ],
    "productId": "story.crab_new_shell",
-   "version": "7aa9bed73d",
+   "version": "de761d6bb2",
    "durationMs": 63702,
    "sceneCount": 5
   },

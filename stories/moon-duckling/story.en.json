@@ -35,25 +35,25 @@
     "#FFF0C2"
    ],
    "motion": "zoom-in",
-   "durationMs": 12323,
+   "durationMs": 14003,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "By the pond lived a duckling named Little Yellow."
     },
     {
-     "atMs": 3454,
+     "atMs": 3925,
      "text": "It was dark, the pond was black, and Little Yellow felt scared."
     },
     {
-     "atMs": 7816,
+     "atMs": 8882,
      "text": "“It’s too dark, I don’t want to go in the water,” Little Yellow said.",
      "speaker": "vang"
     }
    ],
    "timeline": [
     {
-     "atMs": 305,
+     "atMs": 347,
      "type": "sparkle",
      "at": {
       "x": 50,
@@ -76,19 +76,19 @@
     "#FFE9C2"
    ],
    "motion": "pan-right",
-   "durationMs": 11344,
+   "durationMs": 12891,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Then Sister Moon rose up, round and softly glowing."
     },
     {
-     "atMs": 4081,
+     "atMs": 4638,
      "text": "“Don’t be afraid, I’ll light the way for you,” Sister Moon said.",
      "speaker": "trang"
     },
     {
-     "atMs": 7647,
+     "atMs": 8690,
      "text": "The pond sparkled like a silver carpet."
     }
    ],
@@ -108,18 +108,18 @@
     "#FFF1D6"
    ],
    "motion": "zoom-in",
-   "durationMs": 12029,
+   "durationMs": 13669,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Little Yellow swam gently into Sister Moon’s light."
     },
     {
-     "atMs": 3744,
+     "atMs": 4254,
      "text": "The Little Fish popped up to say hello."
     },
     {
-     "atMs": 6385,
+     "atMs": 7255,
      "text": "Little one, tap the jumping Little Fish!"
     }
    ],
@@ -132,7 +132,7 @@
       "y": 42
      },
      "hint": "Tap the jumping Little Fish",
-     "appearAtMs": 8929,
+     "appearAtMs": 10569,
      "waitForTap": true,
      "sfx": "pop",
      "onTap": [
@@ -162,18 +162,18 @@
     "#FFE0EC"
    ],
    "motion": "pan-left",
-   "durationMs": 13164,
+   "durationMs": 14959,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Little Yellow and the fish drew circles on the water."
     },
     {
-     "atMs": 3742,
+     "atMs": 4252,
      "text": "A lotus flower opened in the moonlight, smelling so sweet."
     },
     {
-     "atMs": 7883,
+     "atMs": 8958,
      "text": "Little one, tap the lotus flower!"
     }
    ],
@@ -186,7 +186,7 @@
       "y": 15
      },
      "hint": "Tap the lotus flower",
-     "appearAtMs": 10064,
+     "appearAtMs": 11859,
      "waitForTap": true,
      "sfx": "sparkle",
      "onTap": [
@@ -216,19 +216,19 @@
     "#F9DCC2"
    ],
    "motion": "zoom-out",
-   "durationMs": 13859,
+   "durationMs": 15749,
    "cues": [
     {
-     "atMs": 300,
+     "atMs": 341,
      "text": "Little Yellow swam back to the nest, feeling so happy."
     },
     {
-     "atMs": 4221,
+     "atMs": 4796,
      "text": "“The night is beautiful too,” Little Yellow whispered, and closed his eyes.",
      "speaker": "vang"
     },
     {
-     "atMs": 9245,
+     "atMs": 10505,
      "text": "Good night, little one. Sister Moon will watch over you."
     }
    ],
@@ -241,5 +241,5 @@
    }
   }
  ],
- "version": "e64dbc6715"
+ "version": "4e65384ed9"
 }
