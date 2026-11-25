@@ -217,7 +217,7 @@
     "#F9C2DF"
    ],
    "motion": "zoom-out",
-   "durationMs": 16670,
+   "durationMs": 19170,
    "cues": [
     {
      "atMs": 341,
@@ -229,7 +229,7 @@
      "text": "The stars smiled and softly sang Green Frog a lullaby."
     },
     {
-     "atMs": 10394,
+     "atMs": 12894,
      "text": "One, two, three, four, five, good night, little one."
     }
    ],
@@ -242,5 +242,5 @@
    }
   }
  ],
- "version": "25fce7b383"
+ "version": "693299c00c"
 }
